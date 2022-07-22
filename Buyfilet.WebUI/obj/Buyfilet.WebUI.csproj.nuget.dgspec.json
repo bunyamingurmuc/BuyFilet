@@ -1,0 +1,395 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.WebUI\\Buyfilet.WebUI.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj",
+        "projectName": "Buyfilet.BLL",
+        "projectPath": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj",
+        "packagesPath": "C:\\Users\\zeynel\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zeynel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.Common\\Buyfilet.Common.csproj": {
+                "projectPath": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.Common\\Buyfilet.Common.csproj"
+              },
+              "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj": {
+                "projectPath": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj"
+              },
+              "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj": {
+                "projectPath": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.Common\\Buyfilet.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.Common\\Buyfilet.Common.csproj",
+        "projectName": "Buyfilet.Common",
+        "projectPath": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.Common\\Buyfilet.Common.csproj",
+        "packagesPath": "C:\\Users\\zeynel\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zeynel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj",
+        "projectName": "Buyfilet.DAL",
+        "projectPath": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj",
+        "packagesPath": "C:\\Users\\zeynel\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zeynel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.Common\\Buyfilet.Common.csproj": {
+                "projectPath": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.Common\\Buyfilet.Common.csproj"
+              },
+              "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj": {
+                "projectPath": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.sqlserver": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj",
+        "projectName": "Buyfilet.DTOs",
+        "projectPath": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj",
+        "packagesPath": "C:\\Users\\zeynel\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.DTOs\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zeynel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj",
+        "projectName": "Buyfilet.Entities",
+        "projectPath": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj",
+        "packagesPath": "C:\\Users\\zeynel\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zeynel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.WebUI\\Buyfilet.WebUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.WebUI\\Buyfilet.WebUI.csproj",
+        "projectName": "Buyfilet.WebUI",
+        "projectPath": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.WebUI\\Buyfilet.WebUI.csproj",
+        "packagesPath": "C:\\Users\\zeynel\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.WebUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zeynel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj": {
+                "projectPath": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj"
+              },
+              "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.Common\\Buyfilet.Common.csproj": {
+                "projectPath": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.Common\\Buyfilet.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

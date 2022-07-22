@@ -1,0 +1,12 @@
+﻿@model List<BFUserListDto>
+@{
+    ViewData["Title"] = "GetAllProducts";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@foreach (var users in Model)
+{
+   <div>@users.Username</div>
+}
+<h1>GetAllProducts</h1>
+<div class="btn btn-danger">deneme</div>
+

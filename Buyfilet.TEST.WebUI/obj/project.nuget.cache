@@ -1,0 +1,72 @@
+{
+  "version": 2,
+  "dgSpecHash": "wqlKghcaGIbXMM5lo/BcPGIFdaXRnLX8ctR8mRzHAZeyNRd+kwxMfJaX0BpPeVW4pfAvWUhROcm3kx7jXuFfKQ==",
+  "success": false,
+  "projectFilePath": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.TEST.WebUI\\Buyfilet.TEST.WebUI.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.EntityFrameworkCore.Design. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.EntityFrameworkCore.Design",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.VisualStudio.Web.CodeGeneration.Design. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.VisualStudio.Web.CodeGeneration.Design",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package FluentValidation.DependencyInjectionExtensions. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "FluentValidation.DependencyInjectionExtensions",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package AutoMapper.Extensions.Microsoft.DependencyInjection. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "AutoMapper.Extensions.Microsoft.DependencyInjection",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package AutoMapper. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.EntityFrameworkCore. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.EntityFrameworkCore.sqlserver. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.EntityFrameworkCore.sqlserver",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

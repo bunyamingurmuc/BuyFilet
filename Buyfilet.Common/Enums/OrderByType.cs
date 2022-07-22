@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Buyfilet.Common.Enums
+{
+    public enum OrderByType
+    {
+        DESC,
+        ASC,
+    }
+}

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "TOkaSwzOtqElT7ux75M5wolifanBdsoO7XgvY85ptHE=",
+  "Source": "Buyfilet.WebUI",
+  "BasePath": "_content/Buyfilet.WebUI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Buyfilet.WebUI\\wwwroot",
+      "Source": "Buyfilet.WebUI",
+      "ContentRoot": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.WebUI\\wwwroot\\",
+      "BasePath": "_content/Buyfilet.WebUI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.WebUI\\wwwroot\\assets\\css\\demo1.min.css",
+      "SourceId": "Buyfilet.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.WebUI\\wwwroot\\",
+      "BasePath": "_content/Buyfilet.WebUI",
+      "RelativePath": "assets/css/demo1.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\css\\demo1.min.css"
+    }
+  ]
+}

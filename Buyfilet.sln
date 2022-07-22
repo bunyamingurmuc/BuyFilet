@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Buyfilet.DAL", "Buyfilet.DAL\Buyfilet.DAL.csproj", "{87AFF7B6-E132-4B25-BB7C-91DB64B2364F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Buyfilet.BLL", "Buyfilet.BLL\Buyfilet.BLL.csproj", "{BFEB4815-7F1D-4740-8868-F9CA4AB3EB48}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Buyfilet.Entities", "Buyfilet.Entities\Buyfilet.Entities.csproj", "{D1670DAB-12C8-4AB6-83CA-88A9C29094D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Buyfilet.Common", "Buyfilet.Common\Buyfilet.Common.csproj", "{414584C4-F9FC-4B8F-9AA6-A338BE798AFB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Buyfilet.DTOs", "Buyfilet.DTOs\Buyfilet.DTOs.csproj", "{0886D7E7-6471-4EC2-BD52-127366FD5C62}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Buyfilet.WebUI", "Buyfilet.WebUI\Buyfilet.WebUI.csproj", "{977C7D08-F947-49AA-9C45-A3417FBCDAA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buyfilet.TEST.WebUI", "Buyfilet.TEST.WebUI\Buyfilet.TEST.WebUI.csproj", "{0B592222-F458-46F3-BF30-5B81552EFDEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87AFF7B6-E132-4B25-BB7C-91DB64B2364F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87AFF7B6-E132-4B25-BB7C-91DB64B2364F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87AFF7B6-E132-4B25-BB7C-91DB64B2364F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87AFF7B6-E132-4B25-BB7C-91DB64B2364F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFEB4815-7F1D-4740-8868-F9CA4AB3EB48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFEB4815-7F1D-4740-8868-F9CA4AB3EB48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFEB4815-7F1D-4740-8868-F9CA4AB3EB48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFEB4815-7F1D-4740-8868-F9CA4AB3EB48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1670DAB-12C8-4AB6-83CA-88A9C29094D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1670DAB-12C8-4AB6-83CA-88A9C29094D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1670DAB-12C8-4AB6-83CA-88A9C29094D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1670DAB-12C8-4AB6-83CA-88A9C29094D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{414584C4-F9FC-4B8F-9AA6-A338BE798AFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{414584C4-F9FC-4B8F-9AA6-A338BE798AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{414584C4-F9FC-4B8F-9AA6-A338BE798AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{414584C4-F9FC-4B8F-9AA6-A338BE798AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0886D7E7-6471-4EC2-BD52-127366FD5C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0886D7E7-6471-4EC2-BD52-127366FD5C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0886D7E7-6471-4EC2-BD52-127366FD5C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0886D7E7-6471-4EC2-BD52-127366FD5C62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{977C7D08-F947-49AA-9C45-A3417FBCDAA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{977C7D08-F947-49AA-9C45-A3417FBCDAA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{977C7D08-F947-49AA-9C45-A3417FBCDAA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{977C7D08-F947-49AA-9C45-A3417FBCDAA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B592222-F458-46F3-BF30-5B81552EFDEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B592222-F458-46F3-BF30-5B81552EFDEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B592222-F458-46F3-BF30-5B81552EFDEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B592222-F458-46F3-BF30-5B81552EFDEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05B7E0B1-66B3-4CC7-A8A5-0B47F793E83B}
+	EndGlobalSection
+EndGlobal

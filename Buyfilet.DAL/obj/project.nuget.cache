@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "dgSpecHash": "zsusRsjmt7ov5eeM9JilDFOx+exkfyuWdNGIZ/LOtjBtg9c4X5V0NselQeMlN7xzMCO9Pn+eh+wLV3bDEbCf1w==",
+  "success": false,
+  "projectFilePath": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.EntityFrameworkCore. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.EntityFrameworkCore.sqlserver. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.EntityFrameworkCore.sqlserver",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.EntityFrameworkCore.tools. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.EntityFrameworkCore.tools",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

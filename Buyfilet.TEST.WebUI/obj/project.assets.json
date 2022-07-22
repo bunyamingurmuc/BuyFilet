@@ -1,0 +1,245 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Buyfilet.BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AutoMapper": "11.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "Buyfilet.Common": "1.0.0",
+          "Buyfilet.DAL": "1.0.0",
+          "Buyfilet.DTOs": "1.0.0",
+          "FluentValidation.DependencyInjectionExtensions": "11.0.1"
+        },
+        "compile": {
+          "bin/placeholder/Buyfilet.BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Buyfilet.BLL.dll": {}
+        }
+      },
+      "Buyfilet.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Buyfilet.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Buyfilet.Common.dll": {}
+        }
+      },
+      "Buyfilet.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Buyfilet.Common": "1.0.0",
+          "Buyfilet.Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.5",
+          "Microsoft.EntityFrameworkCore.sqlserver": "6.0.5"
+        },
+        "compile": {
+          "bin/placeholder/Buyfilet.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Buyfilet.DAL.dll": {}
+        }
+      },
+      "Buyfilet.DTOs/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Buyfilet.DTOs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Buyfilet.DTOs.dll": {}
+        }
+      },
+      "Buyfilet.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Buyfilet.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Buyfilet.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Buyfilet.BLL/1.0.0": {
+      "type": "project",
+      "path": "../Buyfilet.BLL/Buyfilet.BLL.csproj",
+      "msbuildProject": "../Buyfilet.BLL/Buyfilet.BLL.csproj"
+    },
+    "Buyfilet.Common/1.0.0": {
+      "type": "project",
+      "path": "../Buyfilet.Common/Buyfilet.Common.csproj",
+      "msbuildProject": "../Buyfilet.Common/Buyfilet.Common.csproj"
+    },
+    "Buyfilet.DAL/1.0.0": {
+      "type": "project",
+      "path": "../Buyfilet.DAL/Buyfilet.DAL.csproj",
+      "msbuildProject": "../Buyfilet.DAL/Buyfilet.DAL.csproj"
+    },
+    "Buyfilet.DTOs/1.0.0": {
+      "type": "project",
+      "path": "../Buyfilet.DTOs/Buyfilet.DTOs.csproj",
+      "msbuildProject": "../Buyfilet.DTOs/Buyfilet.DTOs.csproj"
+    },
+    "Buyfilet.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Buyfilet.Entities/Buyfilet.Entities.csproj",
+      "msbuildProject": "../Buyfilet.Entities/Buyfilet.Entities.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Buyfilet.BLL >= 1.0.0",
+      "Microsoft.EntityFrameworkCore.Design >= 6.0.6",
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.6"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\zeynel\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.TEST.WebUI\\Buyfilet.TEST.WebUI.csproj",
+      "projectName": "Buyfilet.TEST.WebUI",
+      "projectPath": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.TEST.WebUI\\Buyfilet.TEST.WebUI.csproj",
+      "packagesPath": "C:\\Users\\zeynel\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.TEST.WebUI\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\zeynel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj": {
+              "projectPath": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[6.0.6, )"
+          },
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+            "target": "Package",
+            "version": "[6.0.6, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.EntityFrameworkCore.Design. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.EntityFrameworkCore.Design",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.VisualStudio.Web.CodeGeneration.Design. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.VisualStudio.Web.CodeGeneration.Design",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package FluentValidation.DependencyInjectionExtensions. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "FluentValidation.DependencyInjectionExtensions",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package AutoMapper.Extensions.Microsoft.DependencyInjection. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "AutoMapper.Extensions.Microsoft.DependencyInjection",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package AutoMapper. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.EntityFrameworkCore. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.EntityFrameworkCore.sqlserver. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.EntityFrameworkCore.sqlserver",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

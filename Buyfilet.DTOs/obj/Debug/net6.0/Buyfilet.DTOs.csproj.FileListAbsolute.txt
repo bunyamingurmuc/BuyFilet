@@ -1,0 +1,12 @@
+D:\Projects\buyfilet_aspnet\Buyfilet\Buyfilet.DTOs\bin\Debug\net6.0\Buyfilet.DTOs.deps.json
+D:\Projects\buyfilet_aspnet\Buyfilet\Buyfilet.DTOs\bin\Debug\net6.0\Buyfilet.DTOs.dll
+D:\Projects\buyfilet_aspnet\Buyfilet\Buyfilet.DTOs\bin\Debug\net6.0\Buyfilet.DTOs.pdb
+D:\Projects\buyfilet_aspnet\Buyfilet\Buyfilet.DTOs\obj\Debug\net6.0\Buyfilet.DTOs.csproj.AssemblyReference.cache
+D:\Projects\buyfilet_aspnet\Buyfilet\Buyfilet.DTOs\obj\Debug\net6.0\Buyfilet.DTOs.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\buyfilet_aspnet\Buyfilet\Buyfilet.DTOs\obj\Debug\net6.0\Buyfilet.DTOs.AssemblyInfoInputs.cache
+D:\Projects\buyfilet_aspnet\Buyfilet\Buyfilet.DTOs\obj\Debug\net6.0\Buyfilet.DTOs.AssemblyInfo.cs
+D:\Projects\buyfilet_aspnet\Buyfilet\Buyfilet.DTOs\obj\Debug\net6.0\Buyfilet.DTOs.csproj.CoreCompileInputs.cache
+D:\Projects\buyfilet_aspnet\Buyfilet\Buyfilet.DTOs\obj\Debug\net6.0\Buyfilet.DTOs.dll
+D:\Projects\buyfilet_aspnet\Buyfilet\Buyfilet.DTOs\obj\Debug\net6.0\refint\Buyfilet.DTOs.dll
+D:\Projects\buyfilet_aspnet\Buyfilet\Buyfilet.DTOs\obj\Debug\net6.0\Buyfilet.DTOs.pdb
+D:\Projects\buyfilet_aspnet\Buyfilet\Buyfilet.DTOs\obj\Debug\net6.0\ref\Buyfilet.DTOs.dll
