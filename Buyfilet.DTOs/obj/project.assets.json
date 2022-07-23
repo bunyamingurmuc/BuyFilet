@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj",
+      "projectUniqueName": "D:\\Github Clones\\BuyFilet Clone\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj",
       "projectName": "Buyfilet.DTOs",
-      "projectPath": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj",
+      "projectPath": "D:\\Github Clones\\BuyFilet Clone\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj",
       "packagesPath": "C:\\Users\\zeynel\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.DTOs\\obj\\",
+      "outputPath": "D:\\Github Clones\\BuyFilet Clone\\Buyfilet.DTOs\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\zeynel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,7 +27,8 @@
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {

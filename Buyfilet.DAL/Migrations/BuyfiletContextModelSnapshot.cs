@@ -48,14 +48,14 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6420),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4353),
                             Definition = "admin",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6422),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4354),
                             Definition = "member",
                             IsDeleted = false
                         });
@@ -99,7 +99,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6560),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4431),
                             IsDeleted = false,
                             Name = "Mahmut",
                             Password = "1",
@@ -109,7 +109,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6563),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4432),
                             IsDeleted = false,
                             Name = "veysel",
                             Password = "1",
@@ -119,7 +119,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6564),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4433),
                             IsDeleted = false,
                             Name = "Ahmet",
                             Password = "1",
@@ -156,7 +156,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             BFRoleId = 1,
                             BFUserId = 1,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6632),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4477),
                             Id = 0,
                             IsDeleted = false
                         },
@@ -164,7 +164,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             BFRoleId = 2,
                             BFUserId = 1,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6633),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4478),
                             Id = 0,
                             IsDeleted = false
                         },
@@ -172,7 +172,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             BFRoleId = 2,
                             BFUserId = 3,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6670),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4479),
                             Id = 0,
                             IsDeleted = false
                         });
@@ -213,7 +213,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(5271),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(3643),
                             Definition = "Elektronik",
                             ImageId = 0,
                             ImportanceNumber = 0,
@@ -223,7 +223,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(5274),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(3645),
                             Definition = "Giyim",
                             ImageId = 0,
                             ImportanceNumber = 0,
@@ -233,7 +233,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(5275),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(3646),
                             Definition = "Moda",
                             ImageId = 0,
                             ImportanceNumber = 0,
@@ -243,7 +243,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 4,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(5276),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(3647),
                             Definition = "Ev, Yaşam, Kırtasiye, Ofis",
                             ImageId = 0,
                             ImportanceNumber = 0,
@@ -253,7 +253,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 5,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(5276),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(3647),
                             Definition = "Beyaz Eşya",
                             ImageId = 0,
                             ImportanceNumber = 0,
@@ -263,7 +263,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 6,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(5277),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(3648),
                             Definition = "Oto, Bahçe, Yapı Market",
                             ImageId = 0,
                             ImportanceNumber = 0,
@@ -273,7 +273,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 7,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(5278),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(3650),
                             Definition = "Anne, Bebek, Oyuncak",
                             ImageId = 0,
                             ImportanceNumber = 0,
@@ -283,7 +283,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 8,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(5278),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(3651),
                             Definition = "Spor, Outdoor",
                             ImageId = 0,
                             ImportanceNumber = 0,
@@ -293,7 +293,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 9,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(5279),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(3651),
                             Definition = "Kozmetik, Kişisel Bakım",
                             ImageId = 0,
                             ImportanceNumber = 0,
@@ -303,7 +303,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 10,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(5322),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(3686),
                             Definition = "Süpermarket, Pet Shop",
                             ImageId = 0,
                             ImportanceNumber = 0,
@@ -344,7 +344,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(4681),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(3309),
                             ImagePath = "https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/Automation/BrandBoutique/2021/4/25/20210425_15461619354815_Adidas.png",
                             IsDeleted = false
                         },
@@ -352,7 +352,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 2,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(4695),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(3320),
                             ImagePath = "https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/Automation/BrandBoutique/2021/4/25/20210425_15461619354815_Adidas.png",
                             IsDeleted = false
                         },
@@ -360,7 +360,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 3,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(4696),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(3320),
                             ImagePath = "https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/Automation/BrandBoutique/2021/4/25/20210425_15461619354815_Adidas.png",
                             IsDeleted = false
                         },
@@ -368,7 +368,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 4,
                             CategoryId = 4,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(4697),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(3321),
                             ImagePath = "https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/Automation/BrandBoutique/2021/4/25/20210425_15461619354815_Adidas.png",
                             IsDeleted = false
                         },
@@ -376,7 +376,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 5,
                             CategoryId = 5,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(4697),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(3321),
                             ImagePath = "https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/Automation/BrandBoutique/2021/4/25/20210425_15461619354815_Adidas.png",
                             IsDeleted = false
                         },
@@ -384,7 +384,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 6,
                             CategoryId = 6,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(4698),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(3322),
                             ImagePath = "https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/Automation/BrandBoutique/2021/4/25/20210425_15461619354815_Adidas.png",
                             IsDeleted = false
                         },
@@ -392,7 +392,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 7,
                             CategoryId = 7,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(4699),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(3323),
                             ImagePath = "https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/Automation/BrandBoutique/2021/4/25/20210425_15461619354815_Adidas.png",
                             IsDeleted = false
                         },
@@ -400,7 +400,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 8,
                             CategoryId = 8,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(4699),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(3323),
                             ImagePath = "https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/Automation/BrandBoutique/2021/4/25/20210425_15461619354815_Adidas.png",
                             IsDeleted = false
                         },
@@ -408,7 +408,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 9,
                             CategoryId = 9,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(4700),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(3323),
                             ImagePath = "https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/Automation/BrandBoutique/2021/4/25/20210425_15461619354815_Adidas.png",
                             IsDeleted = false
                         },
@@ -416,7 +416,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 10,
                             CategoryId = 10,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(4700),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(3324),
                             ImagePath = "https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/Automation/BrandBoutique/2021/4/25/20210425_15461619354815_Adidas.png",
                             IsDeleted = false
                         });
@@ -496,7 +496,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6133),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4171),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -516,7 +516,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 2,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6141),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4176),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -536,7 +536,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 3,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6142),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4178),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -556,7 +556,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 4,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6144),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4179),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -576,7 +576,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 5,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6145),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4180),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -596,7 +596,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 6,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6186),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4181),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -616,7 +616,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 7,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6187),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4182),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -636,7 +636,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 8,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6188),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4183),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -656,7 +656,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 9,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6190),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4184),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -676,7 +676,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 10,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6193),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4185),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -696,7 +696,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 11,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6194),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4186),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -716,7 +716,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 12,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6195),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4186),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -736,7 +736,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 13,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6197),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4188),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -756,7 +756,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 14,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6198),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4189),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -776,7 +776,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 15,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6199),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4190),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -796,7 +796,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 16,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6200),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4191),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -816,7 +816,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 17,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6201),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4192),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -836,7 +836,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 18,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6203),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4193),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -856,7 +856,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 19,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6204),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4217),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -876,7 +876,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 20,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6205),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4218),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -896,7 +896,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 21,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6206),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4219),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -916,7 +916,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 22,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6208),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4220),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -936,7 +936,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 23,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6209),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4221),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -956,7 +956,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 24,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6210),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4222),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -976,7 +976,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 25,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6211),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4222),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -996,7 +996,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 26,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6212),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4223),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -1016,7 +1016,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 27,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6213),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4227),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -1036,7 +1036,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 28,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6214),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4228),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -1056,7 +1056,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 29,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6215),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4229),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -1076,7 +1076,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 30,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6216),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4230),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -1096,7 +1096,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 31,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6217),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4231),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -1116,7 +1116,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 32,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6218),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4232),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -1136,7 +1136,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 33,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6220),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4233),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -1156,7 +1156,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 34,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6221),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4234),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -1176,7 +1176,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 35,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6222),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4235),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -1196,7 +1196,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 36,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6223),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4236),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -1216,7 +1216,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 37,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6224),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4237),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -1236,7 +1236,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 38,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6225),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4238),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -1256,7 +1256,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 39,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6226),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4239),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -1276,7 +1276,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 40,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6227),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4240),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Discount = 1000,
                             DiscountExpiresHour = 28,
@@ -1325,7 +1325,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7140),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4784),
                             ImagePath = "https://productimages.hepsiburada.net/s/189/550/110000155170579.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 1
@@ -1333,7 +1333,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7141),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4786),
                             ImagePath = "https://productimages.hepsiburada.net/s/189/550/110000155170580.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 1
@@ -1341,7 +1341,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7142),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4786),
                             ImagePath = "https://productimages.hepsiburada.net/s/189/550/110000155170581.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 1
@@ -1349,7 +1349,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 4,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7143),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4787),
                             ImagePath = "https://productimages.hepsiburada.net/s/189/550/110000155170582.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 1
@@ -1357,7 +1357,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 5,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7143),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4787),
                             ImagePath = "https://productimages.hepsiburada.net/s/189/550/110000155170583.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 1
@@ -1365,7 +1365,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 6,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7144),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4788),
                             ImagePath = "https://productimages.hepsiburada.net/s/189/550/110000155170584.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 1
@@ -1373,7 +1373,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 7,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7145),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4788),
                             ImagePath = "https://productimages.hepsiburada.net/s/189/550/110000155170585.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 1
@@ -1381,7 +1381,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 8,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7145),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4789),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 1
@@ -1389,7 +1389,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 9,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7146),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4789),
                             ImagePath = "https://productimages.hepsiburada.net/s/189/550/110000155170587.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 9
@@ -1397,7 +1397,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 10,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7146),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4790),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 1
@@ -1405,7 +1405,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 11,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7147),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4790),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 1
@@ -1413,7 +1413,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 12,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7148),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4791),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 2
@@ -1421,7 +1421,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 13,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7148),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4791),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 3
@@ -1429,7 +1429,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 14,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7149),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4792),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 4
@@ -1437,7 +1437,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 15,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7150),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4792),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 5
@@ -1445,7 +1445,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 16,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7150),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4793),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 6
@@ -1453,7 +1453,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 17,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7151),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4793),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 7
@@ -1461,7 +1461,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 18,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7152),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4794),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 8
@@ -1469,7 +1469,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 19,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7152),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4794),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 9
@@ -1477,7 +1477,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 20,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7153),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4795),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 10
@@ -1485,7 +1485,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 21,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7153),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4795),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 11
@@ -1493,7 +1493,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 22,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7154),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4795),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 12
@@ -1501,7 +1501,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 23,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7154),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4796),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 13
@@ -1509,7 +1509,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 24,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7155),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4796),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 14
@@ -1517,7 +1517,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 25,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7156),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4797),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 15
@@ -1525,7 +1525,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 26,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7156),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4798),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 16
@@ -1533,7 +1533,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 27,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7157),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4799),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 17
@@ -1541,7 +1541,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 28,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7157),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4799),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 18
@@ -1549,7 +1549,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 29,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7158),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4800),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 19
@@ -1557,7 +1557,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 30,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7159),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4800),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 20
@@ -1565,7 +1565,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 31,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7159),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4801),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 21
@@ -1573,7 +1573,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 32,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7160),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4801),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 22
@@ -1581,7 +1581,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 33,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7160),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4801),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 23
@@ -1589,7 +1589,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 34,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7161),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4802),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 24
@@ -1597,7 +1597,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 35,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7162),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4802),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 25
@@ -1605,7 +1605,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 36,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7194),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4803),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 26
@@ -1613,7 +1613,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 37,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7195),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4803),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 27
@@ -1621,7 +1621,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 38,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7196),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4804),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 28
@@ -1629,7 +1629,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 39,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7197),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4804),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 29
@@ -1637,7 +1637,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 40,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7197),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4805),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 30
@@ -1645,7 +1645,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 41,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7199),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4805),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 31
@@ -1653,7 +1653,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 42,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7199),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4806),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 32
@@ -1661,7 +1661,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 43,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7200),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4806),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 33
@@ -1669,7 +1669,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 44,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7200),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4807),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 34
@@ -1677,7 +1677,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 45,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7201),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4807),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 35
@@ -1685,7 +1685,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 46,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7202),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4808),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 36
@@ -1693,7 +1693,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 47,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7202),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4808),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 37
@@ -1701,7 +1701,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 48,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7203),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4809),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 38
@@ -1709,7 +1709,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 49,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7203),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4809),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 39
@@ -1717,7 +1717,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 50,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7204),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4809),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 40
@@ -1725,7 +1725,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 51,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7205),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4810),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 1
@@ -1733,7 +1733,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 52,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7205),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4810),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 2
@@ -1741,7 +1741,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 53,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7206),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4811),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 3
@@ -1749,7 +1749,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 54,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7206),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4811),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 4
@@ -1757,7 +1757,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 55,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7208),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4812),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 5
@@ -1765,7 +1765,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 56,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7209),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4813),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 6
@@ -1773,7 +1773,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 57,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7210),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4813),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 7
@@ -1781,7 +1781,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 58,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7210),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4814),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 8
@@ -1789,7 +1789,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 59,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7211),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4814),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 9
@@ -1797,7 +1797,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 60,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7211),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4815),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 10
@@ -1805,7 +1805,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 61,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7212),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4815),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 1
@@ -1813,7 +1813,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 62,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7213),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4816),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 2
@@ -1821,7 +1821,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 63,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7213),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4816),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 3
@@ -1829,7 +1829,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 64,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7214),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4817),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 4
@@ -1837,7 +1837,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 65,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7214),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4847),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 5
@@ -1845,7 +1845,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 66,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7215),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4848),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 6
@@ -1853,7 +1853,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 67,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7215),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4849),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 7
@@ -1861,7 +1861,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 68,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7216),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4849),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 8
@@ -1869,7 +1869,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 69,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7217),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4850),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 9
@@ -1877,7 +1877,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 70,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7218),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4850),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 10
@@ -1885,7 +1885,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 71,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7219),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4851),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 11
@@ -1893,7 +1893,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 72,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7219),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4851),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 12
@@ -1901,7 +1901,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 73,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7220),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4854),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 13
@@ -1909,7 +1909,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 74,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7220),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4854),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 14
@@ -1917,7 +1917,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 75,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7221),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4855),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 15
@@ -1925,7 +1925,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 76,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7222),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4855),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 16
@@ -1933,7 +1933,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 77,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7222),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4856),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 17
@@ -1941,7 +1941,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 78,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7223),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4856),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 18
@@ -1949,7 +1949,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 79,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7223),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4857),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 19
@@ -1957,7 +1957,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 80,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7224),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4857),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 20
@@ -1965,7 +1965,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 81,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7225),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4858),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 21
@@ -1973,7 +1973,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 82,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7225),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4858),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 22
@@ -1981,7 +1981,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 83,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7226),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4859),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 23
@@ -1989,7 +1989,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 84,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7226),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4859),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 24
@@ -1997,7 +1997,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 85,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7227),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4859),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 25
@@ -2005,7 +2005,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 86,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7228),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4860),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 26
@@ -2013,7 +2013,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 87,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7228),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4860),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 27
@@ -2021,7 +2021,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 88,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7229),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4861),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 28
@@ -2029,7 +2029,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 89,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7229),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4861),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 29
@@ -2037,7 +2037,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 90,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7230),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4862),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 30
@@ -2045,7 +2045,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 91,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7230),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4862),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 31
@@ -2053,7 +2053,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 92,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7231),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4863),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 32
@@ -2061,7 +2061,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 93,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7232),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4863),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 33
@@ -2069,7 +2069,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 94,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7232),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4864),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 34
@@ -2077,7 +2077,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 95,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7233),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4864),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 35
@@ -2085,7 +2085,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 96,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7233),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4865),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 36
@@ -2093,7 +2093,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 97,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7234),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4865),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 37
@@ -2101,7 +2101,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 98,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7235),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4865),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 38
@@ -2109,7 +2109,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 99,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7235),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4866),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 39
@@ -2117,7 +2117,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 100,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7236),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4866),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 40
@@ -2167,7 +2167,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6900),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4636),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2178,7 +2178,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6904),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4638),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2189,7 +2189,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6905),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4639),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2200,7 +2200,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 4,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6906),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4640),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2211,7 +2211,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 5,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6907),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4640),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2222,7 +2222,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 6,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6907),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4641),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2233,7 +2233,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 7,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6908),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4642),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2244,7 +2244,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 8,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6909),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4643),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2255,7 +2255,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 9,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6910),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4644),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2266,7 +2266,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 10,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6910),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4645),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2277,7 +2277,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 11,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6911),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4645),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2288,7 +2288,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 12,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6912),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4646),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2299,7 +2299,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 13,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6913),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4647),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2310,7 +2310,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 14,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6913),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4647),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2321,7 +2321,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 15,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6914),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4648),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2332,7 +2332,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 16,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6916),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4648),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2343,7 +2343,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 17,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6916),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4649),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2354,7 +2354,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 18,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6917),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4650),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2365,7 +2365,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 19,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6918),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4650),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2376,7 +2376,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 20,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6919),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4651),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2387,7 +2387,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 21,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6919),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4651),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2398,7 +2398,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 22,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6920),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4652),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2409,7 +2409,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 23,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6921),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4653),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2420,7 +2420,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 24,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6922),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4653),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2431,7 +2431,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 25,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6922),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4654),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2442,7 +2442,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 26,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6923),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4654),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2453,7 +2453,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 27,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6924),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4657),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2464,7 +2464,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 28,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6925),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4658),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2475,7 +2475,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 29,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6925),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4658),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2486,7 +2486,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 30,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6926),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4659),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2497,7 +2497,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 31,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6927),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4661),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2508,7 +2508,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 32,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6928),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4662),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2519,7 +2519,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 33,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6928),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4662),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2530,7 +2530,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 34,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6929),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4663),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2541,7 +2541,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 35,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6930),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4664),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2552,7 +2552,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 36,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6931),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4664),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2563,7 +2563,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 37,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6932),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4665),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2574,7 +2574,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 38,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6933),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4665),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2585,7 +2585,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 39,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6934),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4666),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2596,7 +2596,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 40,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6937),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4667),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2607,7 +2607,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 50,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6938),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4667),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2618,7 +2618,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 51,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6938),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4668),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2629,7 +2629,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 52,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6939),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4668),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2640,7 +2640,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 53,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6940),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4669),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2651,7 +2651,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 54,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6941),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4670),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2662,7 +2662,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 55,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6941),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4670),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2673,7 +2673,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 56,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6942),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4672),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2684,7 +2684,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 57,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6943),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4672),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2695,7 +2695,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 58,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6944),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4673),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2706,7 +2706,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 59,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6944),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4673),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2717,7 +2717,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 60,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6945),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4674),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2728,7 +2728,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 61,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6946),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4675),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2739,7 +2739,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 62,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6947),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4675),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2750,7 +2750,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 63,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6947),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4676),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2761,7 +2761,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 64,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6949),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4676),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2772,7 +2772,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 65,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6950),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4677),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2783,7 +2783,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 66,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6950),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4678),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2794,7 +2794,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 67,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6951),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4678),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2805,7 +2805,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 68,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6952),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4679),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2816,7 +2816,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 69,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6953),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4679),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2827,7 +2827,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 70,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6953),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4680),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2838,7 +2838,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 71,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6954),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4681),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2849,7 +2849,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 72,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(6955),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4681),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2860,7 +2860,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 73,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7004),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4682),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2871,7 +2871,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 74,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7005),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4682),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2882,7 +2882,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 75,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7006),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4683),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2893,7 +2893,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 76,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7007),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4684),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2904,7 +2904,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 77,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7008),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4685),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2915,7 +2915,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 78,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7009),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4685),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2926,7 +2926,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 79,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7009),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4686),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2937,7 +2937,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 80,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7010),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4687),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2948,7 +2948,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 81,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7011),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4687),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2959,7 +2959,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 82,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7011),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4688),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2970,7 +2970,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 83,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7012),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4688),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2981,7 +2981,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 84,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7018),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4689),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -2992,7 +2992,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 85,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7020),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4690),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -3003,7 +3003,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 86,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7021),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4690),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -3014,7 +3014,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 87,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7022),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4691),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -3025,7 +3025,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 88,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7022),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4691),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -3036,7 +3036,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 89,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7023),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4692),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -3047,7 +3047,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 90,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7024),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4692),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -3058,7 +3058,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 91,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7025),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4693),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -3069,7 +3069,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 92,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7025),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4694),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -3080,7 +3080,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 93,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7026),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4714),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -3091,7 +3091,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 94,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7027),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4714),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -3102,7 +3102,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 95,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7028),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4715),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -3113,7 +3113,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 96,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7028),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4716),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -3124,7 +3124,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 97,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7029),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4716),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -3135,7 +3135,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 98,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7030),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4717),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -3146,7 +3146,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 99,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7031),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4717),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -3157,7 +3157,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 100,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7031),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4718),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -3168,7 +3168,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 111,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7032),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4719),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -3179,7 +3179,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 122,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7033),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4720),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -3190,7 +3190,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 133,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7034),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4720),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -3201,7 +3201,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 144,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7034),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4721),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -3212,7 +3212,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 155,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7035),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4722),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -3223,7 +3223,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 166,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7036),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4723),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -3234,7 +3234,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 177,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7037),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4723),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -3245,7 +3245,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 188,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7037),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4724),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -3256,7 +3256,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 199,
-                            CreatedDate = new DateTime(2022, 7, 4, 2, 41, 41, 970, DateTimeKind.Local).AddTicks(7038),
+                            CreatedDate = new DateTime(2022, 7, 22, 17, 50, 57, 414, DateTimeKind.Local).AddTicks(4725),
                             Definition = "64 GB",
                             IsDeleted = false,
                             Name = "Hafıza",

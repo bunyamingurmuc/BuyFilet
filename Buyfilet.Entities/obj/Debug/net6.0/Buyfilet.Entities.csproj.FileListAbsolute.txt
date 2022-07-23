@@ -10,3 +10,15 @@ D:\Projects\buyfilet_aspnet\Buyfilet\Buyfilet.Entities\obj\Debug\net6.0\Buyfilet
 D:\Projects\buyfilet_aspnet\Buyfilet\Buyfilet.Entities\obj\Debug\net6.0\refint\Buyfilet.Entities.dll
 D:\Projects\buyfilet_aspnet\Buyfilet\Buyfilet.Entities\obj\Debug\net6.0\Buyfilet.Entities.pdb
 D:\Projects\buyfilet_aspnet\Buyfilet\Buyfilet.Entities\obj\Debug\net6.0\ref\Buyfilet.Entities.dll
+D:\Github Clones\BuyFilet Clone\Buyfilet.Entities\bin\Debug\net6.0\Buyfilet.Entities.deps.json
+D:\Github Clones\BuyFilet Clone\Buyfilet.Entities\bin\Debug\net6.0\Buyfilet.Entities.dll
+D:\Github Clones\BuyFilet Clone\Buyfilet.Entities\bin\Debug\net6.0\Buyfilet.Entities.pdb
+D:\Github Clones\BuyFilet Clone\Buyfilet.Entities\obj\Debug\net6.0\Buyfilet.Entities.csproj.AssemblyReference.cache
+D:\Github Clones\BuyFilet Clone\Buyfilet.Entities\obj\Debug\net6.0\Buyfilet.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Clones\BuyFilet Clone\Buyfilet.Entities\obj\Debug\net6.0\Buyfilet.Entities.AssemblyInfoInputs.cache
+D:\Github Clones\BuyFilet Clone\Buyfilet.Entities\obj\Debug\net6.0\Buyfilet.Entities.AssemblyInfo.cs
+D:\Github Clones\BuyFilet Clone\Buyfilet.Entities\obj\Debug\net6.0\Buyfilet.Entities.csproj.CoreCompileInputs.cache
+D:\Github Clones\BuyFilet Clone\Buyfilet.Entities\obj\Debug\net6.0\Buyfilet.Entities.dll
+D:\Github Clones\BuyFilet Clone\Buyfilet.Entities\obj\Debug\net6.0\refint\Buyfilet.Entities.dll
+D:\Github Clones\BuyFilet Clone\Buyfilet.Entities\obj\Debug\net6.0\Buyfilet.Entities.pdb
+D:\Github Clones\BuyFilet Clone\Buyfilet.Entities\obj\Debug\net6.0\ref\Buyfilet.Entities.dll

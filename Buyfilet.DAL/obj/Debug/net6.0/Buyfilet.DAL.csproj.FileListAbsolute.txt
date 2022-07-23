@@ -17,3 +17,22 @@ D:\Projects\buyfilet_aspnet\Buyfilet\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.
 D:\Projects\buyfilet_aspnet\Buyfilet\Buyfilet.DAL\obj\Debug\net6.0\ref\Buyfilet.DAL.dll
 D:\Projects\buyfilet_aspnet\Buyfilet\Buyfilet.DAL\bin\Debug\net6.0\Buyfilet.Common.dll
 D:\Projects\buyfilet_aspnet\Buyfilet\Buyfilet.DAL\bin\Debug\net6.0\Buyfilet.Common.pdb
+D:\Github Clones\BuyFilet Clone\Buyfilet.DAL\bin\Debug\net6.0\Buyfilet.DAL.deps.json
+D:\Github Clones\BuyFilet Clone\Buyfilet.DAL\bin\Debug\net6.0\Buyfilet.DAL.runtimeconfig.json
+D:\Github Clones\BuyFilet Clone\Buyfilet.DAL\bin\Debug\net6.0\Buyfilet.DAL.dll
+D:\Github Clones\BuyFilet Clone\Buyfilet.DAL\bin\Debug\net6.0\Buyfilet.DAL.pdb
+D:\Github Clones\BuyFilet Clone\Buyfilet.DAL\bin\Debug\net6.0\Buyfilet.Common.dll
+D:\Github Clones\BuyFilet Clone\Buyfilet.DAL\bin\Debug\net6.0\Buyfilet.Entities.dll
+D:\Github Clones\BuyFilet Clone\Buyfilet.DAL\bin\Debug\net6.0\Buyfilet.Common.pdb
+D:\Github Clones\BuyFilet Clone\Buyfilet.DAL\bin\Debug\net6.0\Buyfilet.Entities.pdb
+D:\Github Clones\BuyFilet Clone\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.csproj.AssemblyReference.cache
+D:\Github Clones\BuyFilet Clone\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Clones\BuyFilet Clone\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.AssemblyInfoInputs.cache
+D:\Github Clones\BuyFilet Clone\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.AssemblyInfo.cs
+D:\Github Clones\BuyFilet Clone\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.csproj.CoreCompileInputs.cache
+D:\Github Clones\BuyFilet Clone\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.csproj.CopyComplete
+D:\Github Clones\BuyFilet Clone\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.dll
+D:\Github Clones\BuyFilet Clone\Buyfilet.DAL\obj\Debug\net6.0\refint\Buyfilet.DAL.dll
+D:\Github Clones\BuyFilet Clone\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.pdb
+D:\Github Clones\BuyFilet Clone\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.genruntimeconfig.cache
+D:\Github Clones\BuyFilet Clone\Buyfilet.DAL\obj\Debug\net6.0\ref\Buyfilet.DAL.dll

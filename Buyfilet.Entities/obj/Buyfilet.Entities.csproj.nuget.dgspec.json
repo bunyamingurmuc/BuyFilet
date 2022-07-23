@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj": {}
+    "D:\\Github Clones\\BuyFilet Clone\\Buyfilet.Entities\\Buyfilet.Entities.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj": {
+    "D:\\Github Clones\\BuyFilet Clone\\Buyfilet.Entities\\Buyfilet.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj",
+        "projectUniqueName": "D:\\Github Clones\\BuyFilet Clone\\Buyfilet.Entities\\Buyfilet.Entities.csproj",
         "projectName": "Buyfilet.Entities",
-        "projectPath": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj",
+        "projectPath": "D:\\Github Clones\\BuyFilet Clone\\Buyfilet.Entities\\Buyfilet.Entities.csproj",
         "packagesPath": "C:\\Users\\zeynel\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\buyfilet_aspnet\\Buyfilet\\Buyfilet.Entities\\obj\\",
+        "outputPath": "D:\\Github Clones\\BuyFilet Clone\\Buyfilet.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zeynel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,7 +21,8 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
