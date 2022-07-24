@@ -11,6 +11,7 @@ namespace Buyfilet.DTOs
     {
         public List<ProductListDto> Products { get; set; }
         public List<CategoryListDto> Categories { get; set; }
+        public ProductListDto QuickViewProduct { get; set; }
 
     }
 }

@@ -26,7 +26,7 @@ namespace Buyfilet.WebUI.Controller
             
             var dto = new HomeDto()
             {
-                
+                QuickViewProduct = new ProductListDto(),
                 Products = homeProducts.ToList(),
                 Categories = responseCategory.Data
             };

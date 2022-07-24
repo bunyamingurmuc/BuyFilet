@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Buyfilet.WebUI",
+    "\\Buyfilet.WebUI\\Views",
+    "\\Buyfilet.WebUI\\Views\\Shop"
   ],
-  "SelectedNode": "\\Buyfilet.sln",
+  "SelectedNode": "\\Buyfilet.WebUI\\Views\\Shop\\Home.cshtml",
   "PreviewInSolutionExplorer": false
 }

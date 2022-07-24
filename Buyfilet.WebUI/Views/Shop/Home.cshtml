@@ -1,4 +1,5 @@
-﻿@model HomeDto
+﻿@using Buyfilet.Common.Enums
+@model HomeDto
 @{
     ViewData["Title"] = "HomePage";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -621,6 +622,7 @@
                                                title="İstek Listesine Ekle"></a>
                                             <a href="#" class="btn-product-icon btn-quickview w-icon-search"
                                                title="Hızlı Bakış"></a>
+                                            @{ Model.QuickViewProduct = product;}
                                             <a href="#" class="btn-product-icon btn-compare w-icon-compare"
                                                title="Kıyasla"></a>
                                         </div>
@@ -683,6 +685,8 @@
                                                title="İstek Listesine Ekle"></a>
                                             <a href="#" class="btn-product-icon btn-quickview w-icon-search"
                                                title="Hızlı Bakış"></a>
+
+                                            @{ Model.QuickViewProduct = product;}
                                             <a href="#" class="btn-product-icon btn-compare w-icon-compare"
                                                title="Kıyasla"></a>
                                         </div>
@@ -743,6 +747,7 @@
                                                title="İstek Listesine Ekle"></a>
                                             <a href="#" class="btn-product-icon btn-quickview w-icon-search"
                                                title="Hızlı Bakış"></a>
+                                            @{ Model.QuickViewProduct = product;}
                                             <a href="#" class="btn-product-icon btn-compare w-icon-compare"
                                                title="Kıyasla"></a>
                                         </div>
@@ -803,6 +808,7 @@
                                                title="İstek Listesine Ekle"></a>
                                             <a href="#" class="btn-product-icon btn-quickview w-icon-search"
                                                title="Hızlı Bakış"></a>
+                                            @{ Model.QuickViewProduct = product;}
                                             <a href="#" class="btn-product-icon btn-compare w-icon-compare"
                                                title="Kıyasla"></a>
                                         </div>
@@ -895,91 +901,39 @@
                 @*FARKLI YERLERDEN KATEGORİ LİSTELEMESİ*@
                 if (category.Id % 2 == 0)
                 {
-                    <div class="title-link-wrapper pb-1 mb-4">
-                        <h2 class="title ls-normal mb-0">Ayın En Populer Kategorileri</h2>
-                        <a href="shop-boxed-banner.html" class="font-size-normal font-weight-bold ls-25 mb-0">
-                            Daha Fazlası<i class="w-icon-long-arrow-right"></i>
-                        </a>
-                    </div>
-                    <div class="swiper-wrapper mb-5 " id="swiper-wrapper-e62794ef6534d284" aria-live="polite">
-                        <div class="swiper-slide category category-icon swiper-slide-active" role="group" aria-label="1 / 8" style="width: 146px; margin-right: 20px;">
-                            <a href="shop-banner-sidebar.html">
-                                <figure class="category-media">
-                                    <i class="w-icon-tshirt"></i>
+                    <div class="row category-cosmetic-lifestyle appear-animate mb-5 fadeIn appear-animation-visible" style="animation-duration: 1.2s;">
+                        <div class="col-md-6 mb-4">
+                            <div class="banner banner-fixed category-banner-1 br-xs">
+                                <figure>
+                                    <img src="/assets/images/demos/demo1/categories/3-1.jpg" alt="Category Banner" width="610" height="200" style="background-color: #3B4B48;">
                                 </figure>
-                            </a>
-                            <div class="category-content">
-                                <h4 class="category-name"><a href="shop-banner-sidebar.html">Fashion</a></h4>
+                                <div class="banner-content y-50 pt-1">
+                                    <h5 class="banner-subtitle font-weight-bold text-uppercase">Natural Process</h5>
+                                    <h3 class="banner-title font-weight-bolder text-capitalize text-white">
+                                        Cosmetic
+                                        Makeup<br>Professional
+                                    </h3>
+                                    <a href="shop-banner-sidebar.html" class="btn btn-white btn-link btn-underline btn-icon-right">
+                                        Shop Now<i class="w-icon-long-arrow-right"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                        <div class="swiper-slide category category-icon swiper-slide-next" role="group" aria-label="2 / 8" style="width: 146px; margin-right: 20px;">
-                            <a href="shop-banner-sidebar.html">
-                                <figure class="category-media">
-                                    <i class="w-icon-sofa"></i>
+                        <div class="col-md-6 mb-4">
+                            <div class="banner banner-fixed category-banner-2 br-xs">
+                                <figure>
+                                    <img src="/assets/images/demos/demo1/categories/3-2.jpg" alt="Category Banner" width="610" height="200" style="background-color: #E5E5E5;">
                                 </figure>
-                            </a>
-                            <div class="category-content">
-                                <h4 class="category-name"><a href="shop-banner-sidebar.html">Furniture</a></h4>
-                            </div>
-                        </div>
-                        <div class="swiper-slide category category-icon" role="group" aria-label="3 / 8" style="width: 146px; margin-right: 20px;">
-                            <a href="shop-banner-sidebar.html">
-                                <figure class="category-media">
-                                    <i class="w-icon-basketball"></i>
-                                </figure>
-                            </a>
-                            <div class="category-content">
-                                <h4 class="category-name"><a href="shop-banner-sidebar.html">Sports</a></h4>
-                            </div>
-                        </div>
-                        <div class="swiper-slide category category-icon" role="group" aria-label="4 / 8" style="width: 146px; margin-right: 20px;">
-                            <a href="shop-banner-sidebar.html">
-                                <figure class="category-media">
-                                    <i class="w-icon-bow"></i>
-                                </figure>
-                            </a>
-                            <div class="category-content">
-                                <h4 class="category-name"><a href="shop-banner-sidebar.html">Toys</a></h4>
-                            </div>
-                        </div>
-                        <div class="swiper-slide category category-icon" role="group" aria-label="5 / 8" style="width: 146px; margin-right: 20px;">
-                            <a href="shop-banner-sidebar.html">
-                                <figure class="category-media">
-                                    <i class="w-icon-camera"></i>
-                                </figure>
-                            </a>
-                            <div class="category-content">
-                                <h4 class="category-name"><a href="shop-banner-sidebar.html">Cameras</a></h4>
-                            </div>
-                        </div>
-                        <div class="swiper-slide category category-icon" role="group" aria-label="6 / 8" style="width: 146px; margin-right: 20px;">
-                            <a href="shop-banner-sidebar.html">
-                                <figure class="category-media">
-                                    <i class="w-icon-gamepad"></i>
-                                </figure>
-                            </a>
-                            <div class="category-content">
-                                <h4 class="category-name"><a href="shop-banner-sidebar.html">Games</a></h4>
-                            </div>
-                        </div>
-                        <div class="swiper-slide category category-icon" role="group" aria-label="7 / 8" style="width: 146px; margin-right: 20px;">
-                            <a href="shop-banner-sidebar.html">
-                                <figure class="category-media">
-                                    <i class="w-icon-headphone"></i>
-                                </figure>
-                            </a>
-                            <div class="category-content">
-                                <h4 class="category-name"><a href="shop-banner-sidebar.html">Headphones</a></h4>
-                            </div>
-                        </div>
-                        <div class="swiper-slide category category-icon" role="group" aria-label="8 / 8" style="width: 146px; margin-right: 20px;">
-                            <a href="shop-banner-sidebar.html">
-                                <figure class="category-media">
-                                    <i class="w-icon-mobile"></i>
-                                </figure>
-                            </a>
-                            <div class="category-content">
-                                <h4 class="category-name"><a href="shop-banner-sidebar.html">Smartphones</a></h4>
+                                <div class="banner-content y-50 pt-1">
+                                    <h5 class="banner-subtitle font-weight-bold text-uppercase">Trending Now</h5>
+                                    <h3 class="banner-title font-weight-bolder text-capitalize">
+                                        Women's
+                                        Lifestyle<br>Collection
+                                    </h3>
+                                    <a href="shop-banner-sidebar.html" class="btn btn-dark btn-link btn-underline btn-icon-right">
+                                        Shop Now<i class="w-icon-long-arrow-right"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -998,7 +952,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-sm-4 mb-4">
                         <div class="banner h-100 br-sm" style="background-image: url(assets/images/demos/demo1/banners/2.jpg);
-                                background-color: #ebeced;">
+                                                       background-color: #ebeced;">
                             <div class="banner-content content-top">
                                 <h5 class="banner-subtitle font-weight-normal mb-2">Weekend Sale</h5>
                                 <hr class="banner-divider bg-dark mb-2">
@@ -1048,6 +1002,7 @@
                                                            title="Beğeni Listesine Ekle"></a>
                                                         <a href="#" class="btn-product-icon btn-quickview w-icon-search"
                                                            title="Hızlı Bakış"></a>
+                                                        @{ Model.QuickViewProduct = product;}
                                                         <a href="#" class="btn-product-icon btn-compare w-icon-compare"
                                                            title="Kıyasla"></a>
                                                     </div>
@@ -1135,183 +1090,57 @@
                             }
                         }">
                     <div class="swiper-wrapper " id="swiper-wrapper-6726cb96252c9e9a" aria-live="polite" style="transform: translate3d(0px, 0px, 0px);">
-                        <div class="swiper-slide product-wrap swiper-slide-active" role="group" aria-label="1 / 4" style="width: 216.25px; margin-right: 20px;">
-                            <div class="product product-simple text-center">
-                                <figure class="product-media">
-                                    <a href="product-default.html">
-                                        <img src="assets/images/demos/demo3/products/2-1-1.jpg" alt="Product" width="330" height="338">
-                                        <img src="assets/images/demos/demo3/products/2-1-2.jpg" alt="Product" width="330" height="338">
-                                    </a>
-                                    <div class="product-action-vertical">
-                                        <a href="#" class="btn-product-icon btn-wishlist w-icon-heart" title="Add to wishlist"></a>
-                                        <a href="#" class="btn-product-icon btn-compare w-icon-compare" title="Add to Compare"></a>
-                                    </div>
-                                    <div class="product-action">
-                                        <a href="#" class="btn-product btn-quickview" title="Quick View">
-                                            Quick
-                                            View
-                                        </a>
-                                    </div>
-                                </figure>
-                                <div class="product-details">
-                                    <h4 class="product-name">
-                                        <a href="product-default.html">Leather Stripe Watch</a>
-                                    </h4>
-                                    <div class="ratings-container">
-                                        <div class="ratings-full">
-                                            <span class="ratings" style="width: 100%;"></span>
-                                            <span class="tooltiptext tooltip-top"></span>
-                                        </div>
-                                        <a href="product-default.html" class="rating-reviews">(3 reviews)</a>
-                                    </div>
-                                    <div class="product-pa-wrapper">
-                                        <div class="product-price">
-                                            <ins class="new-price">$125.00</ins>
-                                        </div>
-                                        <div class="product-action">
-                                            <a href="#" class="btn-cart btn-product btn btn-icon-right btn-link btn-underline">
-                                                Add
-                                                To Cart
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End of Product Wrap -->
-                        <div class="swiper-slide product-wrap swiper-slide-next" role="group" aria-label="2 / 4" style="width: 216.25px; margin-right: 20px;">
-                            <div class="product product-simple text-center">
-                                <figure class="product-media">
-                                    <a href="product-default.html">
-                                        <img src="assets/images/demos/demo3/products/2-2.jpg" alt="Product" width="330" height="338">
-                                    </a>
-                                    <div class="product-action-vertical">
-                                        <a href="#" class="btn-product-icon btn-wishlist w-icon-heart" title="Add to wishlist"></a>
-                                        <a href="#" class="btn-product-icon btn-compare w-icon-compare" title="Add to Compare"></a>
-                                    </div>
-                                    <div class="product-action">
-                                        <a href="#" class="btn-product btn-quickview" title="Quick View">
-                                            Quick
-                                            View
-                                        </a>
-                                    </div>
-                                </figure>
-                                <div class="product-details">
-                                    <h4 class="product-name">
+
+                        @foreach (var product in Model.Products.Where(i => i.IsHome == true).Take(4)) //ONEMLI BURAYA SKIP(40) YAZACAKSIN, DBDE KAYIT YOKTU ONDAN YAZAMADIN)
+                        {
+                            <div class="swiper-slide product-wrap " role="group" aria-label="1 / 4" style="width: 216.25px; margin-right: 20px;">
+                                <div class="product product-simple text-center">
+                                    <figure class="product-media">
                                         <a href="product-default.html">
-                                            Cavin Fashion Suede
-                                            Handbag
+                                            @foreach (var img in product.ProductImages.Take(2))
+                                            {
+                                                <img src=@img.ImagePath alt="Product" width="330" height="338">
+                                            }
                                         </a>
-                                    </h4>
-                                    <div class="ratings-container">
-                                        <div class="ratings-full">
-                                            <span class="ratings" style="width: 100%;"></span>
-                                            <span class="tooltiptext tooltip-top"></span>
-                                        </div>
-                                        <a href="product-default.html" class="rating-reviews">(3 reviews)</a>
-                                    </div>
-                                    <div class="product-pa-wrapper">
-                                        <div class="product-price">
-                                            <ins class="new-price">$26.43</ins>
+                                        <div class="product-action-vertical">
+                                            <a href="#" class="btn-product-icon btn-wishlist w-icon-heart" title="Beğen"></a>
+                                            <a href="#" class="btn-product-icon btn-compare w-icon-compare" title="Kıyasla"></a>
                                         </div>
                                         <div class="product-action">
-                                            <a href="#" class="btn-cart btn-product btn btn-icon-right btn-link btn-underline">
-                                                Add
-                                                To Cart
+                                            <a href="#" class="btn-product btn-quickview" title="Quick View">
+                                                Hızlı Bakış
                                             </a>
+                                            @{ Model.QuickViewProduct = product;}
+
+                                        </div>
+                                    </figure>
+                                    <div class="product-details">
+                                        <h4 class="product-name">
+                                            <a href="product-default.html">@product.Name </a>
+                                        </h4>
+                                        <div class="ratings-container">
+                                            <div class="ratings-full">
+                                                <span class="ratings" style="width: @product.DiscountRate;"></span>
+                                                <span class="tooltiptext tooltip-top"></span>
+                                            </div>
+                                            <a href="product-default.html" class="rating-reviews">(@product.EvaluationPoint incleme)</a>
+                                        </div>
+                                        <div class="product-pa-wrapper">
+                                            <div class="product-price">
+                                                <ins class="new-price">@product.ProductVariants.Min(i => i.Price) ₺</ins>
+                                            </div>
+                                            <div class="product-action">
+                                                <a href="#" class="btn-cart btn-product btn btn-icon-right btn-link btn-underline">
+                                                    Sepete Ekle
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- End of Product Wrap -->
-                        <div class="swiper-slide product-wrap" role="group" aria-label="3 / 4" style="width: 216.25px; margin-right: 20px;">
-                            <div class="product product-simple text-center">
-                                <figure class="product-media">
-                                    <a href="product-default.html">
-                                        <img src="assets/images/demos/demo3/products/2-3-1.jpg" alt="Product" width="330" height="338">
-                                        <img src="assets/images/demos/demo3/products/2-3-2.jpg" alt="Product" width="330" height="338">
-                                    </a>
-                                    <div class="product-action-vertical">
-                                        <a href="#" class="btn-product-icon btn-wishlist w-icon-heart" title="Add to wishlist"></a>
-                                        <a href="#" class="btn-product-icon btn-compare w-icon-compare" title="Add to Compare"></a>
-                                    </div>
-                                    <div class="product-action">
-                                        <a href="#" class="btn-product btn-quickview" title="Quick View">
-                                            Quick
-                                            View
-                                        </a>
-                                    </div>
-                                </figure>
-                                <div class="product-details">
-                                    <h4 class="product-name">
-                                        <a href="product-default.html">Multi Function Watch</a>
-                                    </h4>
-                                    <div class="ratings-container">
-                                        <div class="ratings-full">
-                                            <span class="ratings" style="width: 100%;"></span>
-                                            <span class="tooltiptext tooltip-top"></span>
-                                        </div>
-                                        <a href="product-default.html" class="rating-reviews">(3 reviews)</a>
-                                    </div>
-                                    <div class="product-pa-wrapper">
-                                        <div class="product-price">
-                                            <ins class="new-price">$110.00</ins>
-                                        </div>
-                                        <div class="product-action">
-                                            <a href="#" class="btn-cart btn-product btn btn-icon-right btn-link btn-underline">
-                                                Add
-                                                To Cart
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End of Product Wrap -->
-                        <div class="swiper-slide product-wrap" role="group" aria-label="4 / 4" style="width: 216.25px; margin-right: 20px;">
-                            <div class="product product-simple text-center">
-                                <figure class="product-media">
-                                    <a href="product-default.html">
-                                        <img src="assets/images/demos/demo3/products/2-4.jpg" alt="Product" width="330" height="338">
-                                    </a>
-                                    <div class="product-action-vertical">
-                                        <a href="#" class="btn-product-icon btn-wishlist w-icon-heart" title="Add to wishlist"></a>
-                                        <a href="#" class="btn-product-icon btn-compare w-icon-compare" title="Add to Compare"></a>
-                                    </div>
-                                    <div class="product-action">
-                                        <a href="#" class="btn-product btn-quickview" title="Quick View">
-                                            Quick
-                                            View
-                                        </a>
-                                    </div>
-                                </figure>
-                                <div class="product-details">
-                                    <h4 class="product-name">
-                                        <a href="product-default.html">Men's Suede Belt</a>
-                                    </h4>
-                                    <div class="ratings-container">
-                                        <div class="ratings-full">
-                                            <span class="ratings" style="width: 100%;"></span>
-                                            <span class="tooltiptext tooltip-top"></span>
-                                        </div>
-                                        <a href="product-default.html" class="rating-reviews">(3 reviews)</a>
-                                    </div>
-                                    <div class="product-pa-wrapper">
-                                        <div class="product-price">
-                                            <ins class="new-price">$26.49</ins>
-                                        </div>
-                                        <div class="product-action">
-                                            <a href="#" class="btn-cart btn-product btn btn-icon-right btn-link btn-underline">
-                                                Add
-                                                To Cart
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End of Product Wrap -->
+                        }
+
+
                     </div>
                     <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
                 </div>
@@ -1319,7 +1148,9 @@
             <div class="col-lg-3">
                 <div class="widget widget-products widget-products-bordered h-100">
                     <div class="widget-body br-sm pb-2 h-100">
-                        <h4 class="title-sm title-underline font-weight-bolder ls-normal mb-2">Recommend</h4>
+
+                        @*ÖNEMLİ !!! ÖNERİLERİ MÜŞTERİNİN BAKTIKLARINA GÖRE AYARLA*@
+                        <h4 class="title-sm title-underline font-weight-bolder ls-normal mb-2">Öneriler</h4>
                         <div class="swiper">
                             <div class="swiper-container swiper-theme nav-top swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events" data-swiper-options="{
                                         'slidesPerView': 1,
@@ -1521,388 +1352,180 @@
 
         @* FARKLI YERDEN KOPYALADIĞIM ÜRÜN LİSTEMELERİ 2  *@
         <div class="row mb-4 appear-animate fadeIn appear-animation-visible" style="animation-duration: 1.2s;">
+
+
             <div class="col-lg-3 col-sm-6 mb-6">
-                <h4 class="title title-underline mb-2 pt-1">Best Selling</h4>
+
+                <h4 class="title title-underline mb-2 pt-1">En Şık Siz Görünün</h4>
                 <div class="widget widget-products">
-                    <div class="product product-widget">
-                        <figure class="product-media">
-                            <a href="product-default.html">
-                                <img src="assets/images/demos/demo7/products/7-1.jpg" alt="Product" width="124" height="140">
-                            </a>
-                        </figure>
-                        <div class="product-details">
-                            <h4 class="product-name">
-                                <a href="product-default.html">Dark Blue Sneaker</a>
-                            </h4>
-                            <div class="ratings-container">
-                                <div class="ratings-full">
-                                    <span class="ratings" style="width: 100%;"></span>
-                                    <span class="tooltiptext tooltip-top"></span>
+                    @foreach (var product in Model.Products.Where(i => i.CategoryId == (int)CategoryEnums.Moda).Take(4))
+                    // ÖNEMLİ !!! SKİP YAZ BURAYA
+                    {
+                        <div class="product product-widget">
+                            <figure class="product-media">
+                                <a href="product-default.html">
+                                    <img src=@product.ProductImages[0].ImagePath alt="Product" width="124" height="140">
+                                </a>
+                            </figure>
+                            <div class="product-details">
+                                <h4 class="product-name">
+                                    <a href="product-default.html">@product.Name</a>
+                                </h4>
+                                <div class="ratings-container">
+                                    <div class="ratings-full">
+                                        <span class="ratings" style="width: @product.DiscountRate%;"></span>
+                                        <span class="tooltiptext tooltip-top"></span>
+                                    </div>
+                                </div>
+                                <div class="product-price">
+                                    <ins class="new-price">@product.ProductVariants.Min(i => i.Price) ₺</ins>
+                                    @if (product.ProductVariants.Min(i => i.WithOutDiscount) != 0 && product.ProductVariants.Min(i => i.WithOutDiscount) != null)
+                                    {
+
+                                        <del class="old-price">@product.ProductVariants.Min(i => i.WithOutDiscount)₺</del>
+                                    }
                                 </div>
                             </div>
-                            <div class="product-price">
-                                <ins class="new-price">$23.58 - $45.62</ins>
-                            </div>
                         </div>
-                    </div>
+                    }
+
                     <!-- End of Product Widget -->
-                    <div class="product product-widget">
-                        <figure class="product-media">
-                            <a href="product-default.html">
-                                <img src="assets/images/demos/demo7/products/7-2.jpg" alt="Product" width="124" height="140">
-                            </a>
-                        </figure>
-                        <div class="product-details">
-                            <h4 class="product-name">
-                                <a href="product-default.html">Women's Handbag</a>
-                            </h4>
-                            <div class="ratings-container">
-                                <div class="ratings-full">
-                                    <span class="ratings" style="width: 100%;"></span>
-                                    <span class="tooltiptext tooltip-top"></span>
-                                </div>
-                            </div>
-                            <div class="product-price">
-                                <ins class="new-price">$25.70</ins>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End of Product Widget -->
-                    <div class="product product-widget">
-                        <figure class="product-media">
-                            <a href="product-default.html">
-                                <img src="assets/images/demos/demo7/products/7-3.jpg" alt="Product" width="124" height="140">
-                            </a>
-                        </figure>
-                        <div class="product-details">
-                            <h4 class="product-name">
-                                <a href="product-default.html">Perfect Classic Hat</a>
-                            </h4>
-                            <div class="ratings-container">
-                                <div class="ratings-full">
-                                    <span class="ratings" style="width: 100%;"></span>
-                                    <span class="tooltiptext tooltip-top"></span>
-                                </div>
-                            </div>
-                            <div class="product-price">
-                                <ins class="new-price">$69.99</ins><del class="old-price">$84.16</del>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End of Product Widget -->
+
                 </div>
                 <!-- End of Widget Products -->
             </div>
             <!-- End of Col -->
 
             <div class="col-lg-3 col-sm-6 mb-6">
-                <h4 class="title title-underline mb-2 pt-1">Sale Products</h4>
+
+                <h4 class="title title-underline mb-2 pt-1">En Güzel Elektronik Malzemeler</h4>
                 <div class="widget widget-products">
-                    <div class="product product-widget">
-                        <figure class="product-media">
-                            <a href="product-default.html">
-                                <img src="assets/images/demos/demo7/products/7-4.jpg" alt="Product" width="124" height="140">
-                            </a>
-                        </figure>
-                        <div class="product-details">
-                            <h4 class="product-name">
-                                <a href="product-default.html">Perfect Classic Hat</a>
-                            </h4>
-                            <div class="ratings-container">
-                                <div class="ratings-full">
-                                    <span class="ratings" style="width: 100%;"></span>
-                                    <span class="tooltiptext tooltip-top"></span>
+                    @foreach (var product in Model.Products.Where(i => i.CategoryId == (int)CategoryEnums.Elektronik).Take(4))//ÖNEMLİ !!! SKİP YAZ BURAYA
+                    {
+                        <div class="product product-widget">
+                            <figure class="product-media">
+                                <a href="product-default.html">
+                                    <img src=@product.ProductImages[0].ImagePath alt="Product" width="124" height="140">
+                                </a>
+                            </figure>
+                            <div class="product-details">
+                                <h4 class="product-name">
+                                    <a href="product-default.html">@product.Name</a>
+                                </h4>
+                                <div class="ratings-container">
+                                    <div class="ratings-full">
+                                        <span class="ratings" style="width: @product.DiscountRate%;"></span>
+                                        <span class="tooltiptext tooltip-top"></span>
+                                    </div>
+                                </div>
+                                <div class="product-price">
+                                    <ins class="new-price">@product.ProductVariants.Min(i => i.Price) ₺</ins>
+                                    @if (product.ProductVariants.Min(i => i.WithOutDiscount) != 0 && product.ProductVariants.Min(i => i.WithOutDiscount) != null)
+                                    {
+
+                                        <del class="old-price">@product.ProductVariants.Min(i => i.WithOutDiscount)₺</del>
+                                    }
                                 </div>
                             </div>
-                            <div class="product-price">
-                                <ins class="new-price">$69.99</ins><del class="old-price">$84.16</del>
-                            </div>
                         </div>
-                    </div>
+                    }
+
                     <!-- End of Product Widget -->
-                    <div class="product product-widget">
-                        <figure class="product-media">
-                            <a href="product-default.html">
-                                <img src="assets/images/demos/demo7/products/7-5.jpg" alt="Product" width="124" height="140">
-                            </a>
-                        </figure>
-                        <div class="product-details">
-                            <h4 class="product-name">
-                                <a href="product-default.html">Portable Charger</a>
-                            </h4>
-                            <div class="ratings-container">
-                                <div class="ratings-full">
-                                    <span class="ratings" style="width: 100%;"></span>
-                                    <span class="tooltiptext tooltip-top"></span>
+
+                </div>
+                <!-- End of Widget Products -->
+            </div>
+            <!-- End of Col -->
+            <div class="col-lg-3 col-sm-6 mb-6">
+
+                <h4 class="title title-underline mb-2 pt-1">İşinizi Kolaylaştıran Robotlar</h4>
+                <div class="widget widget-products">
+                    @foreach (var product in Model.Products.Where(i => i.CategoryId == (int)CategoryEnums.BeyazEşya).Take(4))
+                    //ÖNEMLİ !!! SKİP YAZ BURAYA
+                    {
+                        <div class="product product-widget">
+                            <figure class="product-media">
+                                <a href="product-default.html">
+                                    <img src=@product.ProductImages[0].ImagePath alt="Product" width="124" height="140">
+                                </a>
+                            </figure>
+                            <div class="product-details">
+                                <h4 class="product-name">
+                                    <a href="product-default.html">@product.Name</a>
+                                </h4>
+                                <div class="ratings-container">
+                                    <div class="ratings-full">
+                                        <span class="ratings" style="width: @product.DiscountRate%;"></span>
+                                        <span class="tooltiptext tooltip-top"></span>
+                                    </div>
+                                </div>
+                                <div class="product-price">
+                                    <ins class="new-price">@product.ProductVariants.Min(i => i.Price) ₺</ins>
+                                    @if (product.ProductVariants.Min(i => i.WithOutDiscount) != 0 && product.ProductVariants.Min(i => i.WithOutDiscount) != null)
+                                    {
+
+                                        <del class="old-price">@product.ProductVariants.Min(i => i.WithOutDiscount)₺</del>
+                                    }
                                 </div>
                             </div>
-                            <div class="product-price">
-                                <ins class="new-price">$25.00</ins>
-                            </div>
                         </div>
-                    </div>
+                    }
+
                     <!-- End of Product Widget -->
-                    <div class="product product-widget">
-                        <figure class="product-media">
-                            <a href="product-default.html">
-                                <img src="assets/images/demos/demo7/products/7-6.jpg" alt="Product" width="124" height="140">
-                            </a>
-                        </figure>
-                        <div class="product-details">
-                            <h4 class="product-name">
-                                <a href="product-default.html">Headkerchief</a>
-                            </h4>
-                            <div class="ratings-container">
-                                <div class="ratings-full">
-                                    <span class="ratings" style="width: 100%;"></span>
-                                    <span class="tooltiptext tooltip-top"></span>
-                                </div>
-                            </div>
-                            <div class="product-price">
-                                <ins class="new-price">$73.71</ins><del class="old-price">$78.04</del>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End of Product Widget -->
+
                 </div>
                 <!-- End of Widget Products -->
             </div>
             <!-- End of Col -->
 
             <div class="col-lg-3 col-sm-6 mb-6">
-                <h4 class="title title-underline mb-2 pt-1">Featured Products</h4>
+
+                <h4 class="title title-underline mb-2 pt-1">Okul İçin Tüm İhtiyaçlar</h4>
                 <div class="widget widget-products">
-                    <div class="product product-widget">
-                        <figure class="product-media">
-                            <a href="product-default.html">
-                                <img src="assets/images/demos/demo7/products/7-7.jpg" alt="Product" width="124" height="140">
-                            </a>
-                        </figure>
-                        <div class="product-details">
-                            <h4 class="product-name">
-                                <a href="product-default.html">T-Shirt</a>
-                            </h4>
-                            <div class="ratings-container">
-                                <div class="ratings-full">
-                                    <span class="ratings" style="width: 100%;"></span>
-                                    <span class="tooltiptext tooltip-top"></span>
+                    @foreach (var product in Model.Products.Where(i => i.CategoryId == (int)CategoryEnums.Kırtasiye).Take(4))
+                    {
+                        <div class="product product-widget">
+                            <figure class="product-media">
+                                <a href="product-default.html">
+                                    <img src=@product.ProductImages[0].ImagePath alt="Product" width="124" height="140">
+                                </a>
+                            </figure>
+                            <div class="product-details">
+                                <h4 class="product-name">
+                                    <a href="product-default.html">@product.Name</a>
+                                </h4>
+                                <div class="ratings-container">
+                                    <div class="ratings-full">
+                                        <span class="ratings" style="width: @product.DiscountRate%;"></span>
+                                        <span class="tooltiptext tooltip-top"></span>
+                                    </div>
+                                </div>
+                                <div class="product-price">
+                                    <ins class="new-price">@product.ProductVariants.Min(i => i.Price) ₺</ins>
+                                    @if (product.ProductVariants.Min(i => i.WithOutDiscount) != 0 && product.ProductVariants.Min(i => i.WithOutDiscount) != null)
+                                    {
+
+                                        <del class="old-price">@product.ProductVariants.Min(i => i.WithOutDiscount)₺</del>
+                                    }
                                 </div>
                             </div>
-                            <div class="product-price">
-                                <ins class="new-price">$20.00</ins>
-                            </div>
                         </div>
-                    </div>
+                    }
+
                     <!-- End of Product Widget -->
-                    <div class="product product-widget">
-                        <figure class="product-media">
-                            <a href="product-default.html">
-                                <img src="assets/images/demos/demo7/products/7-8.jpg" alt="Product" width="124" height="140">
-                            </a>
-                        </figure>
-                        <div class="product-details">
-                            <h4 class="product-name">
-                                <a href="product-default.html">Whiter Training Shoes</a>
-                            </h4>
-                            <div class="ratings-container">
-                                <div class="ratings-full">
-                                    <span class="ratings" style="width: 100%;"></span>
-                                    <span class="tooltiptext tooltip-top"></span>
-                                </div>
-                            </div>
-                            <div class="product-price">
-                                <ins class="new-price">$25.00 - $45.00</ins>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End of Product Widget -->
-                    <div class="product product-widget">
-                        <figure class="product-media">
-                            <a href="product-default.html">
-                                <img src="assets/images/demos/demo7/products/7-9.jpg" alt="Product" width="124" height="140">
-                            </a>
-                        </figure>
-                        <div class="product-details">
-                            <h4 class="product-name">
-                                <a href="product-default.html">Grey Calotte</a>
-                            </h4>
-                            <div class="ratings-container">
-                                <div class="ratings-full">
-                                    <span class="ratings" style="width: 100%;"></span>
-                                    <span class="tooltiptext tooltip-top"></span>
-                                </div>
-                            </div>
-                            <div class="product-price">
-                                <ins class="new-price">$320.00</ins>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End of Product Widget -->
+
                 </div>
                 <!-- End of Widget Products -->
             </div>
             <!-- End of Col -->
 
-            <div class="col-lg-3 col-sm-6 mb-6">
-                <h4 class="title title-underline mb-2 pt-1">Latest Products</h4>
-                <div class="widget widget-products">
-                    <div class="product product-widget">
-                        <figure class="product-media">
-                            <a href="product-default.html">
-                                <img src="assets/images/demos/demo7/products/7-10.jpg" alt="Product" width="124" height="140">
-                            </a>
-                        </figure>
-                        <div class="product-details">
-                            <h4 class="product-name">
-                                <a href="product-default.html">Women's Training Shoes</a>
-                            </h4>
-                            <div class="ratings-container">
-                                <div class="ratings-full">
-                                    <span class="ratings" style="width: 100%;"></span>
-                                    <span class="tooltiptext tooltip-top"></span>
-                                </div>
-                            </div>
-                            <div class="product-price">
-                                <ins class="new-price">$48.00</ins><del class="old-price">$54.00</del>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End of Product Widget -->
-                    <div class="product product-widget">
-                        <figure class="product-media">
-                            <a href="product-default.html">
-                                <img src="assets/images/demos/demo7/products/7-11.jpg" alt="Product" width="124" height="140">
-                            </a>
-                        </figure>
-                        <div class="product-details">
-                            <h4 class="product-name">
-                                <a href="product-default.html">Multi Function Watch</a>
-                            </h4>
-                            <div class="ratings-container">
-                                <div class="ratings-full">
-                                    <span class="ratings" style="width: 100%;"></span>
-                                    <span class="tooltiptext tooltip-top"></span>
-                                </div>
-                            </div>
-                            <div class="product-price">
-                                <ins class="new-price">$75.00</ins><del class="old-price">$95.68</del>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End of Product Widget -->
-                    <div class="product product-widget">
-                        <figure class="product-media">
-                            <a href="product-default.html">
-                                <img src="assets/images/demos/demo7/products/7-12.jpg" alt="Product" width="124" height="140">
-                            </a>
-                        </figure>
-                        <div class="product-details">
-                            <h4 class="product-name">
-                                <a href="product-default.html">Top Men's Hiking Hat</a>
-                            </h4>
-                            <div class="ratings-container">
-                                <div class="ratings-full">
-                                    <span class="ratings" style="width: 100%;"></span>
-                                    <span class="tooltiptext tooltip-top"></span>
-                                </div>
-                            </div>
-                            <div class="product-price">
-                                <ins class="new-price">$32.36</ins><del class="old-price">$37.00</del>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End of Product Widget -->
-                </div>
-                <!-- End of Widget Products -->
-            </div>
-            <!-- End of Col -->
+
         </div>
         @* FYKÜL2 BİTİŞİ *@
 
-        <h2 class="title title-underline mb-4 ls-normal appear-animate">Our Clients</h2>
-        <div class="swiper-container swiper-theme brands-wrapper mb-9 appear-animate" data-swiper-options="{
-                    'spaceBetween': 0,
-                    'slidesPerView': 2,
-                    'breakpoints': {
-                        '576': {
-                            'slidesPerView': 3
-                        },
-                        '768': {
-                            'slidesPerView': 4
-                        },
-                        '992': {
-                            'slidesPerView': 5
-                        },
-                        '1200': {
-                            'slidesPerView': 6
-                        }
-                    }
-                }">
-            <div class="swiper-wrapper row gutter-no cols-xl-6 cols-lg-5 cols-md-4 cols-sm-3 cols-2">
-                <div class="swiper-slide brand-col">
-                    <figure class="brand-wrapper">
-                        <img src="~/assets/images/demos/demo1/brands/1.png" alt="Brand" width="410"
-                             height="186" />
-                    </figure>
-                    <figure class="brand-wrapper">
-                        <img src="~/assets/images/demos/demo1/brands/2.png" alt="Brand" width="410"
-                             height="186" />
-                    </figure>
-                </div>
-                <div class="swiper-slide brand-col">
-                    <figure class="brand-wrapper">
-                        <img src="~/assets/images/demos/demo1/brands/3.png" alt="Brand" width="410"
-                             height="186" />
-                    </figure>
-                    <figure class="brand-wrapper">
-                        <img src="~/assets/images/demos/demo1/brands/4.png" alt="Brand" width="410"
-                             height="186" />
-                    </figure>
-                </div>
-                <div class="swiper-slide brand-col">
-                    <figure class="brand-wrapper">
-                        <img src="~/assets/images/demos/demo1/brands/5.png" alt="Brand" width="410"
-                             height="186" />
-                    </figure>
-                    <figure class="brand-wrapper">
-                        <img src="~/assets/images/demos/demo1/brands/6.png" alt="Brand" width="410"
-                             height="186" />
-                    </figure>
-                </div>
-                <div class="swiper-slide brand-col">
-                    <figure class="brand-wrapper">
-                        <img src="~/assets/images/demos/demo1/brands/7.png" alt="Brand" width="410"
-                             height="186" />
-                    </figure>
-                    <figure class="brand-wrapper">
-                        <img src="~/assets/images/demos/demo1/brands/8.png" alt="Brand" width="410"
-                             height="186" />
-                    </figure>
-                </div>
-                <div class="swiper-slide brand-col">
-                    <figure class="brand-wrapper">
-                        <img src="~/assets/images/demos/demo1/brands/9.png" alt="Brand" width="410"
-                             height="186" />
-                    </figure>
-                    <figure class="brand-wrapper">
-                        <img src="~/assets/images/demos/demo1/brands/10.png" alt="Brand" width="410"
-                             height="186" />
-                    </figure>
-                </div>
-                <div class="swiper-slide brand-col">
-                    <figure class="brand-wrapper">
-                        <img src="~/assets/images/demos/demo1/brands/11.png" alt="Brand" width="410"
-                             height="186" />
-                    </figure>
-                    <figure class="brand-wrapper">
-                        <img src="~/assets/images/demos/demo1/brands/12.png" alt="Brand" width="410"
-                             height="186" />
-                    </figure>
-                </div>
-            </div>
-        </div>
-        <!-- End of Brands Wrapper -->
 
+        <!-- End of Brands Wrapper -->
+        @*ÖNEMLİ !!! BLOG SAYFASINI ÜRÜNLERİ AYARLA*@
         <div class="post-wrapper appear-animate mb-4">
             <div class="title-link-wrapper pb-1 mb-4">
                 <h2 class="title ls-normal mb-0">From Our Blog</h2>
@@ -2021,8 +1644,8 @@
             </div>
         </div>
         <!-- Post Wrapper -->
-
-        <h2 class="title title-underline mb-4 ls-normal appear-animate">Your Recent Views</h2>
+        @*ÖNEMLİ !!! SON BAKILAN ÜRÜNLERİ AYARLA*@
+        <h2 class="title title-underline mb-4 ls-normal appear-animate">Son Baktığınız Ürünler</h2>
         <div class="swiper-container swiper-theme shadow-swiper appear-animate pb-4 mb-8" data-swiper-options="{
                     'spaceBetween': 20,
                     'slidesPerView': 2,
@@ -2161,4 +1784,6 @@
     </div>
     <!--End of Catainer -->
 </main>
+<!-- Start of Quick View -->
+@Html.Partial("QuickView", @Model.QuickViewProduct)
 <!-- End of Main -->
