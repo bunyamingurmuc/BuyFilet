@@ -352,7 +352,7 @@
                                             <div class="col-md-6">
                                                 <div class="product-details scrollable">
                                                     <h2 class="product-title mb-1">
-                                                        <a href="product-default.html">
+                                                        <a asp-action="Product" asp-route-id="@p.Id">
                                                             @p.Name <span> p</span>
                                                         </a>
                                                     </h2>
@@ -488,7 +488,7 @@
 
                                                     <div class="product product-widget bb-no">
                                                         <figure class="product-media">
-                                                            <a href="product-default.html">
+                                                            <a asp-action="Product" asp-route-id="@product.Id">
 
                                                                 <img src=@product.ProductImages[0].ImagePath
                                                                      alt="Product" width="105" height="118" />
@@ -496,7 +496,7 @@
                                                         </figure>
                                                         <div class="product-details">
                                                             <h4 class="product-name">
-                                                                <a href="product-default.html">@product.Name</a>
+                                                                <a asp-action="Product" asp-route-id="@product.Id">@product.Name</a>
                                                             </h4>
                                                             <div class="ratings-container">
                                                                 <div class="ratings-full">
@@ -606,7 +606,7 @@
                             <div class="product-wrap">
                                 <div class="product text-center">
                                     <figure class="product-media">
-                                        <a href="product-default.html">
+                                        <a asp-action="Product" asp-route-id="@product.Id">
                                             @foreach (var img in product.ProductImages.Take(2))
                                             {
                                                 <img src=@img.ImagePath alt="Product"
@@ -639,7 +639,7 @@
                                     </figure>
                                     <div class="product-details">
                                         <h4 class="product-name">
-                                            <a href="product-default.html">@product.Name</a>
+                                            <a asp-action="Product" asp-route-id="@product.Id">@product.Name</a>
                                         </h4>
                                         <div class="ratings-container">
                                             <div class="ratings-full">
@@ -669,7 +669,7 @@
                             <div class="product-wrap">
                                 <div class="product text-center">
                                     <figure class="product-media">
-                                        <a href="product-default.html">
+                                        <a asp-action="Product" asp-route-id="@product.Id">
                                             @foreach (var img in product.ProductImages.Take(2))
                                             {
                                                 <img src=@img.ImagePath alt="Product"
@@ -703,7 +703,7 @@
                                     </figure>
                                     <div class="product-details">
                                         <h4 class="product-name">
-                                            <a href="product-default.html">@product.Name</a>
+                                            <a asp-action="Product" asp-route-id="@product.Id">@product.Name</a>
                                         </h4>
                                         <div class="ratings-container">
                                             <div class="ratings-full">
@@ -731,7 +731,7 @@
                             <div class="product-wrap">
                                 <div class="product text-center">
                                     <figure class="product-media">
-                                        <a href="product-default.html">
+                                        <a asp-action="Product" asp-route-id="@product.Id">
                                             @foreach (var img in product.ProductImages.Take(2))
                                             {
                                                 <img src=@img.ImagePath alt="Product"
@@ -764,7 +764,7 @@
                                     </figure>
                                     <div class="product-details">
                                         <h4 class="product-name">
-                                            <a href="product-default.html">@product.Name</a>
+                                            <a asp-action="Product" asp-route-id="@product.Id">@product.Name</a>
                                         </h4>
                                         <div class="ratings-container">
                                             <div class="ratings-full">
@@ -792,7 +792,7 @@
                             <div class="product-wrap">
                                 <div class="product text-center">
                                     <figure class="product-media">
-                                        <a href="product-default.html">
+                                        <a asp-action="Product" asp-route-id="@product.Id">
                                             @foreach (var img in product.ProductImages.Take(2))
                                             {
                                                 <img src=@img.ImagePath alt="Product"
@@ -825,7 +825,7 @@
                                     </figure>
                                     <div class="product-details">
                                         <h4 class="product-name">
-                                            <a href="product-default.html">@product.Name</a>
+                                            <a asp-action="Product" asp-route-id="@product.Id">@product.Name</a>
                                         </h4>
                                         <div class="ratings-container">
                                             <div class="ratings-full">
@@ -1019,7 +1019,7 @@
                                                 </figure>
                                                 <div class="product-details">
                                                     <h4 class="product-name">
-                                                        <a href="product-default.html">
+                                                        <a asp-action="Product" asp-route-id="@product.Id">
                                                             @product.Name
                                                         </a>
                                                     </h4>
@@ -1096,7 +1096,7 @@
                             <div class="swiper-slide product-wrap " role="group" aria-label="1 / 4" style="width: 216.25px; margin-right: 20px;">
                                 <div class="product product-simple text-center">
                                     <figure class="product-media">
-                                        <a href="product-default.html">
+                                        <a asp-action="Product" asp-route-id="@product.Id">
                                             @foreach (var img in product.ProductImages.Take(2))
                                             {
                                                 <img src=@img.ImagePath alt="Product" width="330" height="338">
@@ -1116,7 +1116,7 @@
                                     </figure>
                                     <div class="product-details">
                                         <h4 class="product-name">
-                                            <a href="product-default.html">@product.Name </a>
+                                            <a asp-action="Product" asp-route-id="@product.Id">@product.Name </a>
                                         </h4>
                                         <div class="ratings-container">
                                             <div class="ratings-full">
@@ -1363,13 +1363,13 @@
                     {
                         <div class="product product-widget">
                             <figure class="product-media">
-                                <a href="product-default.html">
+                                <a asp-action="Product" asp-route-id="@product.Id">
                                     <img src=@product.ProductImages[0].ImagePath alt="Product" width="124" height="140">
                                 </a>
                             </figure>
                             <div class="product-details">
                                 <h4 class="product-name">
-                                    <a href="product-default.html">@product.Name</a>
+                                    <a asp-action="Product" asp-route-id="@product.Id">@product.Name</a>
                                 </h4>
                                 <div class="ratings-container">
                                     <div class="ratings-full">
@@ -1404,13 +1404,13 @@
                     {
                         <div class="product product-widget">
                             <figure class="product-media">
-                                <a href="product-default.html">
+                                <a asp-action="Product" asp-route-id="@product.Id">
                                     <img src=@product.ProductImages[0].ImagePath alt="Product" width="124" height="140">
                                 </a>
                             </figure>
                             <div class="product-details">
                                 <h4 class="product-name">
-                                    <a href="product-default.html">@product.Name</a>
+                                    <a asp-action="Product" asp-route-id="@product.Id">@product.Name</a>
                                 </h4>
                                 <div class="ratings-container">
                                     <div class="ratings-full">
@@ -1445,13 +1445,13 @@
                     {
                         <div class="product product-widget">
                             <figure class="product-media">
-                                <a href="product-default.html">
+                                <a asp-action="Product" asp-route-id="@product.Id">
                                     <img src=@product.ProductImages[0].ImagePath alt="Product" width="124" height="140">
                                 </a>
                             </figure>
                             <div class="product-details">
                                 <h4 class="product-name">
-                                    <a href="product-default.html">@product.Name</a>
+                                    <a asp-action="Product" asp-route-id="@product.Id">@product.Name</a>
                                 </h4>
                                 <div class="ratings-container">
                                     <div class="ratings-full">
@@ -1486,13 +1486,13 @@
                     {
                         <div class="product product-widget">
                             <figure class="product-media">
-                                <a href="product-default.html">
+                                <a asp-action="Product" asp-route-id="@product.Id">
                                     <img src=@product.ProductImages[0].ImagePath alt="Product" width="124" height="140">
                                 </a>
                             </figure>
                             <div class="product-details">
                                 <h4 class="product-name">
-                                    <a href="product-default.html">@product.Name</a>
+                                    <a asp-action="Product" asp-route-id="@product.Id">@product.Name</a>
                                 </h4>
                                 <div class="ratings-container">
                                     <div class="ratings-full">

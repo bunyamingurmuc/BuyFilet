@@ -35,7 +35,7 @@ namespace Buyfilet.WebUI.Controller
 
       
     }
-        public IActionResult Product()
+        public IActionResult Product(int id)
         {
             return View();
         }
