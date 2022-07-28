@@ -9633,19 +9633,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zeynel\\.nuget\\packages\\": {}
+    "C:\\Users\\zeynel\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github Clones\\BuyFilet Clone\\Buyfilet.TEST.WebUI\\Buyfilet.TEST.WebUI.csproj",
+      "projectUniqueName": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.TEST.WebUI\\Buyfilet.TEST.WebUI.csproj",
       "projectName": "Buyfilet.TEST.WebUI",
-      "projectPath": "D:\\Github Clones\\BuyFilet Clone\\Buyfilet.TEST.WebUI\\Buyfilet.TEST.WebUI.csproj",
+      "projectPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.TEST.WebUI\\Buyfilet.TEST.WebUI.csproj",
       "packagesPath": "C:\\Users\\zeynel\\.nuget\\packages\\",
-      "outputPath": "D:\\Github Clones\\BuyFilet Clone\\Buyfilet.TEST.WebUI\\obj\\",
+      "outputPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.TEST.WebUI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\zeynel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9659,8 +9664,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Github Clones\\BuyFilet Clone\\Buyfilet.BLL\\Buyfilet.BLL.csproj": {
-              "projectPath": "D:\\Github Clones\\BuyFilet Clone\\Buyfilet.BLL\\Buyfilet.BLL.csproj"
+            "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj": {
+              "projectPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj"
             }
           }
         }

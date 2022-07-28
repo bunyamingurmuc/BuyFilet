@@ -7,13 +7,15 @@ namespace Buyfilet.DTOs
         public int Id { get; set; }
         public DateTime CreatedDate { get; set; }
         public bool IsDeleted { get; set; }
+
+
         public string Name { get; set; }
         public string Description { get; set; }
         public int NumberOfSales { get; set; }
         public int Stock { get; set; }
         public int DiscountRate { get; set; }//indirim oranı
 
-        public int CategoryId { get; set; }
+
 
         public bool IsHome { get; set; }
         public bool IsDiscount { get; set; } //indirim var mı
@@ -24,9 +26,13 @@ namespace Buyfilet.DTOs
         public int EvaluationPoint { get; set; }// Değerlendirme puanı
 
         public int Discount { get; set; } //indirim miktarı
+
+
+        public int CategoryId { get; set; }
+        public CategoryListDto Category { get; set; }
         public List<ProductVariantDto> ProductVariants { get; set; }
         public List<ProductImageDto> ProductImages { get; set; }
-        public CategoryListDto Category { get; set; }
+
     }
 
     public class ProductVariantDto:IDto

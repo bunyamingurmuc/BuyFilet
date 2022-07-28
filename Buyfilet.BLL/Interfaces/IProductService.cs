@@ -10,6 +10,8 @@ namespace Buyfilet.BLL.Interfaces
         Task<IResponse<List<ProductListDto>>> GetProductsWithCategory();
         Task<IResponse<List<ProductListDto>>> GetProductsInCategory(int categoryId);
         Task<IResponse<List<ProductListDto>>> GetPopularProductsInCategory(int categoryId);
+        Task<IResponse<ProductListDto>> GetProductWithCategory(int id);
+
         Task<IResponse<List<ProductListDto>>> GetProductsWithFilter(List<ProductVariantDto> variants);
         Task<IResponse<List<ProductListDto>>> GetHomeProducts();
         Task<IResponse> AddHomeProducts(int id);

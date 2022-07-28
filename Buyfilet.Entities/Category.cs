@@ -12,10 +12,10 @@ namespace Buyfilet.Entities
     {
         public string Definition { get; set; }
         public int NumberOfSales { get; set; }
-        public List<Product> Products { get; set; }
-        public int ImageId { get; set; }
-        public List<Image> Images { get; set; }
         public int ImportanceNumber { get; set; }
+        public List<Image> Images { get; set; }
+        public List<Product> Products { get; set; }
+
     }
 
 }

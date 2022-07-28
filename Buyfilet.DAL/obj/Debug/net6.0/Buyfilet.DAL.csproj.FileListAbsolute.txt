@@ -36,3 +36,22 @@ D:\Github Clones\BuyFilet Clone\Buyfilet.DAL\obj\Debug\net6.0\refint\Buyfilet.DA
 D:\Github Clones\BuyFilet Clone\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.pdb
 D:\Github Clones\BuyFilet Clone\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.genruntimeconfig.cache
 D:\Github Clones\BuyFilet Clone\Buyfilet.DAL\obj\Debug\net6.0\ref\Buyfilet.DAL.dll
+C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.DAL\bin\Debug\net6.0\Buyfilet.DAL.deps.json
+C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.DAL\bin\Debug\net6.0\Buyfilet.DAL.runtimeconfig.json
+C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.DAL\bin\Debug\net6.0\Buyfilet.DAL.dll
+C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.DAL\bin\Debug\net6.0\Buyfilet.DAL.pdb
+C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.DAL\bin\Debug\net6.0\Buyfilet.Common.dll
+C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.DAL\bin\Debug\net6.0\Buyfilet.Entities.dll
+C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.DAL\bin\Debug\net6.0\Buyfilet.Common.pdb
+C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.DAL\bin\Debug\net6.0\Buyfilet.Entities.pdb
+C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.csproj.AssemblyReference.cache
+C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.AssemblyInfoInputs.cache
+C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.AssemblyInfo.cs
+C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.csproj.CoreCompileInputs.cache
+C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.csproj.CopyComplete
+C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.dll
+C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.DAL\obj\Debug\net6.0\refint\Buyfilet.DAL.dll
+C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.pdb
+C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.genruntimeconfig.cache
+C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.DAL\obj\Debug\net6.0\ref\Buyfilet.DAL.dll

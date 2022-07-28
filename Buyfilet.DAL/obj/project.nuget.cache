@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XrhziJEjt42AIpYoXQRU/JzV6dFY2oc72JDgzLXDhCrVXsE8/TWAtribnveQN7sz5VLIn9loHUVAUixRzhMirQ==",
+  "dgSpecHash": "1XXIa4TnAQd4jlNZy9f0DRtzdtIRDch3MFl9k3ViJuR1KCWobn++xHJFmBEUHOBgJ+z65PpRcFPoouxi272tPQ==",
   "success": true,
-  "projectFilePath": "D:\\Github Clones\\BuyFilet Clone\\Buyfilet.DAL\\Buyfilet.DAL.csproj",
+  "projectFilePath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zeynel\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\zeynel\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

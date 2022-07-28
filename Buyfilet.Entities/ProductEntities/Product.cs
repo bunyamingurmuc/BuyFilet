@@ -22,14 +22,12 @@ namespace Buyfilet.Entities
         public int DiscountExpiresHour { get; set; }// İndirimin biteceği gün
         public int NumberOfEvaluations { get; set; }// Değerlendirme SAYISI
         public int NumberOfClick { get; set; }// Değerlendirme SAYISI
-
         public double EvaluationPoint { get; set; }// Değerlendirme puanı
         public int Discount { get; set; } //indirim miktarı
-    
+        public int NumberOfSales { get; set; }
 
 
         public int CategoryId { get; set; }
-        public int NumberOfSales { get; set; }
         public Category Category { get; set; }
         public List<ProductVariants> ProductVariants { get; set; }
         public List<ProductImage> ProductImages { get; set; }

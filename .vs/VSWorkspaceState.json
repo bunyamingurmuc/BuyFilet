@@ -3,7 +3,9 @@
     "",
     "\\Buyfilet.WebUI",
     "\\Buyfilet.WebUI\\Views",
+    "\\Buyfilet.WebUI\\Views\\Shared",
     "\\Buyfilet.WebUI\\Views\\Shop"
   ],
+  "SelectedNode": "\\Buyfilet.sln",
   "PreviewInSolutionExplorer": false
 }

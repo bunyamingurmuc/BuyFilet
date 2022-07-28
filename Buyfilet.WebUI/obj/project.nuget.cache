@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TTS7Z4QyF54i3VoVvTK9k5xOuEZVgCUMepPgZTxtKFX2AJrW1FUfB80z3AnwMfR2Q3Qivc5v+fdSFo1joxGOaQ==",
+  "dgSpecHash": "2EhcI1fOTg95mCQjtnnNlLGUaxGNVH+5UXTUG1hMEAyceGRnPQcjieWvf8cP9TGKBB1CUO/+32iC7LWdQZ8efg==",
   "success": true,
-  "projectFilePath": "D:\\Github Clones\\BuyFilet Clone\\Buyfilet.WebUI\\Buyfilet.WebUI.csproj",
+  "projectFilePath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.WebUI\\Buyfilet.WebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zeynel\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\zeynel\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

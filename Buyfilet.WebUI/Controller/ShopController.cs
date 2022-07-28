@@ -35,9 +35,20 @@ namespace Buyfilet.WebUI.Controller
 
       
     }
-        public IActionResult Product(int id)
+        public async Task<IActionResult> Product(int id)
         {
-            return View();
+            var responseProduct = await _productService.GetProductWithCategory(id);
+            var mainProduct = responseProduct.Data;
+            var revelantProducts = await _productService.GetProductsInCategory(mainProduct.CategoryId);
+            var mainrevelantProducts = revelantProducts.Data;
+            var dto = new ProductHomeDto()
+            {
+                MainProduct = mainProduct,
+                RevelantProducts = mainrevelantProducts.ToList(),
+            };
+
+
+            return View(dto);
         }
         public IActionResult Compare()
         {
