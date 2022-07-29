@@ -24,8 +24,19 @@ namespace Buyfilet.DTOs
         public int DiscountExpiresHour { get; set; }// İndirimin biteceği gün
         public int NumberOfEvaluations { get; set; }// Değerlendirme SAYISI
         public int EvaluationPoint { get; set; }// Değerlendirme puanı
-
         public int Discount { get; set; } //indirim miktarı
+
+
+        //eklenenler
+        public string Desfinition { get; set; }//ürününü genel özellikleri
+        public string Detail1 { get; set; }
+        public string Detail2 { get; set; }
+        public string Detail3 { get; set; }
+        public bool FreeCargo { get; set; }
+
+
+
+
 
 
         public int CategoryId { get; set; }

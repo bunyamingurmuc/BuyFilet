@@ -22,11 +22,20 @@ namespace Buyfilet.DTOs
         public int NumberOfClick { get; set; }// Değerlendirme SAYISI
         public int DiscountRate { get; set; }//indirim oranı
         public int Discount { get; set; } //indirim miktarı
-  
-
-
         public int Stock { get; set; }
         public int Price { get; set; }
+
+        //eklenenler
+        public string Desfinition { get; set; }//ürününü genel özellikleri
+        public string Detail1 { get; set; }
+        public string Detail2 { get; set; }
+        public string Detail3 { get; set; }
+        public bool FreeCargo { get; set; }
+
+
+
+
+
         public int CategoryId { get; set; }
         public CategoryListDto Category { get; set; }
     }

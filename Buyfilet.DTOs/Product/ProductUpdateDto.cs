@@ -25,6 +25,16 @@ namespace Buyfilet.DTOs
         public double EvaluationPoint { get; set; }// Değerlendirme puanı
         public int Discount { get; set; } //indirim miktarı
         public int CategoryId { get; set; }
+
+
+        //eklenenler
+        public string Desfinition { get; set; }//ürününü genel özellikleri
+        public string Detail1 { get; set; }
+        public string Detail2 { get; set; }
+        public string Detail3 { get; set; }
+        public bool FreeCargo { get; set; }
+
+
         public CategoryListDto Category { get; set; }
     }
 }
