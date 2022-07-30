@@ -39,6 +39,8 @@ namespace Buyfilet.Entities
         public List<ProductVariants> ProductVariants { get; set; }
         public List<ProductImage> ProductImages { get; set; }
         public List<Buyfilet.Entities.Comment.Comment> Comments { get; set; }
+        public int SellerId { get; set; }
+        public List<Seller.Seller> Sellers { get; set; }
 
 
     }
