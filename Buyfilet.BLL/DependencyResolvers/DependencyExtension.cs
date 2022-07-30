@@ -7,6 +7,7 @@ using Buyfilet.BLL.Interfaces;
 using Buyfilet.BLL.Services;
 using Buyfilet.BLL.ValidationRules;
 using Buyfilet.BLL.ValidationRules.Category;
+using Buyfilet.BLL.ValidationRules.Comment;
 using Buyfilet.BLL.ValidationRules.Image;
 using Buyfilet.DAL.Contexts;
 using Buyfilet.DAL.UnitOfWork;
@@ -30,6 +31,7 @@ namespace Buyfilet.BLL.DependencyResolvers
             services.AddScoped<IBFUserService, BFUserService>();
             services.AddScoped<IProductService, ProductService>();
             services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<ICommentService, CommentService>();
 
             services.AddTransient<IValidator<BFUserCreateDto>, BFUserCreateDtoValidator>();
             services.AddTransient<IValidator<BFUserLoginDto>, BFUserLoginDtoValidator>();
@@ -45,6 +47,8 @@ namespace Buyfilet.BLL.DependencyResolvers
             services.AddTransient<IValidator<ImageCreateDto>, ImageCreateDtoValidator>();
             services.AddTransient<IValidator<ImageUpdateDto>, ImageUpdateDtoValidator>();
 
+            services.AddTransient<IValidator<CommentCreateDto>, CommentCreateDtoValidator>();
+            services.AddTransient<IValidator<CommentUpdateDto>, CommentUpdateDtoValidator>();
 
 
 

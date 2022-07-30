@@ -819,3 +819,14 @@ C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.WebUI\obj\Debug\ne
 C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.WebUI\obj\Debug\net6.0\Buyfilet.WebUI.pdb
 C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.WebUI\obj\Debug\net6.0\Buyfilet.WebUI.genruntimeconfig.cache
 C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.WebUI\obj\Debug\net6.0\ref\Buyfilet.WebUI.dll
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.WebUI\obj\Debug\net6.0\Buyfilet.WebUI.csproj.AssemblyReference.cache
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.WebUI\obj\Debug\net6.0\Buyfilet.WebUI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.WebUI\obj\Debug\net6.0\Buyfilet.WebUI.AssemblyInfoInputs.cache
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.WebUI\obj\Debug\net6.0\Buyfilet.WebUI.AssemblyInfo.cs
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.WebUI\obj\Debug\net6.0\Buyfilet.WebUI.csproj.CoreCompileInputs.cache
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.WebUI\obj\Debug\net6.0\Buyfilet.WebUI.MvcApplicationPartsAssemblyInfo.cache
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.WebUI\obj\Debug\net6.0\Buyfilet.WebUI.RazorAssemblyInfo.cache
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.WebUI\obj\Debug\net6.0\Buyfilet.WebUI.RazorAssemblyInfo.cs
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.WebUI\obj\Debug\net6.0\Buyfilet.WebUI.dll
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.WebUI\obj\Debug\net6.0\refint\Buyfilet.WebUI.dll
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.WebUI\obj\Debug\net6.0\Buyfilet.WebUI.pdb

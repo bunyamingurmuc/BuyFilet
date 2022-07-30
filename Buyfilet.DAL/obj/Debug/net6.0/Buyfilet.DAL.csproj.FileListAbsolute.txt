@@ -55,3 +55,11 @@ C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.DAL\obj\Debug\net6
 C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.pdb
 C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.genruntimeconfig.cache
 C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.DAL\obj\Debug\net6.0\ref\Buyfilet.DAL.dll
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.csproj.AssemblyReference.cache
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.AssemblyInfoInputs.cache
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.AssemblyInfo.cs
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.csproj.CoreCompileInputs.cache
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.dll
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.DAL\obj\Debug\net6.0\refint\Buyfilet.DAL.dll
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.pdb

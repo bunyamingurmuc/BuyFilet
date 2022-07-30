@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj": {}
+    "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj": {
+    "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj",
+        "projectUniqueName": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj",
         "projectName": "Buyfilet.BLL",
-        "projectPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj",
+        "projectPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj",
         "packagesPath": "C:\\Users\\zeynel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.BLL\\obj\\",
+        "outputPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.BLL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\zeynel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,14 +28,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj": {
-                "projectPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj"
+              "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj": {
+                "projectPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj"
               },
-              "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj": {
-                "projectPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj"
+              "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj": {
+                "projectPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj"
               },
-              "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj": {
-                "projectPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj"
+              "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj": {
+                "projectPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj"
               }
             }
           }
@@ -86,21 +82,17 @@
         }
       }
     },
-    "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj": {
+    "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj",
+        "projectUniqueName": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj",
         "projectName": "Buyfilet.Common",
-        "projectPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj",
+        "projectPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj",
         "packagesPath": "C:\\Users\\zeynel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Common\\obj\\",
+        "outputPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Common\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\zeynel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -144,21 +136,17 @@
         }
       }
     },
-    "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj": {
+    "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj",
+        "projectUniqueName": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj",
         "projectName": "Buyfilet.DAL",
-        "projectPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj",
+        "projectPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj",
         "packagesPath": "C:\\Users\\zeynel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.DAL\\obj\\",
+        "outputPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.DAL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\zeynel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -172,11 +160,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj": {
-                "projectPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj"
+              "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj": {
+                "projectPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj"
               },
-              "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj": {
-                "projectPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj"
+              "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj": {
+                "projectPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj"
               }
             }
           }
@@ -225,21 +213,17 @@
         }
       }
     },
-    "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj": {
+    "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj",
+        "projectUniqueName": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj",
         "projectName": "Buyfilet.DTOs",
-        "projectPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj",
+        "projectPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj",
         "packagesPath": "C:\\Users\\zeynel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.DTOs\\obj\\",
+        "outputPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.DTOs\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\zeynel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -283,21 +267,17 @@
         }
       }
     },
-    "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj": {
+    "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj",
+        "projectUniqueName": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj",
         "projectName": "Buyfilet.Entities",
-        "projectPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj",
+        "projectPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj",
         "packagesPath": "C:\\Users\\zeynel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Entities\\obj\\",
+        "outputPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\zeynel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

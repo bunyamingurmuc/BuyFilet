@@ -15,13 +15,6 @@ namespace Buyfilet.BLL.ValidationRules
             RuleFor(x => x.Detail1).MaximumLength(200).WithMessage("Detay1 için en fazla 200 karekter girebilirsiniz");
             RuleFor(x => x.Detail2).MaximumLength(200).WithMessage("Detay2 için en fazla 200 karekter girebilirsiniz");
             RuleFor(x => x.Detail3).MaximumLength(200).WithMessage("Detay3 için en fazla 200 karekter girebilirsiniz");
-
-
-
-
-
-
-
         }
     }
 }

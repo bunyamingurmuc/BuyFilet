@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj": {}
+    "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj": {
+    "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj",
+        "projectUniqueName": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj",
         "projectName": "Buyfilet.Common",
-        "projectPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj",
+        "projectPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj",
         "packagesPath": "C:\\Users\\zeynel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Common\\obj\\",
+        "outputPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Common\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\zeynel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

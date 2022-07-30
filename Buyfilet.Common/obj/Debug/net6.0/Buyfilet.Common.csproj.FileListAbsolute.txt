@@ -34,3 +34,15 @@ C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.Common\obj\Debug\n
 C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.Common\obj\Debug\net6.0\refint\Buyfilet.Common.dll
 C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.Common\obj\Debug\net6.0\Buyfilet.Common.pdb
 C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.Common\obj\Debug\net6.0\ref\Buyfilet.Common.dll
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.Common\bin\Debug\net6.0\Buyfilet.Common.deps.json
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.Common\bin\Debug\net6.0\Buyfilet.Common.dll
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.Common\bin\Debug\net6.0\Buyfilet.Common.pdb
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.Common\obj\Debug\net6.0\Buyfilet.Common.csproj.AssemblyReference.cache
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.Common\obj\Debug\net6.0\Buyfilet.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.Common\obj\Debug\net6.0\Buyfilet.Common.AssemblyInfoInputs.cache
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.Common\obj\Debug\net6.0\Buyfilet.Common.AssemblyInfo.cs
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.Common\obj\Debug\net6.0\Buyfilet.Common.csproj.CoreCompileInputs.cache
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.Common\obj\Debug\net6.0\Buyfilet.Common.dll
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.Common\obj\Debug\net6.0\refint\Buyfilet.Common.dll
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.Common\obj\Debug\net6.0\Buyfilet.Common.pdb
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.Common\obj\Debug\net6.0\ref\Buyfilet.Common.dll

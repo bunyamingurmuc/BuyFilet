@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BTIkOJWAHm91zn9+xci1+5FPQVjjG/BzV/3adAHLzSGMqLcJJ8gBgGyzV+VfdR/KlFkvj3SBESjn15+QO9JpWA==",
+  "dgSpecHash": "7i5wvny6OBaUs0VS4ro1Le6/qo4Gc5ILX9HfGcnB2KEpJebt+r4sAc/nAapr3eLfR2ikrubeTyOU5obcCduAKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj",
+  "projectFilePath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zeynel\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\zeynel\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

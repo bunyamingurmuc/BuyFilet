@@ -14,7 +14,6 @@ namespace Buyfilet.BLL.Helpers
         {
             return new List<Profile>
             {
-                new BFUserProfile(),
                 new Profiles(),
 
             };

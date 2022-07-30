@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Buyfilet.DTOs;
 using Buyfilet.Entities;
+using Buyfilet.Entities.Comment;
 using Buyfilet.Entities.ProductEntities;
 
 namespace Buyfilet.BLL.Mappings.AutoMapper
@@ -27,6 +28,15 @@ namespace Buyfilet.BLL.Mappings.AutoMapper
             CreateMap<ImageListDto, Image>().ReverseMap();
             CreateMap<ImageCreateDto, Image>().ReverseMap();
             CreateMap<ImageUpdateDto, Image>().ReverseMap();
+
+            CreateMap<CommentListDto, Comment>().ReverseMap();
+            CreateMap<CategoryUpdateDto, Comment>().ReverseMap();
+            CreateMap<CategoryCreateDto, Comment>().ReverseMap();
+
+            CreateMap<BFUser, BFUserCreateDto>().ReverseMap();
+            CreateMap<BFUser, BFUserLoginDto>().ReverseMap();
+            CreateMap<BFUser, BFUserListDto>().ReverseMap();
+
 
 
 
