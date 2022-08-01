@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Buyfilet.DAL",
+    "\\Buyfilet.DAL\\Configurations",
+    "\\Buyfilet.DAL\\Configurations\\UserConfigurations"
   ],
+  "SelectedNode": "\\Buyfilet.sln",
   "PreviewInSolutionExplorer": false
 }
