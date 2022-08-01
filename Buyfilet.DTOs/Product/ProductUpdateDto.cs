@@ -33,6 +33,8 @@ namespace Buyfilet.DTOs
         public string Detail2 { get; set; }
         public string Detail3 { get; set; }
         public bool FreeCargo { get; set; }
+        public string StockCode { get; set; }
+
 
 
         public CategoryListDto Category { get; set; }

@@ -1,16 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\Buyfilet.BLL",
-    "\\Buyfilet.BLL\\ValidationRules",
-    "\\Buyfilet.BLL\\ValidationRules\\Product",
-    "\\Buyfilet.DAL",
-    "\\Buyfilet.DAL\\Configurations",
-    "\\Buyfilet.DAL\\Configurations\\CommentCongigurations",
-    "\\Buyfilet.DAL\\Configurations\\ProductConfigurations",
-    "\\Buyfilet.WebUI",
-    "\\Buyfilet.WebUI\\Views",
-    "\\Buyfilet.WebUI\\Views\\Shop"
+    ""
   ],
   "PreviewInSolutionExplorer": false
 }

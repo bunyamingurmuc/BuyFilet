@@ -15,6 +15,8 @@ namespace Buyfilet.Entities
         public string Description { get; set; }
         public bool IsHome { get; set; } = false;
         public int Stock { get; set; }
+        public string StockCode { get; set; }
+
         public bool IsDiscount { get; set; } //indirim var mı
         public int DiscountRate { get; set; }//indirim oranı
         public bool IsHotProduct { get; set; } //Anasayfa Ürünü Mü?

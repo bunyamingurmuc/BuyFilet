@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.TEST.WebUI\\Buyfilet.TEST.WebUI.csproj": {}
+    "D:\\Git Clones\\BuyFilet\\Buyfilet.TEST.WebUI\\Buyfilet.TEST.WebUI.csproj": {}
   },
   "projects": {
-    "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj": {
+    "D:\\Git Clones\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj",
+        "projectUniqueName": "D:\\Git Clones\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj",
         "projectName": "Buyfilet.BLL",
-        "projectPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj",
+        "projectPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj",
         "packagesPath": "C:\\Users\\zeynel\\.nuget\\packages\\",
-        "outputPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.BLL\\obj\\",
+        "outputPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.BLL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\zeynel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,14 +32,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj": {
-                "projectPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj"
+              "D:\\Git Clones\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj": {
+                "projectPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj"
               },
-              "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj": {
-                "projectPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj"
+              "D:\\Git Clones\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj": {
+                "projectPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj"
               },
-              "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj": {
-                "projectPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj"
+              "D:\\Git Clones\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj": {
+                "projectPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj"
               }
             }
           }
@@ -82,17 +86,21 @@
         }
       }
     },
-    "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj": {
+    "D:\\Git Clones\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj",
+        "projectUniqueName": "D:\\Git Clones\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj",
         "projectName": "Buyfilet.Common",
-        "projectPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj",
+        "projectPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj",
         "packagesPath": "C:\\Users\\zeynel\\.nuget\\packages\\",
-        "outputPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Common\\obj\\",
+        "outputPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.Common\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\zeynel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -136,17 +144,21 @@
         }
       }
     },
-    "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj": {
+    "D:\\Git Clones\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj",
+        "projectUniqueName": "D:\\Git Clones\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj",
         "projectName": "Buyfilet.DAL",
-        "projectPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj",
+        "projectPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj",
         "packagesPath": "C:\\Users\\zeynel\\.nuget\\packages\\",
-        "outputPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.DAL\\obj\\",
+        "outputPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.DAL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\zeynel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -160,11 +172,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj": {
-                "projectPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj"
+              "D:\\Git Clones\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj": {
+                "projectPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj"
               },
-              "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj": {
-                "projectPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj"
+              "D:\\Git Clones\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj": {
+                "projectPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj"
               }
             }
           }
@@ -213,17 +225,21 @@
         }
       }
     },
-    "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj": {
+    "D:\\Git Clones\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj",
+        "projectUniqueName": "D:\\Git Clones\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj",
         "projectName": "Buyfilet.DTOs",
-        "projectPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj",
+        "projectPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj",
         "packagesPath": "C:\\Users\\zeynel\\.nuget\\packages\\",
-        "outputPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.DTOs\\obj\\",
+        "outputPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.DTOs\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\zeynel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -267,17 +283,21 @@
         }
       }
     },
-    "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj": {
+    "D:\\Git Clones\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj",
+        "projectUniqueName": "D:\\Git Clones\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj",
         "projectName": "Buyfilet.Entities",
-        "projectPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj",
+        "projectPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj",
         "packagesPath": "C:\\Users\\zeynel\\.nuget\\packages\\",
-        "outputPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Entities\\obj\\",
+        "outputPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.Entities\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\zeynel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -321,17 +341,21 @@
         }
       }
     },
-    "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.TEST.WebUI\\Buyfilet.TEST.WebUI.csproj": {
+    "D:\\Git Clones\\BuyFilet\\Buyfilet.TEST.WebUI\\Buyfilet.TEST.WebUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.TEST.WebUI\\Buyfilet.TEST.WebUI.csproj",
+        "projectUniqueName": "D:\\Git Clones\\BuyFilet\\Buyfilet.TEST.WebUI\\Buyfilet.TEST.WebUI.csproj",
         "projectName": "Buyfilet.TEST.WebUI",
-        "projectPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.TEST.WebUI\\Buyfilet.TEST.WebUI.csproj",
+        "projectPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.TEST.WebUI\\Buyfilet.TEST.WebUI.csproj",
         "packagesPath": "C:\\Users\\zeynel\\.nuget\\packages\\",
-        "outputPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.TEST.WebUI\\obj\\",
+        "outputPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.TEST.WebUI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\zeynel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -345,8 +369,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj": {
-                "projectPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj"
+              "D:\\Git Clones\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj": {
+                "projectPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj"
               }
             }
           }

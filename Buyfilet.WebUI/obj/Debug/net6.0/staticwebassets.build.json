@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cyjzMKPngbBzL8Kqj6WotNLqTM69M04j4BNgxErE7yE=",
+  "Hash": "TP6XLHmlbLGJpTVJz/ONWk/X25euY/ThR8ixCr9MA2w=",
   "Source": "Buyfilet.WebUI",
   "BasePath": "_content/Buyfilet.WebUI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Buyfilet.WebUI\\wwwroot",
       "Source": "Buyfilet.WebUI",
-      "ContentRoot": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.WebUI\\wwwroot\\",
+      "ContentRoot": "D:\\Git Clones\\BuyFilet\\Buyfilet.WebUI\\wwwroot\\",
       "BasePath": "_content/Buyfilet.WebUI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.WebUI\\wwwroot\\assets\\css\\demo1.min.css",
+      "Identity": "D:\\Git Clones\\BuyFilet\\Buyfilet.WebUI\\wwwroot\\assets\\css\\demo1.min.css",
       "SourceId": "Buyfilet.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.WebUI\\wwwroot\\",
+      "ContentRoot": "D:\\Git Clones\\BuyFilet\\Buyfilet.WebUI\\wwwroot\\",
       "BasePath": "_content/Buyfilet.WebUI",
       "RelativePath": "assets/css/demo1.min.css",
       "AssetKind": "All",

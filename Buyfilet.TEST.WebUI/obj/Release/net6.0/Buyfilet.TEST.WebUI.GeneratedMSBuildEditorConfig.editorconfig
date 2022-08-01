@@ -8,21 +8,21 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Buyfilet.TEST.WebUI
 build_property.RootNamespace = Buyfilet.TEST.WebUI
-build_property.ProjectDir = D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.TEST.WebUI\
+build_property.ProjectDir = D:\Git Clones\BuyFilet\Buyfilet.TEST.WebUI\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.TEST.WebUI
+build_property.MSBuildProjectDirectory = D:\Git Clones\BuyFilet\Buyfilet.TEST.WebUI
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Github Clones/Buyfilet/BuyFilet/Buyfilet.TEST.WebUI/Views/Shared/_Layout.cshtml]
+[D:/Git Clones/BuyFilet/Buyfilet.TEST.WebUI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Github Clones/Buyfilet/BuyFilet/Buyfilet.TEST.WebUI/Views/Test/GetAllProducts.cshtml]
+[D:/Git Clones/BuyFilet/Buyfilet.TEST.WebUI/Views/Test/GetAllProducts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFxHZXRBbGxQcm9kdWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Github Clones/Buyfilet/BuyFilet/Buyfilet.TEST.WebUI/Views/_ViewImports.cshtml]
+[D:/Git Clones/BuyFilet/Buyfilet.TEST.WebUI/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

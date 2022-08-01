@@ -24,6 +24,8 @@ namespace Buyfilet.DTOs
         public int Discount { get; set; } //indirim miktarı
         public int Stock { get; set; }
         public int Price { get; set; }
+        public string StockCode { get; set; }
+
 
         //eklenenler
         public string Desfinition { get; set; }//ürününü genel özellikleri

@@ -7,7 +7,7 @@ namespace Buyfilet.BLL.ValidationRules
     {
         public ProductCreateDtoValidator()
         {
-            RuleFor(x => x.Name).NotEmpty().WithMessage("Boş Geçilemez");
+            RuleFor(x => x.Name).NotEmpty().WithMessage("İsim alanı boş Geçilemez");
             RuleFor(x => x.DiscountExpiresHour).GreaterThan(730).WithMessage("İndirimin bitmesine kalan süre 1 Ay'dan fazla olamaz "); 
             RuleFor(x => x.DiscountRate).GreaterThan(100).WithMessage("İndirim oranı %100'den fazla olamaz ");
             RuleFor(x => x.Desfinition).MaximumLength(500).WithMessage("Açıklama için en fazla 500 karekter girebilirsiniz");
@@ -15,6 +15,7 @@ namespace Buyfilet.BLL.ValidationRules
             RuleFor(x => x.Detail1).MaximumLength(200).WithMessage("Detay1 için en fazla 200 karekter girebilirsiniz");
             RuleFor(x => x.Detail2).MaximumLength(200).WithMessage("Detay2 için en fazla 200 karekter girebilirsiniz");
             RuleFor(x => x.Detail3).MaximumLength(200).WithMessage("Detay3 için en fazla 200 karekter girebilirsiniz");
+            RuleFor(x => x.StockCode).NotEmpty().WithMessage("İsim alanı boş Geçilemez");
         }
     }
 }

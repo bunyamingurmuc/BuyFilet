@@ -1892,19 +1892,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zeynel\\.nuget\\packages\\": {}
+    "C:\\Users\\zeynel\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj",
+      "projectUniqueName": "D:\\Git Clones\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj",
       "projectName": "Buyfilet.DAL",
-      "projectPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj",
+      "projectPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj",
       "packagesPath": "C:\\Users\\zeynel\\.nuget\\packages\\",
-      "outputPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.DAL\\obj\\",
+      "outputPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.DAL\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\zeynel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1918,11 +1923,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj": {
-              "projectPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj"
+            "D:\\Git Clones\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj": {
+              "projectPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj"
             },
-            "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj": {
-              "projectPath": "D:\\Github Clones\\Buyfilet\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj"
+            "D:\\Git Clones\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj": {
+              "projectPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj"
             }
           }
         }
