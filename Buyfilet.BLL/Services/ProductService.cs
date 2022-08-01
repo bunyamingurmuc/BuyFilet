@@ -123,6 +123,8 @@ namespace Buyfilet.BLL.Services
             return new Response<ProductListDto>(ResponseType.Success, mapped);
         }
 
+       
+
         public async Task<IResponse<ProductListDto>> GetProductWithCategory(int id)
         {
             var products = await _uow.GetRepository<Product>().GetQuery();
@@ -136,6 +138,20 @@ namespace Buyfilet.BLL.Services
             }
             var mapped= _mapper.Map<ProductListDto>(lastestproduct);
             return new Response<ProductListDto>(ResponseType.Success,mapped);
+        }
+        public async Task<IResponse<ProductListDto>> GetProductWithAllRelations(int id)
+        {
+            var products = await _uow.GetRepository<Product>().GetQuery();
+            var product = products.Where(i => i.Id == id).Include(i => i.ProductImages).Include(i => i.Category).Include(i => i.ProductVariants).Include(x=>x.Comments).Include(x=>x.Sellers);
+
+            var lastestproduct = await product.SingleOrDefaultAsync();
+
+            if (lastestproduct == null)
+            {
+                return new Response<ProductListDto>(ResponseType.NotFound, $"{id} ye sahip ürün bulunamadı");
+            }
+            var mapped = _mapper.Map<ProductListDto>(lastestproduct);
+            return new Response<ProductListDto>(ResponseType.Success, mapped);
         }
     }
 }

@@ -12,6 +12,7 @@ namespace Buyfilet.BLL.ValidationRules.Category
     {
         public CategoryUpdateDtoValidator()
         {
+            RuleFor(x => x.Id).NotEmpty().WithMessage("Id alanını boş geçemezsiniz");
             RuleFor(x => x.Definition).MaximumLength(100).WithMessage("Kategori Adı 100 karakteri aşamaz");
         }
     }

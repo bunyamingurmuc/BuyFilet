@@ -37,7 +37,7 @@ namespace Buyfilet.WebUI.Controller
     }
         public async Task<IActionResult> Product(int id)
         {
-            var responseProduct = await _productService.GetProductWithCategory(id);
+            var responseProduct = await _productService.GetProductWithAllRelations(id);
             var mainProduct = responseProduct.Data;
             var revelantProducts = await _productService.GetProductsInCategory(mainProduct.CategoryId);
             var mainrevelantProducts = revelantProducts.Data;

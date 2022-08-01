@@ -9,6 +9,7 @@ using Buyfilet.BLL.ValidationRules;
 using Buyfilet.BLL.ValidationRules.Category;
 using Buyfilet.BLL.ValidationRules.Comment;
 using Buyfilet.BLL.ValidationRules.Image;
+using Buyfilet.BLL.ValidationRules.Seller;
 using Buyfilet.DAL.Contexts;
 using Buyfilet.DAL.UnitOfWork;
 using Buyfilet.DTOs;
@@ -50,7 +51,8 @@ namespace Buyfilet.BLL.DependencyResolvers
             services.AddTransient<IValidator<CommentCreateDto>, CommentCreateDtoValidator>();
             services.AddTransient<IValidator<CommentUpdateDto>, CommentUpdateDtoValidator>();
 
-
+            services.AddTransient<IValidator<SellerUpdateDto>, SellerUpdateDtoValidator>();
+            services.AddTransient<IValidator<SellerCreateDto>, SellerCreateDtoValidator>();
 
         }
     }

@@ -8,6 +8,7 @@ using Buyfilet.DTOs;
 using Buyfilet.Entities;
 using Buyfilet.Entities.Comment;
 using Buyfilet.Entities.ProductEntities;
+using Buyfilet.Entities.Seller;
 
 namespace Buyfilet.BLL.Mappings.AutoMapper
 {
@@ -36,6 +37,10 @@ namespace Buyfilet.BLL.Mappings.AutoMapper
             CreateMap<BFUser, BFUserCreateDto>().ReverseMap();
             CreateMap<BFUser, BFUserLoginDto>().ReverseMap();
             CreateMap<BFUser, BFUserListDto>().ReverseMap();
+
+            CreateMap<Seller, SellerCreateDto>().ReverseMap();
+            CreateMap<Seller, SellerListDto>().ReverseMap();
+            CreateMap<Seller, SellerUpdateDto>().ReverseMap();
 
 
 

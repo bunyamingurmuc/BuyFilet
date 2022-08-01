@@ -63,3 +63,14 @@ D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.cs
 D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.dll
 D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.DAL\obj\Debug\net6.0\refint\Buyfilet.DAL.dll
 D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.pdb
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.DAL\bin\Debug\net6.0\Buyfilet.DAL.deps.json
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.DAL\bin\Debug\net6.0\Buyfilet.DAL.runtimeconfig.json
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.DAL\bin\Debug\net6.0\Buyfilet.DAL.dll
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.DAL\bin\Debug\net6.0\Buyfilet.DAL.pdb
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.DAL\bin\Debug\net6.0\Buyfilet.Common.dll
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.DAL\bin\Debug\net6.0\Buyfilet.Entities.dll
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.DAL\bin\Debug\net6.0\Buyfilet.Common.pdb
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.DAL\bin\Debug\net6.0\Buyfilet.Entities.pdb
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.csproj.CopyComplete
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.DAL\obj\Debug\net6.0\Buyfilet.DAL.genruntimeconfig.cache
+D:\Github Clones\Buyfilet\BuyFilet\Buyfilet.DAL\obj\Debug\net6.0\ref\Buyfilet.DAL.dll
