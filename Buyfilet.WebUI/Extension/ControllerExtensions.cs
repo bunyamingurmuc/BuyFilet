@@ -19,7 +19,7 @@ namespace Buyfilet.WebUI.Extension
             {
                 foreach (var error in response.ValidationErrors)
                 {
-                    controller.ModelState.AddModelError(error.PropertyName,error.ErrorMessage);
+                    controller.ModelState.AddModelError(error.PropertyName, error.ErrorMessage);
                 }
 
                 return controller.View(response.Data);

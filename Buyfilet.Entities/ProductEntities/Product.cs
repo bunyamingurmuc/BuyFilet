@@ -11,6 +11,7 @@ namespace Buyfilet.Entities
 {
     public class Product:BaseEntity
     {
+      
         public string Name { get; set; }
         public string Description { get; set; }
         public bool IsHome { get; set; } = false;
@@ -28,21 +29,28 @@ namespace Buyfilet.Entities
         public int NumberOfSales { get; set; }
 
 
-        //eklenenler
+        //Eklenenler
         public string Desfinition { get; set; }//ürününü genel özellikleri
         public string Detail1 { get; set; }
         public string Detail2 { get; set; }
         public string Detail3 { get; set; }
         public bool FreeCargo { get; set; } = false;
+        public double WithOutDiscount { get; set; }
+        public double Price { get; set; }
 
 
+
+
+        //Listeler
         public int CategoryId { get; set; }
         public Category Category { get; set; }
-        public List<ProductVariants> ProductVariants { get; set; }
+
         public List<ProductImage> ProductImages { get; set; }
         public List<Buyfilet.Entities.Comment.Comment> Comments { get; set; }
         public int SellerId { get; set; }
         public List<Seller.Seller> Sellers { get; set; }
+        public List<Variant> Variants { get; set; }
+
 
 
     }

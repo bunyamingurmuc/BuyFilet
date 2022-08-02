@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace Buyfilet.DTOs
 {
-    public class ImageCreateDto:IDto
+    public class ImageCreateDto: IDto
     {
+        public int Id { get; set; }
         public string ImagePath { get; set; }
         public CategoryListDto Category { get; set; }
         public int CategoryListDtoId { get; set; }

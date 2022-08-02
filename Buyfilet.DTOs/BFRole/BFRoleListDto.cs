@@ -7,9 +7,9 @@ using Buyfilet.DTOs.Interfaces;
 
 namespace Buyfilet.DTOs
 {
-    public class BFRoleListDto:IDto
+    public class BFRoleListDto: IDto
     {
         public string Definition { get; set; }
-        public string Id { get; set; }
+        public int Id { get; set; }
     }
 }

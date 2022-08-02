@@ -7,7 +7,7 @@ using Buyfilet.DTOs.Interfaces;
 
 namespace Buyfilet.DTOs
 {
-    public class SellerListDto:IDto
+    public class SellerListDto: IDto
     {
         public int Id { get; set; }
         public string Name { get; set; }

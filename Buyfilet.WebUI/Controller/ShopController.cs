@@ -1,5 +1,6 @@
 ﻿using Buyfilet.BLL.Interfaces;
 using Buyfilet.Common;
+using Buyfilet.Common.Enums;
 using Buyfilet.DTOs;
 using Buyfilet.WebUI.Extension;
 using Microsoft.AspNetCore.Mvc;
@@ -21,6 +22,23 @@ namespace Buyfilet.WebUI.Controller
         {
             var responseProduct = await _productService.GetHomeProducts();
             var responseCategory = await _categoryService.GetCategoryDescending();
+            if (responseProduct.ResponseType == ResponseType.NotFound && responseCategory.ResponseType == ResponseType.NotFound )
+            {
+                return NotFound();
+            }
+
+            if (responseProduct.ResponseType == ResponseType.ValidationError && responseCategory.ResponseType == ResponseType.ValidationError)
+            {
+                foreach (var error in responseCategory.ValidationErrors)
+                {
+                    ModelState.AddModelError(error.PropertyName, error.ErrorMessage);
+                }
+                foreach (var error in responseProduct.ValidationErrors)
+                {
+                    ModelState.AddModelError(error.PropertyName, error.ErrorMessage);
+                }
+                return View(responseProduct.Data);
+            }
             var homeProducts = responseProduct.Data.AsQueryable();
             homeProducts.Where(i => i.IsHome == true);
             
@@ -28,7 +46,7 @@ namespace Buyfilet.WebUI.Controller
             {
                 QuickViewProduct = new ProductListDto(),
                 Products = homeProducts.ToList(),
-                Categories = responseCategory.Data
+                Categories = responseCategory.Data,
             };
             
             return View(dto);
@@ -41,14 +59,30 @@ namespace Buyfilet.WebUI.Controller
             var mainProduct = responseProduct.Data;
             var revelantProducts = await _productService.GetProductsInCategory(mainProduct.CategoryId);
             var mainrevelantProducts = revelantProducts.Data;
-            var dto = new ProductHomeDto()
+            var similarProducts = await _productService.GetSimilarProducts(id);
+            if (similarProducts.ResponseType == ResponseType.Success)
             {
-                MainProduct = mainProduct,
-                RevelantProducts = mainrevelantProducts.ToList(),
-            };
+                var dto = new ProductHomeDto()
+                {
+                    MainProduct = mainProduct,
+                    RevelantProducts = mainrevelantProducts.ToList(),
+                    SimilarProducts = similarProducts.Data,
+                };
+                return View(dto);
+            }
+            else
+            {
+                var dto = new ProductHomeDto()
+                {
+                    MainProduct = mainProduct,
+                    RevelantProducts = mainrevelantProducts.ToList(),
+                };
+                return View(dto);
+            }
+            
 
 
-            return View(dto);
+            
         }
         public IActionResult Compare()
         {

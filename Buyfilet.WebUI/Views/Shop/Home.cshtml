@@ -362,7 +362,8 @@
 
                                                     <div class="product-price">
                                                         <ins class="new-price ls-50">
-                                                            @p.ProductVariants.Min(i => i.Price) TL- @p.ProductVariants.Max(i => i.Price) TL
+                                                            @Model.Products.Where(i => i.SellerId == p.SellerId && i.Name == p.Name).Min(i => i.Price)
+                                                            @Model.Products.Where(i => i.SellerId == p.SellerId && i.Name == p.Name).Min(i => i.Price) TL- @Model.Products.Where(i => i.SellerId == p.SellerId && i.Name == p.Name).Max(i => i.Price) TL
                                                         </ins>
                                                     </div>
 
@@ -378,7 +379,7 @@
 
                                                     <div class="ratings-container">
                                                         <div class="ratings-full">
-                                                            <span class="ratings" style="width: @p.EvaluationPoint%;"></span>
+                                                            <span class="ratings" style="width: (@p.EvaluationPoint)%;"></span>
                                                             <span class="tooltiptext tooltip-top"></span>
                                                         </div>
                                                         <a href="#" class="rating-reviews">(@p.NumberOfEvaluations Oylama)</a>
@@ -506,7 +507,9 @@
                                                                 </div>
                                                             </div>
                                                             <div class="product-price">
-                                                                <ins class="new-price">@product.ProductVariants.Min(i => i.Price)₺</ins>
+                                                                <ins class="new-price">
+                                                                    @Model.Products.Where(i => i.SellerId == product.SellerId && i.Name == product.Name).Min(i => i.Price) TL
+                                                                </ins>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -651,7 +654,10 @@
                                         </div>
 
                                         <div class="product-price">
-                                            <ins class="new-price">@product.ProductVariants.Min(i => i.Price)₺ - @product.ProductVariants.Max(i => i.Price)₺</ins>
+                                            <ins class="new-price">
+                                                @Model.Products.Where(i => i.SellerId == product.SellerId && i.Name == product.Name).Min(i => i.Price)₺- @Model.Products.Where(i => i.SellerId == product.SellerId && i.Name == product.Name).Max(i => i.Price)₺
+
+                                            </ins>
                                         </div>
                                     </div>
                                 </div>
@@ -714,7 +720,9 @@
                                             <a href="product-default.html" class="rating-reviews">(@product.NumberOfEvaluations)</a>
                                         </div>
                                         <div class="product-price">
-                                            <ins class="new-price">@product.ProductVariants.Min(i => i.Price)₺ - @product.ProductVariants.Max(i => i.Price)₺</ins>
+                                            <ins class="new-price">
+                                                @Model.Products.Where(i => i.SellerId == product.SellerId && i.Name == product.Name).Min(i => i.Price)₺- @Model.Products.Where(i => i.SellerId == product.SellerId && i.Name == product.Name).Max(i => i.Price)₺
+                                            </ins>
                                         </div>
                                     </div>
                                 </div>
@@ -775,7 +783,9 @@
                                             <a href="product-default.html" class="rating-reviews">(@product.NumberOfEvaluations)</a>
                                         </div>
                                         <div class="product-price">
-                                            <ins class="new-price">@product.ProductVariants.Min(i => i.Price)₺ - @product.ProductVariants.Max(i => i.Price)₺</ins>
+                                            <ins class="new-price">
+                                                @Model.Products.Where(i => i.SellerId == product.SellerId && i.Name == product.Name).Min(i => i.Price)₺- @Model.Products.Where(i => i.SellerId == product.SellerId && i.Name == product.Name).Max(i => i.Price)₺
+                                            </ins>
                                         </div>
                                     </div>
                                 </div>
@@ -837,7 +847,9 @@
                                         </div>
 
                                         <div class="product-price">
-                                            <ins class="new-price">@product.ProductVariants.Min(i => i.Price)₺ - @product.ProductVariants.Max(i => i.Price)₺</ins>
+                                            <ins class="new-price">
+                                                @Model.Products.Where(i => i.SellerId == product.SellerId && i.Name == product.Name).Min(i => i.Price)₺- @Model.Products.Where(i => i.SellerId == product.SellerId && i.Name == product.Name).Max(i => i.Price)₺
+                                            </ins>
                                         </div>
                                     </div>
                                 </div>
@@ -1035,10 +1047,12 @@
                                                         </a>
                                                     </div>
                                                     <div class="product-price">
-                                                        <ins class="new-price">@product.ProductVariants.Min(i => i.Price)₺ </ins>
+                                                        <ins class="new-price">
+                                                            @product.Price
+                                                        </ins>
                                                         @if (product.IsDiscount)
                                                         {
-                                                            <del class="old-price">@product.ProductVariants.Where(i => i.Price == @product.ProductVariants.Min(i => i.Price)).FirstOrDefault().WithOutDiscount ₺</del>
+                                                            <del class="old-price">@product.WithOutDiscount₺</del>
                                                         }
                                                     </div>
                                                 </div>
@@ -1128,7 +1142,7 @@
                                         </div>
                                         <div class="product-pa-wrapper">
                                             <div class="product-price">
-                                                <ins class="new-price">@product.ProductVariants.Min(i => i.Price) ₺</ins>
+                                                <ins class="new-price">@product.Price ₺</ins>
                                             </div>
                                             <div class="product-action">
                                                 <a href="#" class="btn-cart btn-product btn btn-icon-right btn-link btn-underline">
@@ -1379,11 +1393,10 @@
                                     </div>
                                 </div>
                                 <div class="product-price">
-                                    <ins class="new-price">@product.ProductVariants.Min(i => i.Price) ₺</ins>
-                                    @if (product.ProductVariants.Min(i => i.WithOutDiscount) != 0 && product.ProductVariants.Min(i => i.WithOutDiscount) != null)
+                                    <ins class="new-price">@product.Price ₺</ins>
+                                    @if (product.DiscountRate!=0)
                                     {
-
-                                        <del class="old-price">@product.ProductVariants.Min(i => i.WithOutDiscount)₺</del>
+                                        <del class="old-price">@product.WithOutDiscount₺</del>
                                     }
                                 </div>
                             </div>
@@ -1393,7 +1406,7 @@
                     <!-- End of Product Widget -->
 
                 </div>
-                <!-- End of Widget Products -->
+                <!-- End of Widget Products -->d
             </div>
             <!-- End of Col -->
 
@@ -1420,11 +1433,11 @@
                                     </div>
                                 </div>
                                 <div class="product-price">
-                                    <ins class="new-price">@product.ProductVariants.Min(i => i.Price) ₺</ins>
-                                    @if (product.ProductVariants.Min(i => i.WithOutDiscount) != 0 && product.ProductVariants.Min(i => i.WithOutDiscount) != null)
+                                    <ins class="new-price">@product.Price₺</ins>
+                                    @if (product.DiscountRate!=0)
                                     {
 
-                                        <del class="old-price">@product.ProductVariants.Min(i => i.WithOutDiscount)₺</del>
+                                        <del class="old-price">@product.WithOutDiscount₺</del>
                                     }
                                 </div>
                             </div>
@@ -1461,11 +1474,11 @@
                                     </div>
                                 </div>
                                 <div class="product-price">
-                                    <ins class="new-price">@product.ProductVariants.Min(i => i.Price) ₺</ins>
-                                    @if (product.ProductVariants.Min(i => i.WithOutDiscount) != 0 && product.ProductVariants.Min(i => i.WithOutDiscount) != null)
+                                    <ins class="new-price">@product.Price ₺</ins>
+                                    @if (product.DiscountRate!=0)
                                     {
 
-                                        <del class="old-price">@product.ProductVariants.Min(i => i.WithOutDiscount)₺</del>
+                                        <del class="old-price">@product.WithOutDiscount₺</del>
                                     }
                                 </div>
                             </div>
@@ -1502,11 +1515,11 @@
                                     </div>
                                 </div>
                                 <div class="product-price">
-                                    <ins class="new-price">@product.ProductVariants.Min(i => i.Price) ₺</ins>
-                                    @if (product.ProductVariants.Min(i => i.WithOutDiscount) != 0 && product.ProductVariants.Min(i => i.WithOutDiscount) != null)
+                                    <ins class="new-price">@product.Price₺</ins>
+                                    @if (product.DiscountRate!=0)
                                     {
 
-                                        <del class="old-price">@product.ProductVariants.Min(i => i.WithOutDiscount)₺</del>
+                                        <del class="old-price">@product.WithOutDiscount₺</del>
                                     }
                                 </div>
                             </div>

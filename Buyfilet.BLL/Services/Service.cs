@@ -11,8 +11,8 @@ using FluentValidation;
 namespace Buyfilet.BLL.Services
 {
     public class Service<CreateDto,UpdateDto,ListDto,T> :IService<CreateDto,UpdateDto,ListDto,T>
-    where CreateDto : class, IDto,new()
-    where ListDto : class, IDto,new()
+    where CreateDto : class, IDto, new()
+    where ListDto : class, IDto, new()
     where UpdateDto : class, IUpdateDto,new()
     where T:BaseEntity
     {

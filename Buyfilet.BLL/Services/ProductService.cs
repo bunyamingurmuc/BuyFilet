@@ -35,7 +35,7 @@ namespace Buyfilet.BLL.Services
         public async Task<IResponse<List<ProductListDto>>> GetProductsInCategory(int categoryId)
         {
             var product = await _uow.GetRepository<Product>().GetQuery();
-            var categoriesAndProducts1 = product.Where(i => i.CategoryId == categoryId).Include(i=>i.Category).Include(i=>i.ProductVariants).Include(i=>i.ProductImages).AsNoTracking();
+            var categoriesAndProducts1 = product.Where(i => i.CategoryId == categoryId).Include(i=>i.Category).Include(i=>i.ProductImages).AsNoTracking();
             var categoriesAndProducts = await categoriesAndProducts1.ToListAsync();
             if (categoriesAndProducts == null)
             {
@@ -55,38 +55,38 @@ namespace Buyfilet.BLL.Services
 
         }
 
-        public async Task<IResponse<List<ProductListDto>>> GetProductsWithFilter(List<ProductVariantDto> variants)
-        {
-            var products = await _uow.GetRepository<Product>().GetQuery();
-            await products.ToListAsync();
-            var filterProducts = new List<Product>();
-            foreach (var product in products)
-            {
-                foreach (var productVariant in product.ProductVariants)
-                {
-                    foreach (var variant in variants)
-                    {
-                        if (productVariant.Name == variant.Name && productVariant.Definition == variant.Name && productVariant.Name != null && productVariant.Definition != null)
-                        {
-                            filterProducts.Add(product);
-                        }
-                    }
-                }
-            }
-            if (filterProducts.Count == 0)
-            {
-                return new Response<List<ProductListDto>>(ResponseType.NotFound,
-                    "İstediğiniz filtreye sahip ürün bulunamadı");
-            }
+        //public async Task<IResponse<List<ProductListDto>>> GetProductsWithFilter(List<ProductVariantDto> variants)
+        //{
+        //    var products = await _uow.GetRepository<Product>().GetQuery();
+        //    await products.ToListAsync();
+        //    var filterProducts = new List<Product>();
+        //    foreach (var product in products)
+        //    {
+        //        foreach (var productVariant in product.ProductVariants)
+        //        {
+        //            foreach (var variant in variants)
+        //            {
+        //                if (productVariant.Name == variant.Name && productVariant.Definition == variant.Name && productVariant.Name != null && productVariant.Definition != null)
+        //                {
+        //                    filterProducts.Add(product);
+        //                }
+        //            }
+        //        }
+        //    }
+        //    if (filterProducts.Count == 0)
+        //    {
+        //        return new Response<List<ProductListDto>>(ResponseType.NotFound,
+        //            "İstediğiniz filtreye sahip ürün bulunamadı");
+        //    }
             
-            var mapped = _mapper.Map<List<ProductListDto>>(filterProducts);
-            return new Response<List<ProductListDto>>(ResponseType.Success, mapped);
-        }
+        //    var mapped = _mapper.Map<List<ProductListDto>>(filterProducts);
+        //    return new Response<List<ProductListDto>>(ResponseType.Success, mapped);
+        //}
 
         public async Task<IResponse<List<ProductListDto>>> GetHomeProducts()
         {
             var products = await _uow.GetRepository<Product>().GetQuery();
-            await products.Include(i=>i.ProductImages).Include(i=>i.Category).Include(i => i.ProductVariants).ToListAsync();
+            await products.Include(i=>i.ProductImages).Include(i=>i.Category).ToListAsync();
             var mapped = _mapper.Map<List<ProductListDto>>(products);
             return new Response<List<ProductListDto>>(ResponseType.Success, mapped);
         }
@@ -128,7 +128,7 @@ namespace Buyfilet.BLL.Services
         public async Task<IResponse<ProductListDto>> GetProductWithCategory(int id)
         {
             var products = await _uow.GetRepository<Product>().GetQuery();
-            var product = products.Where(i => i.Id == id).Include(i=>i.ProductImages).Include(i => i.Category).Include(i => i.ProductVariants);
+            var product = products.Where(i => i.Id == id).Include(i => i.ProductImages).Include(i => i.Category);
            
             var lastestproduct=await product.SingleOrDefaultAsync();
            
@@ -142,7 +142,7 @@ namespace Buyfilet.BLL.Services
         public async Task<IResponse<ProductListDto>> GetProductWithAllRelations(int id)
         {
             var products = await _uow.GetRepository<Product>().GetQuery();
-            var product = products.Where(i => i.Id == id).Include(i => i.ProductImages).Include(i => i.Category).Include(i => i.ProductVariants).Include(x=>x.Comments).Include(x=>x.Sellers);
+            var product = products.Where(i => i.Id == id).Include(i => i.ProductImages).Include(i => i.Category).Include(x=>x.Comments).Include(x=>x.Sellers);
 
             var lastestproduct = await product.SingleOrDefaultAsync();
 
@@ -152,6 +152,18 @@ namespace Buyfilet.BLL.Services
             }
             var mapped = _mapper.Map<ProductListDto>(lastestproduct);
             return new Response<ProductListDto>(ResponseType.Success, mapped);
+        }
+
+        public async Task<IResponse<List<ProductListDto>>> GetSimilarProducts(int id)
+        {
+            var product = await _uow.GetRepository<Product>().FindAsync(id);
+            var products = await _uow.GetRepository<Product>().GetAllAsync(x=>x.SellerId==product.SellerId&& x.Name==product.Name);
+            if (products==null)
+            {
+                return new Response<List<ProductListDto>>(ResponseType.NotFound, "aradığınız ürüne benzer ürün bulunamadı");
+            }
+            var dto = _mapper.Map<List<ProductListDto>>(products);
+            return new Response<List<ProductListDto>>(ResponseType.Success, dto);
         }
     }
 }

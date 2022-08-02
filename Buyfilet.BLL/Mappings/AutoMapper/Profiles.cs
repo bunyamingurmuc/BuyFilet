@@ -20,7 +20,6 @@ namespace Buyfilet.BLL.Mappings.AutoMapper
             CreateMap<Product, ProductCreateDto>().ReverseMap();
             CreateMap<Product, ProductUpdateDto>().ReverseMap();
             CreateMap<ProductImage, ProductImageDto>().ReverseMap();
-            CreateMap<ProductVariants, ProductVariantDto>().ReverseMap();
 
             CreateMap<CategoryCreateDto ,Category>().ReverseMap();
             CreateMap<CategoryListDto, Category>().ReverseMap();
@@ -42,6 +41,9 @@ namespace Buyfilet.BLL.Mappings.AutoMapper
             CreateMap<Seller, SellerListDto>().ReverseMap();
             CreateMap<Seller, SellerUpdateDto>().ReverseMap();
 
+            CreateMap<Variant, VariantListDto>().ReverseMap();
+            CreateMap<Variant, VariantCreateDto>().ReverseMap();
+            CreateMap<Variant, VariantUpdateDto>().ReverseMap();
 
 
 

@@ -9,6 +9,7 @@ namespace Buyfilet.DTOs
 {
     public class CategoryCreateDto : IDto
     {
+        public int Id { get; set; }
         public string Definition { get; set; }
         public List<ProductListDto> Products { get; set; }
         public ImageListDto Image { get; set; }
