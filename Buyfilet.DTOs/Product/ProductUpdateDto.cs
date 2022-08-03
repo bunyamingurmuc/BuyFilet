@@ -43,6 +43,8 @@ namespace Buyfilet.DTOs
         public List<ProductImageDto> ProductImages { get; set; }
         public List<VariantUpdateDto> Variants { get; set; }
         public int SellerId { get; set; }
-        public List<SellerUpdateDto> Sellers { get; set; }
+        public SellerUpdateDto Seller { get; set; }
+        public List<CommentUpdateDto> Comments { get; set; }
+
     }
 }

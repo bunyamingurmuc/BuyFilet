@@ -1,0 +1,54 @@
+﻿@model ProductHomeDto
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<div class="product-form product-variation-form product-image-swatch">
+
+    @foreach (var product in Model.VariousProducts)
+    {
+        if (product.Variants.Select(i=>i.Name).Contains("Renk")==true)
+        {
+
+        }
+    }
+
+    <label>Color:</label>
+    <div class="d-flex align-items-center product-variations">
+        <a href="#" class="image">
+            <img src="assets/images/products/swatch/1-800x900.jpg"
+                 alt="Product Swatch" width="24" height="24" />
+        </a>
+        <a href="#" class="image">
+            <img src="assets/images/products/swatch/7-800x900.jpg"
+                 alt="Product Swatch" width="24" height="24" />
+        </a>
+        <a href="#" class="image">
+            <img src="assets/images/products/swatch/8-800x900.jpg"
+                 alt="Product Swatch" width="24" height="24" />
+        </a>
+        <a href="#" class="image">
+            <img src="assets/images/products/swatch/14-800x900.jpg"
+                 alt="Product Swatch" width="24" height="24" />
+        </a>
+    </div>
+</div>
+<div class="product-form product-variation-form product-color-swatch">
+    <label>Color:</label>
+    <div class="d-flex align-items-center product-variations">
+        <a href="#" class="color" style="background-color: #ffcc01"></a>
+        <a href="#" class="color" style="background-color: #ca6d00;"></a>
+        <a href="#" class="color" style="background-color: #1c93cb;"></a>
+        <a href="#" class="color" style="background-color: #ccc;"></a>
+        <a href="#" class="color" style="background-color: #333;"></a>
+    </div>
+</div>
+<div class="product-form product-variation-form product-size-swatch">
+    <label class="mb-1">Size:</label>
+    <div class="flex-wrap d-flex align-items-center product-variations">
+        <a href="#" class="size">Small</a>
+        <a href="#" class="size">Medium</a>
+        <a href="#" class="size">Large</a>
+        <a href="#" class="size">Extra Large</a>
+    </div>
+    <a href="#" class="product-variation-clean">Clean All</a>
+</div>

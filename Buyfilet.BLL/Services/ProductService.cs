@@ -123,8 +123,6 @@ namespace Buyfilet.BLL.Services
             return new Response<ProductListDto>(ResponseType.Success, mapped);
         }
 
-       
-
         public async Task<IResponse<ProductListDto>> GetProductWithCategory(int id)
         {
             var products = await _uow.GetRepository<Product>().GetQuery();
@@ -142,7 +140,7 @@ namespace Buyfilet.BLL.Services
         public async Task<IResponse<ProductListDto>> GetProductWithAllRelations(int id)
         {
             var products = await _uow.GetRepository<Product>().GetQuery();
-            var product = products.Where(i => i.Id == id).Include(i => i.ProductImages).Include(i => i.Category).Include(x=>x.Comments).Include(x=>x.Sellers);
+            var product = products.Where(i => i.Id == id).Include(i => i.ProductImages).Include(i => i.Category).Include(x=>x.Comments).Include(x=>x.Seller);
 
             var lastestproduct = await product.SingleOrDefaultAsync();
 
@@ -157,11 +155,26 @@ namespace Buyfilet.BLL.Services
         public async Task<IResponse<List<ProductListDto>>> GetSimilarProducts(int id)
         {
             var product = await _uow.GetRepository<Product>().FindAsync(id);
-            var products = await _uow.GetRepository<Product>().GetAllAsync(x=>x.SellerId==product.SellerId&& x.Name==product.Name);
+            var products1 = await _uow.GetRepository<Product>().GetQuery();
+            var products=await products1.Include(i => i.ProductImages).Include(i => i.Category).Where(i=>i.SellerId==product.Id&&i.Name==product.Name).ToListAsync();
             if (products==null)
             {
                 return new Response<List<ProductListDto>>(ResponseType.NotFound, "aradığınız ürüne benzer ürün bulunamadı");
             }
+            var dto = _mapper.Map<List<ProductListDto>>(products);
+            return new Response<List<ProductListDto>>(ResponseType.Success, dto);
+        }
+
+        public async Task<IResponse<List<ProductListDto>>> GetVariousProducts(int id)
+        {
+            var product = await _uow.GetRepository<Product>().FindAsync(id);
+            if (product == null)
+            {
+                return new Response<List<ProductListDto>>(ResponseType.NotFound, "aradığınız ürüne benzer ürün bulunamadı");
+            }
+            var products1 = await _uow.GetRepository<Product>().GetQuery();
+            var products = await products1.Where(i => i.SellerId == product.SellerId && i.Name == product.Name).ToListAsync();
+           
             var dto = _mapper.Map<List<ProductListDto>>(products);
             return new Response<List<ProductListDto>>(ResponseType.Success, dto);
         }

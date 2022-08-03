@@ -9,7 +9,7 @@ namespace Buyfilet.DTOs
 {
     public class HomeDto:IDto
     {
-        public int Id { get; set; }
+        
         public List<ProductListDto> Products { get; set; }
         public List<CategoryListDto> Categories { get; set; }
         public ProductListDto QuickViewProduct { get; set; }

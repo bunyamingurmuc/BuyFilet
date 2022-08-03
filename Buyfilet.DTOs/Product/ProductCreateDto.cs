@@ -43,7 +43,9 @@ namespace Buyfilet.DTOs
         public List<ProductImageDto> ProductImages { get; set; }
         public List<VariantCreateDto> Variants { get; set; }
         public int SellerId { get; set; }
-        public List<SellerCreateDto> Sellers { get; set; }
+        public SellerCreateDto Seller { get; set; }
+        public List<CommentCreateDto> Comments { get; set; }
+
 
     }
 }

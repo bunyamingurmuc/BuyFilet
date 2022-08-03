@@ -20,11 +20,13 @@ namespace Buyfilet.DAL.Configurations.ProductConfigurations
                 new Variant(){ Id = 3,  ProductId=1, Name="Hafıza", Description="64GB", },
                 new Variant(){ Id = 4,  ProductId=1, Name="Hafıza", Description="64GB", },
                 new Variant(){ Id = 5,  ProductId=1, Name="Hafıza", Description="64GB", },
-                new Variant(){ Id = 6,  ProductId=1, Name="Hafıza", Description="64GB", },
-                new Variant(){ Id = 7,  ProductId=1, Name="Hafıza", Description="64GB", },
-                new Variant(){ Id = 8,  ProductId=1, Name="Hafıza", Description="64GB", },
-                new Variant(){ Id = 9,  ProductId=1, Name="Hafıza", Description="64GB", },
-                new Variant(){ Id = 10, ProductId=1, Name="Hafıza", Description="64GB", },
+
+                new Variant(){ Id = 6,  ProductId=1, Name="Renk", Description="64GB", },
+                new Variant(){ Id = 7,  ProductId=1, Name="Renk", Description="64GB", },
+                new Variant(){ Id = 8,  ProductId=1, Name="Renk", Description="64GB", },
+                new Variant(){ Id = 9,  ProductId=1, Name="Renk", Description="64GB", },
+                new Variant(){ Id = 10, ProductId=1, Name="Renk", Description="64GB", },
+
                 new Variant(){ Id = 11, ProductId=2, Name="Hafıza", Description="64GB", },
                 new Variant(){ Id = 12, ProductId=2, Name="Hafıza", Description="64GB", },
                 new Variant(){ Id = 13, ProductId=2, Name="Hafıza", Description="64GB", },

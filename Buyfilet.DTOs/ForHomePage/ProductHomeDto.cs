@@ -11,7 +11,8 @@ namespace Buyfilet.DTOs
         public ProductListDto MainProduct { get; set; }
         public List<ProductListDto> RevelantProducts{ get; set; } //alakalı ürünler 
         public List<ProductListDto> SimilarProducts { get; set; }
-
+        public List<ProductListDto> VariousProducts { get; set; }
+        
 
     }
 }

@@ -1,0 +1,17 @@
+﻿@model ProductListDto
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@if (Model.IsDiscount == true)
+{
+    <div class="product-countdown-container flex-wrap">
+        <label class="mr-2 text-default">Bitmeden Al:</label>
+        @{
+            DateTime expireTime = DateTime.Now.AddHours(Model.DiscountExpiresHour);
+            <div class="product-countdown countdown-compact"
+                 data-until="@expireTime.Year, @expireTime.Month, @expireTime.Day" data-compact="true">
+            </div>
+        }
+    </div>
+}
+

@@ -48,28 +48,28 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4495),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4696),
                             Definition = "admin",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4496),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4697),
                             Definition = "member",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4498),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4698),
                             Definition = "customer representative",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 4,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4498),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4699),
                             Definition = "seller",
                             IsDeleted = false
                         });
@@ -113,7 +113,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4668),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4963),
                             IsDeleted = false,
                             Name = "Mahmut",
                             Password = "1",
@@ -123,7 +123,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4669),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4965),
                             IsDeleted = false,
                             Name = "Mahmut",
                             Password = "1",
@@ -133,7 +133,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4670),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4966),
                             IsDeleted = false,
                             Name = "veysel",
                             Password = "1",
@@ -143,7 +143,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 4,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4671),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5000),
                             IsDeleted = false,
                             Name = "Ahmet",
                             Password = "1",
@@ -153,7 +153,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 5,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4672),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5001),
                             IsDeleted = false,
                             Name = "Mahmut",
                             Password = "1",
@@ -163,7 +163,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 6,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4673),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5002),
                             IsDeleted = false,
                             Name = "veysel",
                             Password = "1",
@@ -173,7 +173,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 7,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4673),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5003),
                             IsDeleted = false,
                             Name = "Ahmet",
                             Password = "1",
@@ -183,7 +183,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 8,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4674),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5004),
                             IsDeleted = false,
                             Name = "Ahmet",
                             Password = "1",
@@ -193,7 +193,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 9,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4675),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5004),
                             IsDeleted = false,
                             Name = "Mahmut",
                             Password = "1",
@@ -203,7 +203,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 10,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4676),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5005),
                             IsDeleted = false,
                             Name = "Mahmut",
                             Password = "1",
@@ -213,7 +213,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 11,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4676),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5006),
                             IsDeleted = false,
                             Name = "veysel",
                             Password = "1",
@@ -223,7 +223,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 12,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4677),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5007),
                             IsDeleted = false,
                             Name = "Ahmet",
                             Password = "1",
@@ -233,7 +233,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 13,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4678),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5007),
                             IsDeleted = false,
                             Name = "Mahmut",
                             Password = "1",
@@ -243,7 +243,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 14,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4679),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5008),
                             IsDeleted = false,
                             Name = "veysel",
                             Password = "1",
@@ -253,7 +253,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 15,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4679),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5009),
                             IsDeleted = false,
                             Name = "Ahmet",
                             Password = "1",
@@ -263,7 +263,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 16,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4680),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5010),
                             IsDeleted = false,
                             Name = "Ahmet",
                             Password = "1",
@@ -273,7 +273,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 17,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4681),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5011),
                             IsDeleted = false,
                             Name = "Ahmet",
                             Password = "1",
@@ -283,7 +283,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 18,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4682),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5011),
                             IsDeleted = false,
                             Name = "Ahmet",
                             Password = "1",
@@ -293,7 +293,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 19,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4682),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5012),
                             IsDeleted = false,
                             Name = "Ahmet",
                             Password = "1",
@@ -303,7 +303,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 20,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4683),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5013),
                             IsDeleted = false,
                             Name = "Ahmet",
                             Password = "1",
@@ -340,7 +340,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             BFRoleId = 1,
                             BFUserId = 1,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4759),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5099),
                             Id = 0,
                             IsDeleted = false
                         },
@@ -348,7 +348,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             BFRoleId = 1,
                             BFUserId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4760),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5100),
                             Id = 0,
                             IsDeleted = false
                         },
@@ -356,7 +356,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             BFRoleId = 1,
                             BFUserId = 3,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4761),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5101),
                             Id = 0,
                             IsDeleted = false
                         },
@@ -364,7 +364,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             BFRoleId = 1,
                             BFUserId = 4,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4762),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5102),
                             Id = 0,
                             IsDeleted = false
                         },
@@ -372,7 +372,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             BFRoleId = 1,
                             BFUserId = 5,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4762),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5102),
                             Id = 0,
                             IsDeleted = false
                         },
@@ -380,7 +380,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             BFRoleId = 2,
                             BFUserId = 6,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4763),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5103),
                             Id = 0,
                             IsDeleted = false
                         },
@@ -388,7 +388,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             BFRoleId = 2,
                             BFUserId = 7,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4763),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5103),
                             Id = 0,
                             IsDeleted = false
                         },
@@ -396,7 +396,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             BFRoleId = 2,
                             BFUserId = 8,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4764),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5104),
                             Id = 0,
                             IsDeleted = false
                         },
@@ -404,7 +404,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             BFRoleId = 2,
                             BFUserId = 9,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4764),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5105),
                             Id = 0,
                             IsDeleted = false
                         },
@@ -412,7 +412,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             BFRoleId = 2,
                             BFUserId = 10,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4765),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5105),
                             Id = 0,
                             IsDeleted = false
                         },
@@ -420,7 +420,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             BFRoleId = 3,
                             BFUserId = 11,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4766),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5106),
                             Id = 0,
                             IsDeleted = false
                         },
@@ -428,7 +428,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             BFRoleId = 3,
                             BFUserId = 12,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4766),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5106),
                             Id = 0,
                             IsDeleted = false
                         },
@@ -436,7 +436,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             BFRoleId = 3,
                             BFUserId = 13,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4767),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5107),
                             Id = 0,
                             IsDeleted = false
                         },
@@ -444,7 +444,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             BFRoleId = 3,
                             BFUserId = 14,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4767),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5107),
                             Id = 0,
                             IsDeleted = false
                         },
@@ -452,7 +452,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             BFRoleId = 3,
                             BFUserId = 15,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4768),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5108),
                             Id = 0,
                             IsDeleted = false
                         },
@@ -460,7 +460,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             BFRoleId = 4,
                             BFUserId = 16,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4768),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5108),
                             Id = 0,
                             IsDeleted = false
                         },
@@ -468,7 +468,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             BFRoleId = 4,
                             BFUserId = 17,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4769),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5109),
                             Id = 0,
                             IsDeleted = false
                         },
@@ -476,7 +476,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             BFRoleId = 4,
                             BFUserId = 18,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4769),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5110),
                             Id = 0,
                             IsDeleted = false
                         },
@@ -484,7 +484,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             BFRoleId = 4,
                             BFUserId = 19,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4770),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5110),
                             Id = 0,
                             IsDeleted = false
                         },
@@ -492,7 +492,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             BFRoleId = 4,
                             BFUserId = 20,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4770),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5111),
                             Id = 0,
                             IsDeleted = false
                         });
@@ -530,7 +530,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(2935),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(3347),
                             Definition = "Elektronik",
                             ImportanceNumber = 0,
                             IsDeleted = false,
@@ -539,7 +539,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(2937),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(3350),
                             Definition = "Giyim",
                             ImportanceNumber = 0,
                             IsDeleted = false,
@@ -548,7 +548,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(2938),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(3351),
                             Definition = "Moda",
                             ImportanceNumber = 0,
                             IsDeleted = false,
@@ -557,7 +557,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 4,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(2938),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(3351),
                             Definition = "Ev, Yaşam, Kırtasiye, Ofis",
                             ImportanceNumber = 0,
                             IsDeleted = false,
@@ -566,7 +566,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 5,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(2939),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(3352),
                             Definition = "Beyaz Eşya",
                             ImportanceNumber = 0,
                             IsDeleted = false,
@@ -575,7 +575,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 6,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(2939),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(3353),
                             Definition = "Oto, Bahçe, Yapı Market",
                             ImportanceNumber = 0,
                             IsDeleted = false,
@@ -584,7 +584,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 7,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(2940),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(3353),
                             Definition = "Anne, Bebek, Oyuncak",
                             ImportanceNumber = 0,
                             IsDeleted = false,
@@ -593,7 +593,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 8,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(2941),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(3354),
                             Definition = "Spor, Outdoor",
                             ImportanceNumber = 0,
                             IsDeleted = false,
@@ -602,7 +602,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 9,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(2941),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(3355),
                             Definition = "Kozmetik, Kişisel Bakım",
                             ImportanceNumber = 0,
                             IsDeleted = false,
@@ -611,7 +611,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 10,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(2942),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(3355),
                             Definition = "Süpermarket, Pet Shop",
                             ImportanceNumber = 0,
                             IsDeleted = false,
@@ -667,7 +667,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 1,
                             BFUserId = 1,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5715),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5994),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme ",
                             EvaluationPoint = 50,
                             IsDeleted = false,
@@ -679,7 +679,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 2,
                             BFUserId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5718),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5997),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme ",
                             EvaluationPoint = 50,
                             IsDeleted = false,
@@ -691,7 +691,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 3,
                             BFUserId = 3,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5719),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5998),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme ",
                             EvaluationPoint = 50,
                             IsDeleted = false,
@@ -703,7 +703,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 4,
                             BFUserId = 4,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5720),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5999),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme ",
                             EvaluationPoint = 50,
                             IsDeleted = false,
@@ -715,7 +715,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 5,
                             BFUserId = 5,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5721),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6000),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme ",
                             EvaluationPoint = 50,
                             IsDeleted = false,
@@ -727,7 +727,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 6,
                             BFUserId = 6,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5722),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6002),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme ",
                             EvaluationPoint = 50,
                             IsDeleted = false,
@@ -739,7 +739,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 7,
                             BFUserId = 7,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5723),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6003),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme ",
                             EvaluationPoint = 50,
                             IsDeleted = false,
@@ -751,7 +751,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 8,
                             BFUserId = 8,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5723),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6004),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme ",
                             EvaluationPoint = 50,
                             IsDeleted = false,
@@ -763,7 +763,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 9,
                             BFUserId = 9,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5724),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6065),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme ",
                             EvaluationPoint = 50,
                             IsDeleted = false,
@@ -775,7 +775,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 10,
                             BFUserId = 10,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5725),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6067),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme ",
                             EvaluationPoint = 50,
                             IsDeleted = false,
@@ -787,7 +787,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 11,
                             BFUserId = 11,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5726),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6068),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme ",
                             EvaluationPoint = 50,
                             IsDeleted = false,
@@ -799,7 +799,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 12,
                             BFUserId = 12,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5727),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6069),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme ",
                             EvaluationPoint = 50,
                             IsDeleted = false,
@@ -811,7 +811,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 13,
                             BFUserId = 13,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5727),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6070),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme ",
                             EvaluationPoint = 50,
                             IsDeleted = false,
@@ -823,7 +823,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 14,
                             BFUserId = 14,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5728),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6070),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme ",
                             EvaluationPoint = 50,
                             IsDeleted = false,
@@ -835,7 +835,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 15,
                             BFUserId = 15,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5729),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6071),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme ",
                             EvaluationPoint = 50,
                             IsDeleted = false,
@@ -847,7 +847,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 16,
                             BFUserId = 16,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5730),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6072),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme ",
                             EvaluationPoint = 50,
                             IsDeleted = false,
@@ -859,7 +859,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 17,
                             BFUserId = 17,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5731),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6073),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme ",
                             EvaluationPoint = 50,
                             IsDeleted = false,
@@ -871,7 +871,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 18,
                             BFUserId = 18,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5731),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6074),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme ",
                             EvaluationPoint = 50,
                             IsDeleted = false,
@@ -883,7 +883,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 19,
                             BFUserId = 19,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5732),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6075),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme ",
                             EvaluationPoint = 50,
                             IsDeleted = false,
@@ -895,7 +895,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 20,
                             BFUserId = 20,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5733),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6076),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme ",
                             EvaluationPoint = 50,
                             IsDeleted = false,
@@ -937,7 +937,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(2453),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(2857),
                             ImagePath = "https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/Automation/BrandBoutique/2021/4/25/20210425_15461619354815_Adidas.png",
                             IsDeleted = false
                         },
@@ -945,7 +945,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 2,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(2468),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(2869),
                             ImagePath = "https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/Automation/BrandBoutique/2021/4/25/20210425_15461619354815_Adidas.png",
                             IsDeleted = false
                         },
@@ -953,7 +953,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 3,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(2468),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(2870),
                             ImagePath = "https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/Automation/BrandBoutique/2021/4/25/20210425_15461619354815_Adidas.png",
                             IsDeleted = false
                         },
@@ -961,7 +961,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 4,
                             CategoryId = 4,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(2469),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(2871),
                             ImagePath = "https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/Automation/BrandBoutique/2021/4/25/20210425_15461619354815_Adidas.png",
                             IsDeleted = false
                         },
@@ -969,7 +969,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 5,
                             CategoryId = 5,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(2470),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(2871),
                             ImagePath = "https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/Automation/BrandBoutique/2021/4/25/20210425_15461619354815_Adidas.png",
                             IsDeleted = false
                         },
@@ -977,7 +977,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 6,
                             CategoryId = 6,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(2470),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(2872),
                             ImagePath = "https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/Automation/BrandBoutique/2021/4/25/20210425_15461619354815_Adidas.png",
                             IsDeleted = false
                         },
@@ -985,7 +985,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 7,
                             CategoryId = 7,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(2471),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(2873),
                             ImagePath = "https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/Automation/BrandBoutique/2021/4/25/20210425_15461619354815_Adidas.png",
                             IsDeleted = false
                         },
@@ -993,7 +993,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 8,
                             CategoryId = 8,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(2472),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(2873),
                             ImagePath = "https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/Automation/BrandBoutique/2021/4/25/20210425_15461619354815_Adidas.png",
                             IsDeleted = false
                         },
@@ -1001,7 +1001,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 9,
                             CategoryId = 9,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(2472),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(2874),
                             ImagePath = "https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/Automation/BrandBoutique/2021/4/25/20210425_15461619354815_Adidas.png",
                             IsDeleted = false
                         },
@@ -1009,7 +1009,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 10,
                             CategoryId = 10,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(2473),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(2874),
                             ImagePath = "https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/Automation/BrandBoutique/2021/4/25/20210425_15461619354815_Adidas.png",
                             IsDeleted = false
                         });
@@ -1118,6 +1118,8 @@ namespace Buyfilet.DAL.Migrations
 
                     b.HasIndex("CategoryId");
 
+                    b.HasIndex("SellerId");
+
                     b.ToTable("Products");
 
                     b.HasData(
@@ -1125,7 +1127,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4009),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4397),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1154,7 +1156,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 2,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4017),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4405),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1183,7 +1185,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 3,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4020),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4409),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1212,7 +1214,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 4,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4023),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4410),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1241,7 +1243,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 5,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4025),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4412),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1270,7 +1272,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 6,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4027),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4414),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1299,7 +1301,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 7,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4028),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4416),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1328,7 +1330,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 8,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4030),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4419),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1357,7 +1359,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 9,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4032),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4421),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1386,7 +1388,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 10,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4034),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4422),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1415,7 +1417,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 11,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4035),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4426),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1444,7 +1446,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 12,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4037),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4427),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1473,7 +1475,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 13,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4038),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4429),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1502,7 +1504,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 14,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4040),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4431),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1531,7 +1533,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 15,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4041),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4433),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1560,7 +1562,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 16,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4044),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4435),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1589,7 +1591,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 17,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4045),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4439),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1618,7 +1620,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 18,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4047),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4476),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1647,7 +1649,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 19,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4048),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4480),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1676,7 +1678,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 20,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4050),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4482),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1705,7 +1707,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 21,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4051),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4484),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1734,7 +1736,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 22,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4053),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4486),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1763,7 +1765,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 23,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4055),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4487),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1792,7 +1794,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 24,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4057),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4489),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1821,7 +1823,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 25,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4059),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4490),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1850,7 +1852,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 26,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4063),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4492),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1879,7 +1881,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 27,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4064),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4493),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1908,7 +1910,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 28,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4066),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4496),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1937,7 +1939,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 29,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4068),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4497),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1966,7 +1968,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 30,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4070),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4499),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -1995,7 +1997,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 31,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4071),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4500),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -2024,7 +2026,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 32,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4073),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4502),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -2053,7 +2055,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 33,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4075),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4504),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -2082,7 +2084,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 34,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4116),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4505),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -2111,7 +2113,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 35,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4118),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4507),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -2140,7 +2142,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 36,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4119),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4509),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -2169,7 +2171,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 37,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4122),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4510),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -2198,7 +2200,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 38,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4123),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4512),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -2227,7 +2229,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 39,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4125),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4514),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -2256,7 +2258,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 40,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4126),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(4518),
                             Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
                             Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             Detail1 = "Mauris sed sagittis sapien, at mattis purus",
@@ -2276,1746 +2278,6 @@ namespace Buyfilet.DAL.Migrations
                             NumberOfEvaluations = 500,
                             NumberOfSales = 0,
                             Price = 4500.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 41,
-                            CategoryId = 1,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4128),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = true,
-                            IsHome = true,
-                            IsHotProduct = true,
-                            Name = "İphone 4s",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 414500.0,
-                            SellerId = 1,
-                            Stock = 5,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 42,
-                            CategoryId = 1,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4130),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "İphone 4s",
-                            NumberOfClick = 14,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 424500.0,
-                            SellerId = 1,
-                            Stock = 0,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 43,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4131),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = true,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Gömlek",
-                            NumberOfClick = 13,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 434500.0,
-                            SellerId = 1,
-                            Stock = 8,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 44,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4133),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 34,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 444500.0,
-                            SellerId = 1,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 45,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4135),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 76,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 454500.0,
-                            SellerId = 1,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 46,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4136),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 89,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 464500.0,
-                            SellerId = 1,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 47,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4138),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 67,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 474500.0,
-                            SellerId = 1,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 48,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4140),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 89,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 484500.0,
-                            SellerId = 1,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 49,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4144),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = true,
-                            IsHome = true,
-                            IsHotProduct = true,
-                            Name = "Pantolon",
-                            NumberOfClick = 474,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 494500.0,
-                            SellerId = 1,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 50,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4145),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = true,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 67,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 504500.0,
-                            SellerId = 1,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 51,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4147),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 89,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 40.0,
-                            SellerId = 2,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 52,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4149),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 40.0,
-                            SellerId = 2,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 53,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4151),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 40.0,
-                            SellerId = 2,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 54,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4153),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 40.0,
-                            SellerId = 2,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 55,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4154),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 40.0,
-                            SellerId = 2,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 56,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4156),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = true,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 40.0,
-                            SellerId = 2,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 57,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4157),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 40.0,
-                            SellerId = 2,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 58,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4159),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 40.0,
-                            SellerId = 2,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 59,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4161),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 40.0,
-                            SellerId = 2,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 60,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4163),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = true,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 50.0,
-                            SellerId = 2,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 61,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4164),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 61500.0,
-                            SellerId = 3,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 62,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4166),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = false,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 62500.0,
-                            SellerId = 3,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 63,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4167),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = false,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 63500.0,
-                            SellerId = 3,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 64,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4169),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = true,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 64500.0,
-                            SellerId = 3,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 65,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4170),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = false,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 65500.0,
-                            SellerId = 3,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 66,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4172),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 66500.0,
-                            SellerId = 3,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 67,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4174),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 67500.0,
-                            SellerId = 3,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 68,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4176),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = false,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 68500.0,
-                            SellerId = 3,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 69,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4180),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 69500.0,
-                            SellerId = 3,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 70,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4182),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 70500.0,
-                            SellerId = 3,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 71,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4183),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 8100.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 72,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4185),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 8200.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 73,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4187),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = true,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 8300.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 74,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4189),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 8400.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 75,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4191),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 8500.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 76,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4192),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 8600.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 77,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4223),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 8700.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 78,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4225),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 8800.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 79,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4227),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 8900.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 80,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4229),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 8900.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 81,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4231),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 8100.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 82,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4232),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 8200.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 83,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4234),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = true,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 8300.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 84,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4235),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 8400.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 85,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4237),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 8500.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 86,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4238),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 8600.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 87,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4241),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 8700.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 88,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4242),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 8800.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 89,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4244),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 8900.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 90,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4245),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 9000.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 91,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4247),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 9100.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 92,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4248),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 9200.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 93,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4250),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = true,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 9300.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 94,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4251),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 9400.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 95,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4254),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 9500.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 96,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4259),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 9600.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 97,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4260),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 9700.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 98,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4262),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 9800.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 99,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4263),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 9900.0,
-                            SellerId = 4,
-                            Stock = 4,
-                            StockCode = "A58GH256A",
-                            WithOutDiscount = 5000.0
-                        },
-                        new
-                        {
-                            Id = 100,
-                            CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4265),
-                            Description = "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme denemedeneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme",
-                            Desfinition = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            Detail1 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail2 = "Mauris sed sagittis sapien, at mattis purus",
-                            Detail3 = "Mauris sed sagittis sapien, at mattis purus",
-                            Discount = 1000,
-                            DiscountExpiresHour = 28,
-                            DiscountRate = 50,
-                            EvaluationPoint = 40.0,
-                            FreeCargo = true,
-                            IsDeleted = false,
-                            IsDiscount = false,
-                            IsHome = true,
-                            IsHotProduct = false,
-                            Name = "Pantolon",
-                            NumberOfClick = 10,
-                            NumberOfEvaluations = 500,
-                            NumberOfSales = 0,
-                            Price = 1000.0,
                             SellerId = 4,
                             Stock = 4,
                             StockCode = "A58GH256A",
@@ -4054,79 +2316,79 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4833),
-                            ImagePath = "https://productimages.hepsiburada.net/s/189/550/110000155170579.jpg/format:webp",
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5197),
+                            ImagePath = "https://productimages.hepsiburada.net/s/54/550/11186104270898.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 1
                         },
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4835),
-                            ImagePath = "https://productimages.hepsiburada.net/s/189/550/110000155170580.jpg/format:webp",
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5198),
+                            ImagePath = "https://productimages.hepsiburada.net/s/54/550/11186104270898.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 1
                         },
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4836),
-                            ImagePath = "https://productimages.hepsiburada.net/s/189/550/110000155170581.jpg/format:webp",
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5199),
+                            ImagePath = "https://productimages.hepsiburada.net/s/54/550/11186104270898.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 1
                         },
                         new
                         {
                             Id = 4,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4836),
-                            ImagePath = "https://productimages.hepsiburada.net/s/189/550/110000155170582.jpg/format:webp",
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5199),
+                            ImagePath = "https://productimages.hepsiburada.net/s/54/550/11186104270898.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 1
                         },
                         new
                         {
                             Id = 5,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4837),
-                            ImagePath = "https://productimages.hepsiburada.net/s/189/550/110000155170583.jpg/format:webp",
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5200),
+                            ImagePath = "https://productimages.hepsiburada.net/s/54/550/11186104270898.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 1
                         },
                         new
                         {
                             Id = 6,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4838),
-                            ImagePath = "https://productimages.hepsiburada.net/s/189/550/110000155170584.jpg/format:webp",
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5201),
+                            ImagePath = "https://productimages.hepsiburada.net/s/54/550/11186104270898.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 1
                         },
                         new
                         {
                             Id = 7,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4838),
-                            ImagePath = "https://productimages.hepsiburada.net/s/189/550/110000155170585.jpg/format:webp",
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5201),
+                            ImagePath = "https://productimages.hepsiburada.net/s/54/550/11186104270898.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 1
                         },
                         new
                         {
                             Id = 8,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4839),
-                            ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5202),
+                            ImagePath = "https://productimages.hepsiburada.net/s/54/550/11186104270898.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 1
                         },
                         new
                         {
                             Id = 9,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4840),
-                            ImagePath = "https://productimages.hepsiburada.net/s/189/550/110000155170587.jpg/format:webp",
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5203),
+                            ImagePath = "https://productimages.hepsiburada.net/s/54/550/11186104270898.jpg/format:webp",
                             IsDeleted = false,
-                            ProductId = 9
+                            ProductId = 1
                         },
                         new
                         {
                             Id = 10,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4840),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5203),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 1
@@ -4134,7 +2396,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 11,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4842),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5204),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 1
@@ -4142,7 +2404,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 12,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4842),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5205),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 2
@@ -4150,7 +2412,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 13,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4843),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5205),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 3
@@ -4158,7 +2420,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 14,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4844),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5206),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 4
@@ -4166,7 +2428,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 15,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4845),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5206),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 5
@@ -4174,7 +2436,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 16,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4845),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5207),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 6
@@ -4182,7 +2444,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 17,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4846),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5208),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 7
@@ -4190,7 +2452,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 18,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4846),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5208),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 8
@@ -4198,7 +2460,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 19,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4847),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5209),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 9
@@ -4206,7 +2468,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 20,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4848),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5209),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 10
@@ -4214,7 +2476,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 21,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4848),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5210),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 11
@@ -4222,7 +2484,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 22,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4849),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5211),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 12
@@ -4230,7 +2492,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 23,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4849),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5211),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 13
@@ -4238,7 +2500,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 24,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4850),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5212),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 14
@@ -4246,7 +2508,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 25,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4851),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5213),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 15
@@ -4254,7 +2516,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 26,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4851),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5213),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 16
@@ -4262,7 +2524,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 27,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4852),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5214),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 17
@@ -4270,7 +2532,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 28,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4853),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5214),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 18
@@ -4278,7 +2540,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 29,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4853),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5215),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 19
@@ -4286,7 +2548,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 30,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4854),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5216),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 20
@@ -4294,7 +2556,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 31,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4854),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5216),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 21
@@ -4302,7 +2564,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 32,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4855),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5220),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 22
@@ -4310,7 +2572,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 33,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4890),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5221),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 23
@@ -4318,7 +2580,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 34,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4891),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5221),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 24
@@ -4326,7 +2588,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 35,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4891),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5222),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 25
@@ -4334,7 +2596,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 36,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4892),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5223),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 26
@@ -4342,7 +2604,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 37,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4893),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5223),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 27
@@ -4350,7 +2612,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 38,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4893),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5224),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 28
@@ -4358,7 +2620,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 39,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4894),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5224),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 29
@@ -4366,7 +2628,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 40,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4895),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5225),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 30
@@ -4374,7 +2636,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 41,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4895),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5226),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 31
@@ -4382,7 +2644,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 42,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4897),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5226),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 32
@@ -4390,7 +2652,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 43,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4897),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5227),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 33
@@ -4398,7 +2660,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 44,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4898),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5228),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 34
@@ -4406,7 +2668,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 45,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4898),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5228),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 35
@@ -4414,7 +2676,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 46,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4899),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5229),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 36
@@ -4422,7 +2684,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 47,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4900),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5230),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 37
@@ -4430,7 +2692,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 48,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4900),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5230),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 38
@@ -4438,7 +2700,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 49,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4901),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5231),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 39
@@ -4446,7 +2708,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 50,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4901),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5232),
                             ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
                             IsDeleted = false,
                             ProductId = 40
@@ -4454,7 +2716,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 51,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4902),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5232),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 1
@@ -4462,7 +2724,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 52,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4903),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5233),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 2
@@ -4470,7 +2732,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 53,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4903),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5233),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 3
@@ -4478,7 +2740,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 54,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4904),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5234),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 4
@@ -4486,7 +2748,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 55,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4904),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5235),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 5
@@ -4494,7 +2756,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 56,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4905),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5235),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 6
@@ -4502,7 +2764,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 57,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4906),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5270),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 7
@@ -4510,7 +2772,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 58,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4906),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5271),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 8
@@ -4518,7 +2780,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 59,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4907),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5272),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 9
@@ -4526,7 +2788,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 60,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4908),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5272),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 10
@@ -4534,7 +2796,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 61,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4908),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5273),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 1
@@ -4542,7 +2804,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 62,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4909),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5274),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 2
@@ -4550,7 +2812,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 63,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4909),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5275),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 3
@@ -4558,7 +2820,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 64,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4910),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5275),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 4
@@ -4566,7 +2828,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 65,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4911),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5276),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 5
@@ -4574,7 +2836,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 66,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4911),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5277),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 6
@@ -4582,7 +2844,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 67,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4912),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5277),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 7
@@ -4590,7 +2852,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 68,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4912),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5278),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 8
@@ -4598,7 +2860,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 69,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4913),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5279),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 9
@@ -4606,7 +2868,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 70,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4914),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5279),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 10
@@ -4614,7 +2876,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 71,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4914),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5280),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 11
@@ -4622,7 +2884,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 72,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4915),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5280),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 12
@@ -4630,7 +2892,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 73,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4916),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5281),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 13
@@ -4638,7 +2900,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 74,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4916),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5282),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 14
@@ -4646,7 +2908,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 75,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4917),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5282),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 15
@@ -4654,7 +2916,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 76,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4917),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5283),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 16
@@ -4662,7 +2924,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 77,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4918),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5284),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 17
@@ -4670,7 +2932,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 78,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4919),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5284),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 18
@@ -4678,7 +2940,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 79,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4919),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5285),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 19
@@ -4686,7 +2948,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 80,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4920),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5285),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 20
@@ -4694,7 +2956,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 81,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4920),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5286),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 21
@@ -4702,7 +2964,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 82,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4922),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5287),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 22
@@ -4710,7 +2972,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 83,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4923),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5287),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 23
@@ -4718,7 +2980,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 84,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4923),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5288),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 24
@@ -4726,7 +2988,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 85,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4924),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5288),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 25
@@ -4734,7 +2996,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 86,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4924),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5289),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 26
@@ -4742,7 +3004,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 87,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4925),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5290),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 27
@@ -4750,7 +3012,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 88,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4926),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5290),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 28
@@ -4758,7 +3020,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 89,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4926),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5291),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 29
@@ -4766,7 +3028,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 90,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4927),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5292),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 30
@@ -4774,7 +3036,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 91,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4927),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5292),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 31
@@ -4782,7 +3044,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 92,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4928),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5293),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 32
@@ -4790,7 +3052,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 93,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4929),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5293),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 33
@@ -4798,7 +3060,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 94,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4929),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5294),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 34
@@ -4806,7 +3068,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 95,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4930),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5295),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 35
@@ -4814,7 +3076,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 96,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4931),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5295),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 36
@@ -4822,7 +3084,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 97,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4931),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5296),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 37
@@ -4830,7 +3092,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 98,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4932),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5297),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 38
@@ -4838,7 +3100,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 99,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4932),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5299),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 39
@@ -4846,7 +3108,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 100,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(4933),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5300),
                             ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg",
                             IsDeleted = false,
                             ProductId = 40
@@ -4888,7 +3150,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5822),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6159),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -4897,7 +3159,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5823),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6160),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -4906,7 +3168,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5824),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6161),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -4915,7 +3177,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 4,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5825),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6162),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -4924,7 +3186,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 5,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5825),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6162),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -4933,52 +3195,52 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 6,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5826),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6163),
                             Description = "64GB",
                             IsDeleted = false,
-                            Name = "Hafıza",
+                            Name = "Renk",
                             ProductId = 1
                         },
                         new
                         {
                             Id = 7,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5827),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6164),
                             Description = "64GB",
                             IsDeleted = false,
-                            Name = "Hafıza",
+                            Name = "Renk",
                             ProductId = 1
                         },
                         new
                         {
                             Id = 8,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5827),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6164),
                             Description = "64GB",
                             IsDeleted = false,
-                            Name = "Hafıza",
+                            Name = "Renk",
                             ProductId = 1
                         },
                         new
                         {
                             Id = 9,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5828),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6165),
                             Description = "64GB",
                             IsDeleted = false,
-                            Name = "Hafıza",
+                            Name = "Renk",
                             ProductId = 1
                         },
                         new
                         {
                             Id = 10,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5829),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6166),
                             Description = "64GB",
                             IsDeleted = false,
-                            Name = "Hafıza",
+                            Name = "Renk",
                             ProductId = 1
                         },
                         new
                         {
                             Id = 11,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5829),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6166),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -4987,7 +3249,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 12,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5830),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6167),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -4996,7 +3258,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 13,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5831),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6168),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5005,7 +3267,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 14,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5831),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6169),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5014,7 +3276,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 15,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5832),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6169),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5023,7 +3285,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 16,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5833),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6170),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5032,7 +3294,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 17,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5834),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6171),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5041,7 +3303,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 18,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5835),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6172),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5050,7 +3312,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 19,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5835),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6173),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5059,7 +3321,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 20,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5836),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6174),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5068,7 +3330,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 21,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5837),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6174),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5077,7 +3339,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 22,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5837),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6175),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5086,7 +3348,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 23,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5838),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6176),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5095,7 +3357,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 24,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5839),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6176),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5104,7 +3366,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 25,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5839),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6177),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5113,7 +3375,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 26,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5840),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6178),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5122,7 +3384,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 27,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5841),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6178),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5131,7 +3393,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 28,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5841),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6179),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5140,7 +3402,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 29,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5842),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6180),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5149,7 +3411,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 30,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5843),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6180),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5158,7 +3420,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 31,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5843),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6181),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5167,7 +3429,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 32,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5844),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6182),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5176,7 +3438,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 33,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5845),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6183),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5185,7 +3447,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 34,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5845),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6183),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5194,7 +3456,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 35,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5846),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6184),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5203,7 +3465,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 36,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5847),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6185),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5212,7 +3474,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 37,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5847),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6185),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5221,7 +3483,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 38,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5848),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6186),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5230,7 +3492,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 39,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5849),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6187),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5239,7 +3501,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 40,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5849),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6187),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5248,7 +3510,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 41,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5850),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6188),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5257,7 +3519,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 42,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5851),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6189),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5266,7 +3528,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 43,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5852),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6190),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5275,7 +3537,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 44,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5853),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6191),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5284,7 +3546,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 45,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5853),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6192),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5293,7 +3555,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 46,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5854),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6192),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5302,7 +3564,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 47,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5855),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6193),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5311,7 +3573,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 48,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5855),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6194),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5320,7 +3582,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 49,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5856),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6194),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5329,7 +3591,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 50,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5856),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6195),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5338,7 +3600,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 51,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5857),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6196),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5347,7 +3609,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 52,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5858),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6196),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5356,7 +3618,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 53,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5858),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6199),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5365,7 +3627,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 54,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5861),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6199),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5374,7 +3636,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 55,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5861),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6200),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5383,7 +3645,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 56,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5862),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6201),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5392,7 +3654,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 57,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5863),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6202),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5401,7 +3663,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 58,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5863),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6202),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5410,7 +3672,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 59,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5864),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6203),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5419,7 +3681,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 60,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5865),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6204),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5428,7 +3690,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 61,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5865),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6204),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5437,7 +3699,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 62,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5866),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6205),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5446,7 +3708,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 63,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5867),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6206),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5455,7 +3717,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 64,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5867),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6206),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5464,7 +3726,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 65,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5868),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6207),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5473,7 +3735,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 66,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5906),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6208),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5482,7 +3744,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 67,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5907),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6208),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5491,7 +3753,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 68,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5908),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6210),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5500,7 +3762,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 69,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5909),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6210),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5509,7 +3771,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 70,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5909),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6211),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5518,7 +3780,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 71,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5910),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6212),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5527,7 +3789,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 72,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5911),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6212),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5536,7 +3798,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 73,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5911),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6213),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5545,7 +3807,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 74,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5912),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6214),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5554,7 +3816,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 75,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5913),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6214),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5563,7 +3825,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 76,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5913),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6215),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5572,7 +3834,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 77,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5914),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6216),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5581,7 +3843,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 78,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5915),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6216),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5590,7 +3852,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 79,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5915),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6217),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5599,7 +3861,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 80,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5916),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6218),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5608,7 +3870,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 81,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5917),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6218),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5617,7 +3879,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 82,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5917),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6219),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5626,7 +3888,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 83,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5918),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6220),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5635,7 +3897,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 84,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5919),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6220),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5644,7 +3906,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 85,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5919),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6221),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5653,7 +3915,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 86,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5920),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6222),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5662,7 +3924,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 87,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5921),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6261),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5671,7 +3933,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 88,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5922),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6262),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5680,7 +3942,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 89,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5922),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6263),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5689,7 +3951,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 90,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5923),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6263),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5698,7 +3960,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 91,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5924),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6264),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5707,7 +3969,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 92,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5924),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6265),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5716,7 +3978,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 93,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5925),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6265),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5725,7 +3987,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 94,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5926),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6266),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5734,7 +3996,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 95,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5926),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6267),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5743,7 +4005,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 96,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5927),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6267),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5752,7 +4014,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 97,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5928),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6268),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5761,7 +4023,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 98,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5928),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6269),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5770,7 +4032,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 99,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5929),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6269),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5779,7 +4041,7 @@ namespace Buyfilet.DAL.Migrations
                         new
                         {
                             Id = 100,
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5930),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(6270),
                             Description = "64GB",
                             IsDeleted = false,
                             Name = "Hafıza",
@@ -5836,7 +4098,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 1,
                             Address = "deneme deneme deneme deneme deneme deneme ",
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5410),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5762),
                             IsApproved = false,
                             IsDeleted = false,
                             Logo = "https://logos-world.net/wp-content/uploads/2020/04/Huawei-Logo.png",
@@ -5848,7 +4110,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 2,
                             Address = "deneme deneme deneme deneme deneme deneme ",
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5413),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5767),
                             IsApproved = true,
                             IsDeleted = false,
                             Logo = "https://logos-world.net/wp-content/uploads/2020/04/Huawei-Logo.png",
@@ -5860,7 +4122,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 3,
                             Address = "deneme deneme deneme deneme deneme deneme ",
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5414),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5769),
                             IsApproved = false,
                             IsDeleted = false,
                             Logo = "https://logos-world.net/wp-content/uploads/2020/04/Huawei-Logo.png",
@@ -5872,7 +4134,7 @@ namespace Buyfilet.DAL.Migrations
                         {
                             Id = 4,
                             Address = "deneme deneme deneme deneme deneme deneme ",
-                            CreatedDate = new DateTime(2022, 8, 2, 14, 45, 18, 414, DateTimeKind.Local).AddTicks(5415),
+                            CreatedDate = new DateTime(2022, 8, 3, 16, 41, 44, 280, DateTimeKind.Local).AddTicks(5769),
                             IsApproved = true,
                             IsDeleted = false,
                             Logo = "https://logos-world.net/wp-content/uploads/2020/04/Huawei-Logo.png",
@@ -5880,21 +4142,6 @@ namespace Buyfilet.DAL.Migrations
                             Surname = "deneme ",
                             TcNo = 26588331534L
                         });
-                });
-
-            modelBuilder.Entity("ProductSeller", b =>
-                {
-                    b.Property<int>("ProductsId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("SellersId")
-                        .HasColumnType("int");
-
-                    b.HasKey("ProductsId", "SellersId");
-
-                    b.HasIndex("SellersId");
-
-                    b.ToTable("ProductSeller");
                 });
 
             modelBuilder.Entity("Buyfilet.Entities.BFUserRole", b =>
@@ -5954,7 +4201,15 @@ namespace Buyfilet.DAL.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("Buyfilet.Entities.Seller.Seller", "Seller")
+                        .WithMany("Products")
+                        .HasForeignKey("SellerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Category");
+
+                    b.Navigation("Seller");
                 });
 
             modelBuilder.Entity("Buyfilet.Entities.ProductEntities.ProductImage", b =>
@@ -5977,21 +4232,6 @@ namespace Buyfilet.DAL.Migrations
                         .IsRequired();
 
                     b.Navigation("Product");
-                });
-
-            modelBuilder.Entity("ProductSeller", b =>
-                {
-                    b.HasOne("Buyfilet.Entities.Product", null)
-                        .WithMany()
-                        .HasForeignKey("ProductsId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Buyfilet.Entities.Seller.Seller", null)
-                        .WithMany()
-                        .HasForeignKey("SellersId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
                 });
 
             modelBuilder.Entity("Buyfilet.Entities.BFRole", b =>
@@ -6018,6 +4258,11 @@ namespace Buyfilet.DAL.Migrations
                     b.Navigation("ProductImages");
 
                     b.Navigation("Variants");
+                });
+
+            modelBuilder.Entity("Buyfilet.Entities.Seller.Seller", b =>
+                {
+                    b.Navigation("Products");
                 });
 #pragma warning restore 612, 618
         }

@@ -4,6 +4,7 @@ using Buyfilet.Common.Enums;
 using Buyfilet.DTOs;
 using Buyfilet.WebUI.Extension;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Buyfilet.WebUI.Controller
 {
@@ -49,6 +50,8 @@ namespace Buyfilet.WebUI.Controller
                 Categories = responseCategory.Data,
             };
             
+            
+            
             return View(dto);
 
       
@@ -56,17 +59,28 @@ namespace Buyfilet.WebUI.Controller
         public async Task<IActionResult> Product(int id)
         {
             var responseProduct = await _productService.GetProductWithAllRelations(id);
+            if (responseProduct.ResponseType==ResponseType.NotFound)
+            {
+                return NotFound();
+            }
             var mainProduct = responseProduct.Data;
             var revelantProducts = await _productService.GetProductsInCategory(mainProduct.CategoryId);
             var mainrevelantProducts = revelantProducts.Data;
-            var similarProducts = await _productService.GetSimilarProducts(id);
-            if (similarProducts.ResponseType == ResponseType.Success)
+            var similarProducts1 = await _productService.GetSimilarProducts(id);
+            var variousProducts= await _productService.GetVariousProducts(id);
+          
+            if (similarProducts1.ResponseType == ResponseType.Success)
             {
+                var SimilarProducts2 = similarProducts1.Data.AsQueryable().OrderByDescending(x => x.NumberOfClick).Take(3);  
+               var similarProducts= SimilarProducts2.ToList();
+                
                 var dto = new ProductHomeDto()
                 {
                     MainProduct = mainProduct,
                     RevelantProducts = mainrevelantProducts.ToList(),
-                    SimilarProducts = similarProducts.Data,
+                    SimilarProducts = similarProducts,
+                    VariousProducts=variousProducts.Data
+
                 };
                 return View(dto);
             }
@@ -76,6 +90,7 @@ namespace Buyfilet.WebUI.Controller
                 {
                     MainProduct = mainProduct,
                     RevelantProducts = mainrevelantProducts.ToList(),
+                    VariousProducts = variousProducts.Data
                 };
                 return View(dto);
             }

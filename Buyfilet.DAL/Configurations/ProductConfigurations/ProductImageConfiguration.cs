@@ -16,60 +16,15 @@ namespace Buyfilet.DAL.Configurations.ProductConfigurations
             
             builder.HasData(new ProductImage[]
             {
-                new ProductImage()
-                {
-                    Id = 1,
-                    ImagePath = "https://productimages.hepsiburada.net/s/189/550/110000155170579.jpg/format:webp",
-                    ProductId = 1
-                },
-                new ProductImage()
-                {
-                    Id = 2,
-                    ImagePath = "https://productimages.hepsiburada.net/s/189/550/110000155170580.jpg/format:webp",
-                    ProductId = 1
-                },
-                new ProductImage()
-                {
-                    Id = 3,
-                    ImagePath = "https://productimages.hepsiburada.net/s/189/550/110000155170581.jpg/format:webp",
-                    ProductId = 1
-                },
-                new ProductImage()
-                {
-                    Id = 4,
-                    ImagePath = "https://productimages.hepsiburada.net/s/189/550/110000155170582.jpg/format:webp",
-                    ProductId = 1
-                },
-                new ProductImage()
-                {
-                    Id = 5,
-                    ImagePath = "https://productimages.hepsiburada.net/s/189/550/110000155170583.jpg/format:webp",
-                    ProductId = 1
-                },
-                new ProductImage()
-                {
-                    Id = 6,
-                    ImagePath = "https://productimages.hepsiburada.net/s/189/550/110000155170584.jpg/format:webp",
-                    ProductId = 1
-                },
-                new ProductImage()
-                {
-                    Id = 7,
-                    ImagePath = "https://productimages.hepsiburada.net/s/189/550/110000155170585.jpg/format:webp",
-                    ProductId = 1
-                }, 
-                new ProductImage()
-                {
-                    Id = 8,
-                    ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp",
-                    ProductId = 1
-                }, 
-                new ProductImage()
-                {
-                    Id = 9,
-                    ImagePath = "https://productimages.hepsiburada.net/s/189/550/110000155170587.jpg/format:webp",
-                    ProductId = 9
-                },
+                new ProductImage(){ ImagePath = "https://productimages.hepsiburada.net/s/54/550/11186104270898.jpg/format:webp", Id=1, ProductId=1},
+                new ProductImage(){ ImagePath = "https://productimages.hepsiburada.net/s/54/550/11186104270898.jpg/format:webp", Id=2, ProductId=1},
+                new ProductImage(){ ImagePath = "https://productimages.hepsiburada.net/s/54/550/11186104270898.jpg/format:webp", Id=3, ProductId=1},
+                new ProductImage(){ ImagePath = "https://productimages.hepsiburada.net/s/54/550/11186104270898.jpg/format:webp", Id=4, ProductId=1},
+                new ProductImage(){ ImagePath = "https://productimages.hepsiburada.net/s/54/550/11186104270898.jpg/format:webp", Id=5, ProductId=1},
+                new ProductImage(){ ImagePath = "https://productimages.hepsiburada.net/s/54/550/11186104270898.jpg/format:webp", Id=6, ProductId=1},
+                new ProductImage(){ ImagePath = "https://productimages.hepsiburada.net/s/54/550/11186104270898.jpg/format:webp", Id=7, ProductId=1},
+                new ProductImage(){ ImagePath = "https://productimages.hepsiburada.net/s/54/550/11186104270898.jpg/format:webp", Id=8, ProductId=1},
+                new ProductImage(){ ImagePath = "https://productimages.hepsiburada.net/s/54/550/11186104270898.jpg/format:webp", Id=9, ProductId=1},
                 new ProductImage(){ ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp", Id=10, ProductId=1},
                 new ProductImage(){ ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp", Id=11, ProductId=1},
                 new ProductImage(){ ImagePath = "https://productimages.hepsiburada.net/s/181/550/110000146174131.jpg/format:webp", Id=12, ProductId=2},
@@ -168,6 +123,7 @@ namespace Buyfilet.DAL.Configurations.ProductConfigurations
                 new ProductImage(){ ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg", Id=98, ProductId=38},
                 new ProductImage(){ ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg", Id=99, ProductId=39},
                 new ProductImage(){ ImagePath = "https://productimages.hepsiburada.net/s/76/200-200/110000018213454.jpg", Id=100, ProductId=40},
+
 
 
 

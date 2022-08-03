@@ -18,6 +18,8 @@ namespace Buyfilet.BLL.Interfaces
         Task<IResponse<ProductListDto>> GetDealProduct(int id);
         Task<IResponse<ProductListDto>> GetProductWithAllRelations(int id);
         Task<IResponse<List<ProductListDto>>> GetSimilarProducts(int id);
+        Task<IResponse<List<ProductListDto>>> GetVariousProducts(int id);
+
 
     }
 }

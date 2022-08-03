@@ -288,16 +288,16 @@
                                     'slidesPerView': 1
                                 }">
                             <div class="swiper-wrapper row cols-1 gutter-no">
-                                @foreach (var p in Model.Products)
+                                @foreach (var product in Model.Products.Where(i=>i.IsHotProduct==true))
                                 {
-                                
+
                                     <div class="swiper-slide">
                                         <div class="product product-single row">
                                             <div class="col-md-6">
                                                 <div class="product-gallery product-gallery-sticky product-gallery-vertical">
                                                     <div class="swiper-container product-single-swiper swiper-theme nav-inner">
                                                         <div class="swiper-wrapper row cols-1 gutter-no">
-                                                            @foreach (var image in p.ProductImages)
+                                                            @foreach (var image in product.ProductImages)
                                                             {
                                                                 <div class="swiper-slide">
                                                                     <figure class="product-image">
@@ -312,16 +312,7 @@
                                                         </div>
                                                         <button class="swiper-button-next"></button>
                                                         <button class="swiper-button-prev"></button>
-                                                        <div class="product-label-group">
-                                                            <label class="product-label label-discount">
-
-                                                                @if (p.IsDiscount == true)
-                                                                {
-                                                                    <span>%17  </span>
-                                                                }
-
-                                                            </label>
-                                                        </div>
+                                                        @Html.Partial("ProductLabelGroup", product)
                                                     </div>
                                                     <div class="product-thumbs-wrap swiper-container"
                                                          data-swiper-options="{
@@ -339,7 +330,7 @@
                                                         }">
                                                         <div class="product-thumbs swiper-wrapper row cols-lg-1 cols-4 gutter-sm">
 
-                                                            @foreach (var img in p.ProductImages)
+                                                            @foreach (var img in product.ProductImages)
                                                             {
                                                                 <div class="product-thumb swiper-slide">
                                                                     <img src=@img.ImagePath
@@ -353,8 +344,8 @@
                                             <div class="col-md-6">
                                                 <div class="product-details scrollable">
                                                     <h2 class="product-title mb-1">
-                                                        <a asp-action="Product" asp-route-id="@p.Id">
-                                                            @p.Name <span> p</span>
+                                                        <a asp-action="Product" asp-route-id="@product.Id">
+                                                            @product.Name <span> p</span>
                                                         </a>
                                                     </h2>
 
@@ -362,27 +353,18 @@
 
                                                     <div class="product-price">
                                                         <ins class="new-price ls-50">
-                                                            @Model.Products.Where(i => i.SellerId == p.SellerId && i.Name == p.Name).Min(i => i.Price)
-                                                            @Model.Products.Where(i => i.SellerId == p.SellerId && i.Name == p.Name).Min(i => i.Price) TL- @Model.Products.Where(i => i.SellerId == p.SellerId && i.Name == p.Name).Max(i => i.Price) TL
+                                                            @Model.Products.Where(i => i.SellerId == product.SellerId && i.Name == product.Name).Min(i => i.Price) TL- @Model.Products.Where(i => i.SellerId == product.SellerId && i.Name == product.Name).Max(i => i.Price) TL
                                                         </ins>
                                                     </div>
 
-                                                    <div class="product-countdown-container flex-wrap">
-                                                        <label class="mr-2 text-default">Bitmeden Al:</label>
-                                                        @{
-                                                            DateTime expireTime = DateTime.Now.AddHours(p.DiscountExpiresHour);
-                                                            <div class="product-countdown countdown-compact"
-                                                                 data-until="@expireTime.Year, @expireTime.Month, @expireTime.Day" data-compact="true">
-                                                            </div>
-                                                        }
-                                                    </div>
+                                                  @Html.Partial("DiscountCounter",product)
 
                                                     <div class="ratings-container">
                                                         <div class="ratings-full">
-                                                            <span class="ratings" style="width: (@p.EvaluationPoint)%;"></span>
+                                                            <span class="ratings" style="width: (@product.EvaluationPoint)%;"></span>
                                                             <span class="tooltiptext tooltip-top"></span>
                                                         </div>
-                                                        <a href="#" class="rating-reviews">(@p.NumberOfEvaluations Oylama)</a>
+                                                        <a href="#" class="rating-reviews">(@product.NumberOfEvaluations Oylama)</a>
                                                     </div>
 
                                                     <div class="product-form product-variation-form product-size-swatch mb-3">
@@ -396,12 +378,10 @@
                                                             <a href="#" class="size">Medium</a>
                                                             <a href="#" class="size">Small</a>
                                                         </div>
-                                                        <a href="#" class="product-variation-clean">Clean All</a>
+                                                       
                                                     </div>
 
-                                                    <div class="product-variation-price">
-                                                        <span></span>
-                                                    </div>
+                                                   
 
                                                     <div class="product-form pt-4">
                                                         <div class="product-qty-form mb-2 mr-2">
@@ -616,8 +596,6 @@
                                                 <img src=@img.ImagePath alt="Product"
                                                      width="300" height="338" />
                                             }
-
-
                                         </a>
                                         <div class="product-action-vertical">
                                             <a href="#" class="btn-product-icon btn-cart w-icon-cart"
@@ -630,16 +608,7 @@
                                             <a href="#" class="btn-product-icon btn-compare w-icon-compare"
                                                title="Kıyasla"></a>
                                         </div>
-                                        @if (product.IsDiscount == true)
-                                        {
-                                            <div class="product-label-group">
-                                                <label class="product-label label-discount">@product.DiscountRate% </label>
-                                                @if (product.CreatedDate > DateTime.Now.AddDays(-7))
-                                                {
-                                                    <label class="product-label label-new">New</label>
-                                                }
-                                            </div>
-                                        }
+                                        @Html.Partial("ProductLabelGroup", product)
                                     </figure>
                                     <div class="product-details">
                                         <h4 class="product-name">
@@ -1394,7 +1363,7 @@
                                 </div>
                                 <div class="product-price">
                                     <ins class="new-price">@product.Price ₺</ins>
-                                    @if (product.DiscountRate!=0)
+                                    @if (product.DiscountRate != 0)
                                     {
                                         <del class="old-price">@product.WithOutDiscount₺</del>
                                     }
@@ -1414,35 +1383,35 @@
 
                 <h4 class="title title-underline mb-2 pt-1">En Güzel Elektronik Malzemeler</h4>
                 <div class="widget widget-products">
-                    @foreach (var product in Model.Products.Where(i => i.CategoryId == (int)CategoryEnums.Elektronik).Take(4))//ÖNEMLİ !!! SKİP YAZ BURAYA
-                    {
-                        <div class="product product-widget">
-                            <figure class="product-media">
-                                <a asp-action="Product" asp-route-id="@product.Id">
-                                    <img src=@product.ProductImages[0].ImagePath alt="Product" width="124" height="140">
-                                </a>
-                            </figure>
-                            <div class="product-details">
-                                <h4 class="product-name">
-                                    <a asp-action="Product" asp-route-id="@product.Id">@product.Name</a>
-                                </h4>
-                                <div class="ratings-container">
-                                    <div class="ratings-full">
-                                        <span class="ratings" style="width: @product.DiscountRate%;"></span>
-                                        <span class="tooltiptext tooltip-top"></span>
+                    @*@foreach (var product in Model.Products.Where(i => i.CategoryId == (int)CategoryEnums.Elektronik).Take(4))//ÖNEMLİ !!! SKİP YAZ BURAYA
+                        {
+                            <div class="product product-widget">
+                                <figure class="product-media">
+                                    <a asp-action="Product" asp-route-id="@product.Id">
+                                        <img src=@product.ProductImages[0].ImagePath alt="Product" width="124" height="140">
+                                    </a>
+                                </figure>
+                                <div class="product-details">
+                                    <h4 class="product-name">
+                                        <a asp-action="Product" asp-route-id="@product.Id">@product.Name</a>
+                                    </h4>
+                                    <div class="ratings-container">
+                                        <div class="ratings-full">
+                                            <span class="ratings" style="width: @product.DiscountRate%;"></span>
+                                            <span class="tooltiptext tooltip-top"></span>
+                                        </div>
+                                    </div>
+                                    <div class="product-price">
+                                        <ins class="new-price">@product.Price₺</ins>
+                                        @if (product.DiscountRate!=0)
+                                        {
+
+                                            <del class="old-price">@product.WithOutDiscount₺</del>
+                                        }
                                     </div>
                                 </div>
-                                <div class="product-price">
-                                    <ins class="new-price">@product.Price₺</ins>
-                                    @if (product.DiscountRate!=0)
-                                    {
-
-                                        <del class="old-price">@product.WithOutDiscount₺</del>
-                                    }
-                                </div>
                             </div>
-                        </div>
-                    }
+                        }*@
 
                     <!-- End of Product Widget -->
 
@@ -1475,7 +1444,7 @@
                                 </div>
                                 <div class="product-price">
                                     <ins class="new-price">@product.Price ₺</ins>
-                                    @if (product.DiscountRate!=0)
+                                    @if (product.DiscountRate != 0)
                                     {
 
                                         <del class="old-price">@product.WithOutDiscount₺</del>
@@ -1516,7 +1485,7 @@
                                 </div>
                                 <div class="product-price">
                                     <ins class="new-price">@product.Price₺</ins>
-                                    @if (product.DiscountRate!=0)
+                                    @if (product.DiscountRate != 0)
                                     {
 
                                         <del class="old-price">@product.WithOutDiscount₺</del>

@@ -1,0 +1,21 @@
+﻿@model ProductListDto
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<div class="product-label-group">
+    @if (Model.IsDiscount == true)
+    {
+        <label class="product-label label-discount">@Model.DiscountRate% indirim</label>
+    }
+    @if (Model.CreatedDate > DateTime.Now.AddDays(-7))
+    {
+        <label class="product-label label-new">Yeni ürün</label>
+    }
+    @if (Model.NumberOfClick > 1000)
+    {
+        <label class="product-label label-hot">Tercih edilen</label>
+    }
+
+
+
+</div>
