@@ -39,7 +39,7 @@ namespace Buyfilet.DTOs
         public int SellerId { get; set; }
         public SellerListDto Seller { get; set; }
         public List<CommentListDto> Comments { get; set; }
-
+        public List<QuestionAndAnswerListDto> QuestionAndAnswers { get; set; }
     }
 
 
@@ -49,7 +49,8 @@ namespace Buyfilet.DTOs
         public string ImagePath { get; set; }
         public int ProductId { get; set; }
         public ProductListDto Product { get; set; }
-        
+      
+
 
 
     }

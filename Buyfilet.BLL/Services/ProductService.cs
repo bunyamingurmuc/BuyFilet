@@ -140,7 +140,16 @@ namespace Buyfilet.BLL.Services
         public async Task<IResponse<ProductListDto>> GetProductWithAllRelations(int id)
         {
             var products = await _uow.GetRepository<Product>().GetQuery();
-            var product = products.Where(i => i.Id == id).Include(i => i.ProductImages).Include(i => i.Category).Include(x=>x.Comments).Include(x=>x.Seller);
+            var product = products
+                .Where(i => i.Id == id)
+                .Include(i => i.ProductImages)
+                .Include(i => i.Category)
+                .Include(x => x.Comments)
+                .Include(x => x.Seller)
+                .Include(i => i.QuestionAndAnswers).ThenInclude(i => i.Product)
+                .Include(i => i.QuestionAndAnswers).ThenInclude(i => i.BFUser)
+                .Include(i => i.QuestionAndAnswers).ThenInclude(i => i.Seller);
+                
 
             var lastestproduct = await product.SingleOrDefaultAsync();
 

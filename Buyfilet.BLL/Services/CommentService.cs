@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using AutoMapper;
+﻿using AutoMapper;
 using Buyfilet.BLL.Interfaces;
 using Buyfilet.DAL.UnitOfWork;
 using Buyfilet.DTOs;
-using Buyfilet.Entities.Comment;
+using Buyfilet.Entities;
 using FluentValidation;
 
 namespace Buyfilet.BLL.Services

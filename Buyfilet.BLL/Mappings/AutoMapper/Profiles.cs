@@ -1,14 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using AutoMapper;
+﻿using AutoMapper;
 using Buyfilet.DTOs;
 using Buyfilet.Entities;
-using Buyfilet.Entities.Comment;
-using Buyfilet.Entities.ProductEntities;
-using Buyfilet.Entities.Seller;
 
 namespace Buyfilet.BLL.Mappings.AutoMapper
 {
@@ -44,6 +36,9 @@ namespace Buyfilet.BLL.Mappings.AutoMapper
             CreateMap<Variant, VariantListDto>().ReverseMap();
             CreateMap<Variant, VariantCreateDto>().ReverseMap();
             CreateMap<Variant, VariantUpdateDto>().ReverseMap();
+
+            CreateMap<QuestionAndAnswer, QuestionAndAnswerCreateDto>().ReverseMap();
+            CreateMap<QuestionAndAnswer, QuestionAndAnswerListDto>().ReverseMap();
 
 
 

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Buyfilet.DTOs.Interfaces;
+﻿using Buyfilet.DTOs.Interfaces;
 
 namespace Buyfilet.DTOs
 {
@@ -11,5 +6,6 @@ namespace Buyfilet.DTOs
     {
         public string Definition { get; set; }
         public int Id { get; set; }
+
     }
 }

@@ -13,7 +13,9 @@ namespace Buyfilet.Entities
         public string Name { get; set; }
         public string Surname { get; set; }
         public string Password { get; set; }
-        public List<Buyfilet.Entities.Comment.Comment> Comments { get; set; }
+        public List<Comment> Comments { get; set; }
+        public List<QuestionAndAnswer>? QuestionAndAnswers { get; set; }
+
 
     }
 }

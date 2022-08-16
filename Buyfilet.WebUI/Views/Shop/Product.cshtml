@@ -127,29 +127,28 @@
                                 @if (Model.MainProduct.IsDiscount == true)
                                 {
                                     <div class="product-price">
-                                        <ins class="new-price">@Model.MainProduct.Price</ins><del class="old-price">@Model.MainProduct.WithOutDiscount</del>
+                                        <ins class="new-price">@String.Format("{0:n}", @Model.MainProduct.Price) ₺</ins><del class="old-price">@String.Format("{0:n}", @Model.MainProduct.WithOutDiscount)₺  </del>
                                     </div>
                                 }
                                 else
                                 {
-                                    <div class="product-price "><ins class="new-price">@Model.MainProduct.Price</ins></div>
+                                    <div class="product-price "><ins class="new-price">@String.Format("{0:n}", @Model.MainProduct.Price)₺   </ins></div>
                                 }
-
-
-
                                 <div class="ratings-container">
                                     <div class="ratings-full">
-                                        <span class="ratings" style="width: 80%;"></span>
+                                        <span class="ratings" style="width: @Model.MainProduct.EvaluationPoint%;"></span>
                                         <span class="tooltiptext tooltip-top"></span>
                                     </div>
-                                    <a href="#product-tab-reviews" class="rating-reviews">(3 Reviews)</a>
+                                    <a href="#product-tab-reviews" class="rating-reviews">(@Model.MainProduct.NumberOfEvaluations Değerlendirme)</a>
                                 </div>
 
                                 <div class="product-short-desc lh-2">
                                     <ul class="list-type-check list-style-none">
-                                        <li>Ultrices eros in cursus turpis massa cursus mattis.</li>
-                                        <li>Volutpat ac tincidunt vitae semper quis lectus.</li>
-                                        <li>Aliquam id diam maecenas ultricies mi eget mauris.</li>
+                                        
+                                        <li>@Model.MainProduct.Detail1</li>
+                                        <li>@Model.MainProduct.Detail2</li>
+                                        <li>@Model.MainProduct.Detail3</li>
+                                        
                                     </ul>
                                 </div>
 
@@ -173,7 +172,6 @@
                                         <a href="#" class="size">Large</a>
                                         <a href="#" class="size">Extra Large</a>
                                     </div>
-
                                 </div>
 
 
@@ -234,102 +232,46 @@
                                         </div>
                                     </figure>
                                     <div class="product-details">
+
                                         <h4 class="product-name">
-                                            <a href="#">Electronics Black Wrist Watch</a>
+                                            <a href="#">@product.Name</a>
                                         </h4>
-                                        <div class="product-price">$40.00</div>
+                                        <div class="product-price">@String.Format("{0:n}", @product.Price)₺</div>
                                     </div>
                                 </div>
                             }
                             <div class="product-button">
-                                <div class="bought-price font-weight-bolder text-primary ls-50">$1,874.00</div>
-                                <div class="bought-count">For 3 items</div>
-                                <a href="cart.html" class="btn btn-dark btn-rounded">Add All To Cart</a>
+                                <div class="bought-price font-weight-bolder text-primary ls-50">@String.Format("{0:n}", @Model.SimilarProductsPrice) ₺</div>
+                                <div class="bought-count">   @Model.SimilarProductsCount ürün için</div>
+                                <a href="cart.html" class="btn btn-dark btn-rounded">Hepsini sepete ekle</a>
                             </div>
                         </div>
                     </div>
                     <div class="tab tab-nav-boxed tab-nav-underline product-tabs">
                         <ul class="nav nav-tabs" role="tablist">
                             <li class="nav-item">
-                                <a href="#product-tab-description" class="nav-link active">Description</a>
+                                <a href="#product-tab-description" class="nav-link active">Ürün Açıklaması</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#product-tab-specification" class="nav-link">Specification</a>
+                                <a href="#product-tab-specification" class="nav-link">Ürün Özellikleri</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#product-tab-vendor" class="nav-link">Vendor Info</a>
+                                <a href="#product-tab-vendor" class="nav-link">Soru Cevap</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#product-tab-reviews" class="nav-link">Customer Reviews (3)</a>
+                                <a href="#product-tab-reviews" class="nav-link">Müşteri Yorumları</a>
                             </li>
                         </ul>
                         <div class="tab-content">
                             <div class="tab-pane active" id="product-tab-description">
-                                <div class="row mb-4">
-                                    <div class="col-md-6 mb-5">
-                                        <h4 class="title tab-pane-title font-weight-bold mb-2">Detail</h4>
-                                        <p class="mb-4">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                            sed do eiusmod tempor incididunt arcu cursus vitae congue mauris.
-                                            Sagittis id consectetur purus ut. Tellus rutrum tellus pelle Vel
-                                            pretium lectus quam id leo in vitae turpis massa.
-                                        </p>
-                                        <ul class="list-type-check">
-                                            <li>
-                                                Nunc nec porttitor turpis. In eu risus enim. In vitae mollis
-                                                elit.
-                                            </li>
-                                            <li>Vivamus finibus vel mauris ut vehicula.</li>
-                                            <li>
-                                                Nullam a magna porttitor, dictum risus nec, faucibus sapien.
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-6 mb-5">
-                                        <div class="banner banner-video product-video br-xs">
-                                            <figure class="banner-media">
-                                                <a href="#">
-                                                    <img src="~/assets/images/products/video-banner-610x300.jpg"
-                                                         alt="banner" width="610" height="300"
-                                                         style="background-color: #bebebe;">
-                                                </a>
-                                                <a class="btn-play-video btn-iframe"
-                                                   href="~/assets/video/memory-of-a-woman.mp4"></a>
-                                            </figure>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row cols-md-3">
-                                    <div class="mb-3">
-                                        <h5 class="sub-title font-weight-bold">
-                                            <span class="mr-3">1.</span>Free
-                                            Shipping &amp; Return
-                                        </h5>
-                                        <p class="detail pl-5">
-                                            We offer free shipping for products on orders
-                                            above 50$ and offer free delivery for all orders in US.
-                                        </p>
-                                    </div>
-                                    <div class="mb-3">
-                                        <h5 class="sub-title font-weight-bold">
-                                            <span>2.</span>Free and Easy
-                                            Returns
-                                        </h5>
-                                        <p class="detail pl-5">
-                                            We guarantee our products and you could get back
-                                            all of your money anytime you want in 30 days.
-                                        </p>
-                                    </div>
-                                    <div class="mb-3">
-                                        <h5 class="sub-title font-weight-bold">
-                                            <span>3.</span>Special Financing
-                                        </h5>
-                                        <p class="detail pl-5">
-                                            Get 20%-50% off items over 50$ for a month or
-                                            over 250$ for a year with our special credit card.
-                                        </p>
-                                    </div>
-                                </div>
+                                @if (Model.MainProduct.Description.Contains("https://images"))
+                                {
+                                     <img src=@Model.MainProduct.Description alt="Brand" />
+                                }
+                                else
+                                {
+                                     @Model.MainProduct.Description 
+                                }
                             </div>
                             <div class="tab-pane" id="product-tab-specification">
                                 <ul class="list-none">
@@ -352,78 +294,28 @@
                                 </ul>
                             </div>
                             <div class="tab-pane" id="product-tab-vendor">
-                                <div class="row mb-3">
-                                    <div class="col-md-6 mb-4">
-                                        <figure class="vendor-banner br-sm">
-                                            <img src="~/assets/images/products/vendor-banner.jpg"
-                                                 alt="Vendor Banner" width="610" height="295"
-                                                 style="background-color: #353B55;" />
-                                        </figure>
-                                    </div>
-                                    <div class="col-md-6 pl-2 pl-md-6 mb-4">
-                                        <div class="vendor-user">
-                                            <figure class="vendor-logo mr-4">
-                                                <a href="#">
-                                                    <img src="~/assets/images/products/vendor-logo.jpg"
-                                                         alt="Vendor Logo" width="80" height="80" />
-                                                </a>
-                                            </figure>
-                                            <div>
-                                                <div class="vendor-name"><a href="#">Jone Doe</a></div>
-                                                <div class="ratings-container">
-                                                    <div class="ratings-full">
-                                                        <span class="ratings" style="width: 90%;"></span>
-                                                        <span class="tooltiptext tooltip-top"></span>
-                                                    </div>
-                                                    <a href="#" class="rating-reviews">(32 Reviews)</a>
-                                                </div>
-                                            </div>
+                                  @foreach (var questionAndAnswer in Model.MainProduct.QuestionAndAnswers)
+                                    {
+                                        
+                                    <div class="swiper-slide testimonial testimonial-blockquote testimonial-inversed swiper-slide-next" role="group" aria-label="2 / 3" style="width: 400px; margin-right: 20px;">
+                                        <blockquote>
+                                            @questionAndAnswer.Question
+                                        </blockquote>
+                                        <div class="testimonial-info">
+                                            <cite>@questionAndAnswer.BFUser.Name.Substring(0,2)****@questionAndAnswer.BFUser.Surname.Substring(0,2)****<span>Müşteri</span></cite>
                                         </div>
-                                        <ul class="vendor-info list-style-none">
-                                            <li class="store-name">
-                                                <label>Store Name:</label>
-                                                <span class="detail">OAIO Store</span>
-                                            </li>
-                                            <li class="store-address">
-                                                <label>Address:</label>
-                                                <span class="detail">
-                                                    Steven Street, El Carjon, CA 92020, United
-                                                    States (US)
-                                                </span>
-                                            </li>
-                                            <li class="store-phone">
-                                                <label>Phone:</label>
-                                                <a href="#tel:">1234567890</a>
-                                            </li>
-                                        </ul>
-                                        <a href="vendor-dokan-store.html"
-                                           class="btn btn-dark btn-link btn-underline btn-icon-right">
-                                            Visit
-                                            Store<i class="w-icon-long-arrow-right"></i>
-                                        </a>
                                     </div>
-                                </div>
-                                <p class="mb-5">
-                                    <strong class="text-dark">L</strong>orem ipsum dolor sit amet,
-                                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                                    dolore magna aliqua.
-                                    Venenatis tellus in metus vulputate eu scelerisque felis. Vel pretium
-                                    lectus quam id leo in vitae turpis massa. Nunc id cursus metus aliquam.
-                                    Libero id faucibus nisl tincidunt eget. Aliquam id diam maecenas ultricies
-                                    mi eget mauris. Volutpat ac tincidunt vitae semper quis lectus. Vestibulum
-                                    mattis ullamcorper velit sed. A arcu cursus vitae congue mauris.
-                                </p>
-                                <p class="mb-2">
-                                    <strong class="text-dark">A</strong> arcu cursus vitae congue
-                                    mauris. Sagittis id consectetur purus
-                                    ut. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla.
-                                    Diam in
-                                    arcu cursus euismod quis. Eget sit amet tellus cras adipiscing enim eu. In
-                                    fermentum et sollicitudin ac orci phasellus. A condimentum vitae sapien
-                                    pellentesque
-                                    habitant morbi tristique senectus et. In dictum non consectetur a erat. Nunc
-                                    scelerisque viverra mauris in aliquam sem fringilla.
-                                </p>
+                                    <div class="swiper-slide testimonial testimonial-blockquote swiper-slide-active" role="group" aria-label="1 / 3" style="width: 610px; margin-right: 20px;">
+                                        <blockquote>
+                                            @questionAndAnswer.Answer
+                                        </blockquote>
+                                        <div class="testimonial-info">
+
+                                            <cite>@questionAndAnswer.Seller.Name<span>Satıcı</span></cite>
+                                        </div>
+                                    </div>
+                                    <hr class="product-divider">
+                                    }
                             </div>
                             <div class="tab-pane" id="product-tab-reviews">
                                 <div class="row mb-4">

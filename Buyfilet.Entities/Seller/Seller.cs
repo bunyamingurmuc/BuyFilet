@@ -5,11 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Buyfilet.Entities.Interfaces;
 
-namespace Buyfilet.Entities.Seller
+namespace Buyfilet.Entities
 {
     public class Seller:BaseEntity
     {
-        
         public long TcNo { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
@@ -17,6 +16,8 @@ namespace Buyfilet.Entities.Seller
         public string Logo { get; set; }
         public bool IsApproved { get; set; }=false;
         public List<Product> Products { get; set; }
+        public List<QuestionAndAnswer>? QuestionAndAnswers { get; set; }
+
 
     }
 }

@@ -1,6 +1,6 @@
 ﻿using Buyfilet.Entities.Interfaces;
 
-namespace Buyfilet.Entities.ProductEntities
+namespace Buyfilet.Entities
 {
     public class ProductImage : BaseEntity
     {

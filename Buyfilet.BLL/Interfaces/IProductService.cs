@@ -1,7 +1,6 @@
 ﻿using Buyfilet.Common;
 using Buyfilet.DTOs;
 using Buyfilet.Entities;
-using Buyfilet.Entities.ProductEntities;
 
 namespace Buyfilet.BLL.Interfaces
 {

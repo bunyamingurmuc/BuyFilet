@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Buyfilet.DTOs;
-using Buyfilet.Entities.Seller;
+﻿using Buyfilet.DTOs;
+using Buyfilet.Entities;
 
 namespace Buyfilet.BLL.Interfaces
 {

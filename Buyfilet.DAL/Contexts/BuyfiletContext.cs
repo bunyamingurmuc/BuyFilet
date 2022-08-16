@@ -5,9 +5,6 @@ using Buyfilet.DAL.Configurations.ProductConfigurations;
 using Buyfilet.DAL.Configurations.SellerConfigurations;
 using Buyfilet.DAL.Configurations.UserConfigurations;
 using Buyfilet.Entities;
-using Buyfilet.Entities.Comment;
-using Buyfilet.Entities.ProductEntities;
-using Buyfilet.Entities.Seller;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -28,10 +25,12 @@ namespace Buyfilet.DAL.Contexts
         public DbSet<BFRole>? BFRoles { get; set; }
         public DbSet<Comment>? Comments { get; set; }
         public DbSet<Seller>? Sellers { get; set; }
+        public DbSet<QuestionAndAnswer>? QuestionAndAnswers{ get; set; }
 
+     
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
+          
             
             modelBuilder.ApplyConfiguration(new ImageConfiguration());
             modelBuilder.ApplyConfiguration(new CategoryConfiguration());
@@ -43,12 +42,13 @@ namespace Buyfilet.DAL.Contexts
             modelBuilder.ApplyConfiguration(new SellerConfiguration());
             modelBuilder.ApplyConfiguration(new CommentConfiguration());
             modelBuilder.ApplyConfiguration(new VariantConfiguration());
+            modelBuilder.ApplyConfiguration(new QuestionAndAnswerConfiguration());
 
             modelBuilder.Entity<BFUserRole>().HasKey(x => new {x.BFRoleId, x.BFUserId});
+            
 
-            
-            
-            
+            base.OnModelCreating(modelBuilder);
+
         }
 
       

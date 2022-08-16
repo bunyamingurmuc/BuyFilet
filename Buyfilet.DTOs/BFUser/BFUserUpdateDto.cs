@@ -14,5 +14,6 @@ namespace Buyfilet.DTOs
         public string Surname { get; set; }
         public string Password { get; set; }
         public int Id { get; set; }
+        public List<QuestionAndAnswerListDto> QuestionAndAnswers { get; set; }
     }
 }

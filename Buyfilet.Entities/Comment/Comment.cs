@@ -1,6 +1,6 @@
 ﻿using Buyfilet.Entities.Interfaces;
 
-namespace Buyfilet.Entities.Comment
+namespace Buyfilet.Entities
 {
     public class Comment:BaseEntity
     {

@@ -73,14 +73,15 @@ namespace Buyfilet.WebUI.Controller
             {
                 var SimilarProducts2 = similarProducts1.Data.AsQueryable().OrderByDescending(x => x.NumberOfClick).Take(3);  
                var similarProducts= SimilarProducts2.ToList();
-                
+
                 var dto = new ProductHomeDto()
                 {
                     MainProduct = mainProduct,
                     RevelantProducts = mainrevelantProducts.ToList(),
                     SimilarProducts = similarProducts,
-                    VariousProducts=variousProducts.Data
-
+                    VariousProducts = variousProducts.Data,
+                    SimilarProductsCount = similarProducts.Count(),
+                    SimilarProductsPrice= similarProducts.Select(i=>i.Price).Sum(),
                 };
                 return View(dto);
             }

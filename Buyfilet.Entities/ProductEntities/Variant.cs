@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Buyfilet.Entities.ProductEntities
+namespace Buyfilet.Entities
 {
     public class Variant:BaseEntity
     {

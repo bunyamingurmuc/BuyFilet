@@ -9,12 +9,15 @@ using Buyfilet.BLL.ValidationRules;
 using Buyfilet.BLL.ValidationRules.Category;
 using Buyfilet.BLL.ValidationRules.Comment;
 using Buyfilet.BLL.ValidationRules.Image;
+using Buyfilet.BLL.ValidationRules.QuestionAndAnswer;
 using Buyfilet.BLL.ValidationRules.Seller;
 using Buyfilet.DAL.Contexts;
 using Buyfilet.DAL.UnitOfWork;
 using Buyfilet.DTOs;
+using Buyfilet.DTOs.QuestionAndAnswer;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -26,6 +29,9 @@ namespace Buyfilet.BLL.DependencyResolvers
         {
             services.AddDbContext<BuyfiletContext>(opt =>
             {
+                opt.EnableSensitiveDataLogging();
+                opt.ConfigureWarnings(war =>
+                war.Ignore(CoreEventId.NavigationBaseIncludeIgnored));
                 opt.UseSqlServer(configuration.GetConnectionString("Local"));
             });
             services.AddScoped<IUOW, UOW>();
@@ -53,6 +59,9 @@ namespace Buyfilet.BLL.DependencyResolvers
 
             services.AddTransient<IValidator<SellerUpdateDto>, SellerUpdateDtoValidator>();
             services.AddTransient<IValidator<SellerCreateDto>, SellerCreateDtoValidator>();
+
+            services.AddTransient<IValidator<QuestionAndAnswerCreateDto>, QuestionAndAnswerCreateDtoValidator>();
+            services.AddTransient<IValidator<QuestionAndAnswerUpdateDto>, QuestionAndAnswerUpdateDtoValidator>();
 
         }
     }

@@ -16,5 +16,6 @@ namespace Buyfilet.DTOs
         public string Address { get; set; }
         public string Logo { get; set; }
         public List<ProductListDto> Products { get; set; }
+        public List<QuestionAndAnswerListDto> QuestionAndAnswers { get; set; }
     }
 }

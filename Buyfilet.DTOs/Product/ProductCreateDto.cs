@@ -45,6 +45,7 @@ namespace Buyfilet.DTOs
         public int SellerId { get; set; }
         public SellerCreateDto Seller { get; set; }
         public List<CommentCreateDto> Comments { get; set; }
+        public List<QuestionAndAnswerListDto> QuestionAndAnswers { get; set; }
 
 
     }

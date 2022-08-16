@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Git Clones\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj": {}
+    "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj": {}
   },
   "projects": {
-    "D:\\Git Clones\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj": {
+    "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git Clones\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj",
         "projectName": "Buyfilet.BLL",
-        "projectPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj",
+        "projectPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.BLL\\Buyfilet.BLL.csproj",
         "packagesPath": "C:\\Users\\zeynel\\.nuget\\packages\\",
-        "outputPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.BLL\\obj\\",
+        "outputPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.BLL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\zeynel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,14 +28,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Git Clones\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj": {
-                "projectPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj"
+              "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj": {
+                "projectPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj"
               },
-              "D:\\Git Clones\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj": {
-                "projectPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj"
+              "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj": {
+                "projectPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj"
               },
-              "D:\\Git Clones\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj": {
-                "projectPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj"
+              "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj": {
+                "projectPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj"
               }
             }
           }
@@ -73,7 +69,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -82,25 +79,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Git Clones\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj": {
+    "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git Clones\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj",
+        "projectUniqueName": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj",
         "projectName": "Buyfilet.Common",
-        "projectPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj",
+        "projectPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj",
         "packagesPath": "C:\\Users\\zeynel\\.nuget\\packages\\",
-        "outputPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.Common\\obj\\",
+        "outputPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Common\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\zeynel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -131,7 +124,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -140,25 +134,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Git Clones\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj": {
+    "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git Clones\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj",
         "projectName": "Buyfilet.DAL",
-        "projectPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj",
+        "projectPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.DAL\\Buyfilet.DAL.csproj",
         "packagesPath": "C:\\Users\\zeynel\\.nuget\\packages\\",
-        "outputPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.DAL\\obj\\",
+        "outputPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.DAL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\zeynel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -172,11 +162,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Git Clones\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj": {
-                "projectPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj"
+              "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj": {
+                "projectPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Common\\Buyfilet.Common.csproj"
               },
-              "D:\\Git Clones\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj": {
-                "projectPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj"
+              "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj": {
+                "projectPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj"
               }
             }
           }
@@ -212,7 +202,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -221,25 +212,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Git Clones\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj": {
+    "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git Clones\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj",
+        "projectUniqueName": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj",
         "projectName": "Buyfilet.DTOs",
-        "projectPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj",
+        "projectPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.DTOs\\Buyfilet.DTOs.csproj",
         "packagesPath": "C:\\Users\\zeynel\\.nuget\\packages\\",
-        "outputPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.DTOs\\obj\\",
+        "outputPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.DTOs\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\zeynel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -270,7 +257,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -279,25 +267,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Git Clones\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj": {
+    "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git Clones\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj",
         "projectName": "Buyfilet.Entities",
-        "projectPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj",
+        "projectPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Entities\\Buyfilet.Entities.csproj",
         "packagesPath": "C:\\Users\\zeynel\\.nuget\\packages\\",
-        "outputPath": "D:\\Git Clones\\BuyFilet\\Buyfilet.Entities\\obj\\",
+        "outputPath": "C:\\Users\\zeynel\\Source\\Repos\\bunyamingurmuc\\BuyFilet\\Buyfilet.Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\zeynel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -328,7 +312,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -337,7 +322,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.AccessControl;
-using System.Text;
-using System.Threading.Tasks;
-using Buyfilet.Entities.Interfaces;
-using Buyfilet.Entities.ProductEntities;
+﻿using Buyfilet.Entities.Interfaces;
+
 
 namespace Buyfilet.Entities
 {
@@ -46,10 +40,12 @@ namespace Buyfilet.Entities
         public Category Category { get; set; }
 
         public List<ProductImage> ProductImages { get; set; }
-        public List<Buyfilet.Entities.Comment.Comment> Comments { get; set; }
+        public List<Comment> Comments { get; set; }
         public int SellerId { get; set; }
-        public Seller.Seller Seller { get; set; }
+        public Seller Seller { get; set; }
         public List<Variant> Variants { get; set; }
+        public List<QuestionAndAnswer>? QuestionAndAnswers { get; set; }
+
 
 
 
