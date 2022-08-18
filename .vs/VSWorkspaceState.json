@@ -1,13 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Buyfilet.BLL",
-    "\\Buyfilet.DTOs",
-    "\\Buyfilet.DTOs\\ForHomePage",
+    "\\Buyfilet.Entities",
+    "\\Buyfilet.Entities\\Comment",
     "\\Buyfilet.WebUI",
     "\\Buyfilet.WebUI\\Controller",
     "\\Buyfilet.WebUI\\Views",
-    "\\Buyfilet.WebUI\\Views\\Shop"
+    "\\Buyfilet.WebUI\\Views\\Shop",
+    "\\Buyfilet.WebUI\\wwwroot",
+    "\\Buyfilet.WebUI\\wwwroot\\assets",
+    "\\Buyfilet.WebUI\\wwwroot\\assets\\css"
   ],
   "SelectedNode": "\\Buyfilet.sln",
   "PreviewInSolutionExplorer": false

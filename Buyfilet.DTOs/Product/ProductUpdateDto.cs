@@ -30,6 +30,8 @@ namespace Buyfilet.DTOs
         public string Detail2 { get; set; }
         public string Detail3 { get; set; }
         public bool FreeCargo { get; set; }
+        public int CargoDay { get; set; }
+
         public string StockCode { get; set; }
         public double WithOutDiscount { get; set; }
         public double Price { get; set; }
@@ -46,6 +48,8 @@ namespace Buyfilet.DTOs
         public SellerUpdateDto Seller { get; set; }
         public List<CommentUpdateDto> Comments { get; set; }
         public List<QuestionAndAnswerListDto> QuestionAndAnswers { get; set; }
+        public double BFMoney { get; set; }
+
 
     }
 }

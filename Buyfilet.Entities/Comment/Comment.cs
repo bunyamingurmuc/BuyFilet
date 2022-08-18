@@ -12,5 +12,6 @@ namespace Buyfilet.Entities
         public Product Product { get; set; }
         public int BFUserId { get; set; }
         public BFUser BFUser { get; set; }
+        public List<Image> Images { get; set; }
     }
 }

@@ -5,12 +5,11 @@
 <div class="product-label-group">
     @if (Model.IsDiscount == true)
     {
-        <label class="product-label label-discount">@Model.DiscountRate% indirim</label>
+        <label class="product-label label-discount">%@Model.DiscountRate <i class="w-icon-sale"></i> </label>
     }
-    @if (Model.CreatedDate > DateTime.Now.AddDays(-7))
-    {
-        <label class="product-label label-new">Yeni ürün</label>
-    }
+
+    <label class="product-label label-new">@Model.BFMoney₺ <i class="w-icon-wallet2"></i></label>
+    
     @if (Model.NumberOfClick > 1000)
     {
         <label class="product-label label-hot">Tercih edilen</label>

@@ -15,74 +15,78 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\zeynel\Source\Repos\bunyamingurmuc\BuyFilet\Buyfilet.WebUI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/zeynel/Source/Repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/Account/Login.cshtml]
+[C:/Users/zeynel/source/repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zeynel/Source/Repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/Account/MyAccount.cshtml]
+[C:/Users/zeynel/source/repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/Account/MyAccount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxNeUFjY291bnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zeynel/Source/Repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/CheckOut/Cart.cshtml]
+[C:/Users/zeynel/source/repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/CheckOut/Cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tPdXRcQ2FydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zeynel/Source/Repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/CheckOut/Checkout.cshtml]
+[C:/Users/zeynel/source/repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/CheckOut/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tPdXRcQ2hlY2tvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zeynel/Source/Repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/CheckOut/Order.cshtml]
+[C:/Users/zeynel/source/repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/CheckOut/Order.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tPdXRcT3JkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zeynel/Source/Repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/Page/AboutUs.cshtml]
+[C:/Users/zeynel/source/repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/Page/AboutUs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZVxBYm91dFVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zeynel/Source/Repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/Shared/DiscountCounter.cshtml]
+[C:/Users/zeynel/source/repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/Shared/DiscountCounter.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXERpc2NvdW50Q291bnRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zeynel/Source/Repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/Shared/ProductLabelGroup.cshtml]
+[C:/Users/zeynel/source/repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/Shared/NextAndPrevProductList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5leHRBbmRQcmV2UHJvZHVjdExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeynel/source/repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/Shared/ProductLabelGroup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFByb2R1Y3RMYWJlbEdyb3VwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zeynel/Source/Repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/Shared/ProductVarieties.cshtml]
+[C:/Users/zeynel/source/repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/Shared/ProductVarieties.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFByb2R1Y3RWYXJpZXRpZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zeynel/Source/Repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/Shared/QuickView.cshtml]
+[C:/Users/zeynel/source/repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/Shared/QuickView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFF1aWNrVmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zeynel/Source/Repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/Shared/_Layout.cshtml]
+[C:/Users/zeynel/source/repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zeynel/Source/Repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/Shared/_Layout1.cshtml]
+[C:/Users/zeynel/source/repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/Shared/_Layout1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQxLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zeynel/Source/Repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/Shop/Compare.cshtml]
+[C:/Users/zeynel/source/repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/Shop/Compare.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxDb21wYXJlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zeynel/Source/Repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/Shop/Home.cshtml]
+[C:/Users/zeynel/source/repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/Shop/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxIb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zeynel/Source/Repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/Shop/List.cshtml]
+[C:/Users/zeynel/source/repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/Shop/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zeynel/Source/Repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/Shop/Product.cshtml]
+[C:/Users/zeynel/source/repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/Shop/Product.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zeynel/Source/Repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/Shop/Wishlist.cshtml]
+[C:/Users/zeynel/source/repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/Shop/Wishlist.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxXaXNobGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zeynel/Source/Repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/_ViewImports.cshtml]
+[C:/Users/zeynel/source/repos/bunyamingurmuc/BuyFilet/Buyfilet.WebUI/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

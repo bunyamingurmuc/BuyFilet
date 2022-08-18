@@ -25,6 +25,8 @@ namespace Buyfilet.DTOs
         public string Detail2 { get; set; }
         public string Detail3 { get; set; }
         public bool FreeCargo { get; set; }
+        public int CargoDay { get; set; }
+
         public string StockCode { get; set; }
         public double WithOutDiscount { get; set; }
         public double Price { get; set; }
@@ -40,6 +42,7 @@ namespace Buyfilet.DTOs
         public SellerListDto Seller { get; set; }
         public List<CommentListDto> Comments { get; set; }
         public List<QuestionAndAnswerListDto> QuestionAndAnswers { get; set; }
+        public double BFMoney { get; set; }
     }
 
 
@@ -49,9 +52,7 @@ namespace Buyfilet.DTOs
         public string ImagePath { get; set; }
         public int ProductId { get; set; }
         public ProductListDto Product { get; set; }
-      
 
-
-
+        //BURASI PRODUCTIMAGEDTO
     }
 }

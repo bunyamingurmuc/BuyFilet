@@ -13,7 +13,7 @@ namespace Buyfilet.DAL.Configurations.UserConfigurations
             {
                 
                 
-                new BFUser() {Id = 1,  Name = "Mahmut", Password = "1", Surname = "gürmüç", Username = "mahmutgurmuc"},
+                new BFUser() {Id = 1,  Name = "Mahmut", Password = "1", Surname = "gürmüç", Username = "mahmutgurmuc", },
                 new BFUser() {Id = 2,  Name = "Mahmut", Password = "1", Surname = "gürmüç", Username = "mahmutgurmuc"},
                 new BFUser() {Id = 3,  Name = "veysel", Password = "1", Surname = "gürmüç", Username = "veyselgurmuc"},
                 new BFUser() {Id = 4,  Name = "Ahmet", Password = "1", Surname = "gürmüç", Username = "ahmetgurmuc"},

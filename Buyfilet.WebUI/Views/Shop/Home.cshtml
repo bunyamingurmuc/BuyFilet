@@ -288,7 +288,7 @@
                                     'slidesPerView': 1
                                 }">
                             <div class="swiper-wrapper row cols-1 gutter-no">
-                                @foreach (var product in Model.Products.Where(i=>i.IsHotProduct==true))
+                                @foreach (var product in Model.Products.Where(i => i.IsHotProduct == true))
                                 {
 
                                     <div class="swiper-slide">
@@ -302,9 +302,9 @@
                                                                 <div class="swiper-slide">
                                                                     <figure class="product-image">
                                                                         <img src=@image.ImagePath
-                                                                             data-zoom-image=@image.ImagePath
-                                                                             alt="Product Image" width="800"
-                                                                             height="900">
+                                                                     data-zoom-image=@image.ImagePath
+                                                                     alt="Product Image" width="800"
+                                                                     height="900">
                                                                     </figure>
                                                                 </div>
                                                             }
@@ -315,7 +315,7 @@
                                                         @Html.Partial("ProductLabelGroup", product)
                                                     </div>
                                                     <div class="product-thumbs-wrap swiper-container"
-                                                         data-swiper-options="{
+                                                     data-swiper-options="{
                                                             'direction': 'vertical',
                                                             'breakpoints': {
                                                                 '0': {
@@ -334,7 +334,7 @@
                                                             {
                                                                 <div class="product-thumb swiper-slide">
                                                                     <img src=@img.ImagePath
-                                                                         alt="Product thumb" width="60" height="68" />
+                                                                 alt="Product thumb" width="60" height="68" />
                                                                 </div>
                                                             }
                                                         </div>
@@ -357,7 +357,7 @@
                                                         </ins>
                                                     </div>
 
-                                                  @Html.Partial("DiscountCounter",product)
+                                                    @Html.Partial("DiscountCounter",product)
 
                                                     <div class="ratings-container">
                                                         <div class="ratings-full">
@@ -378,16 +378,16 @@
                                                             <a href="#" class="size">Medium</a>
                                                             <a href="#" class="size">Small</a>
                                                         </div>
-                                                       
+
                                                     </div>
 
-                                                   
+
 
                                                     <div class="product-form pt-4">
                                                         <div class="product-qty-form mb-2 mr-2">
                                                             <div class="input-group">
                                                                 <input class="quantity form-control" type="number"
-                                                                       min="1" max="10000000">
+                                                                   min="1" max="10000000">
                                                                 <button class="quantity-plus w-icon-plus"></button>
                                                                 <button class="quantity-minus w-icon-minus"></button>
                                                             </div>
@@ -402,23 +402,23 @@
                                                         <div class="social-links">
                                                             <div class="social-icons social-no-color border-thin">
                                                                 <a href="#"
-                                                                   class="social-icon social-facebook w-icon-facebook"></a>
+                                                               class="social-icon social-facebook w-icon-facebook"></a>
                                                                 <a href="#"
-                                                                   class="social-icon social-twitter w-icon-twitter"></a>
+                                                               class="social-icon social-twitter w-icon-twitter"></a>
                                                                 <a href="#"
-                                                                   class="social-icon social-pinterest fab fa-pinterest-p"></a>
+                                                               class="social-icon social-pinterest fab fa-pinterest-p"></a>
                                                                 <a href="#"
-                                                                   class="social-icon social-whatsapp fab fa-whatsapp"></a>
+                                                               class="social-icon social-whatsapp fab fa-whatsapp"></a>
                                                                 <a href="#"
-                                                                   class="social-icon social-youtube fab fa-linkedin-in"></a>
+                                                               class="social-icon social-youtube fab fa-linkedin-in"></a>
                                                             </div>
                                                         </div>
                                                         <span class="divider d-xs-show"></span>
                                                         <div class="product-link-wrapper d-flex">
                                                             <a href="#"
-                                                               class="btn-product-icon btn-wishlist w-icon-heart"></a>
+                                                           class="btn-product-icon btn-wishlist w-icon-heart"></a>
                                                             <a href="#"
-                                                               class="btn-product-icon btn-compare btn-icon-left w-icon-compare"></a>
+                                                           class="btn-product-icon btn-compare btn-icon-left w-icon-compare"></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -473,7 +473,7 @@
                                                             <a asp-action="Product" asp-route-id="@product.Id">
 
                                                                 <img src=@product.ProductImages[0].ImagePath
-                                                                     alt="Product" width="105" height="118" />
+                                                         alt="Product" width="105" height="118" />
                                                             </a>
                                                         </figure>
                                                         <div class="product-details">
@@ -542,12 +542,12 @@
                             <div class="swiper-slide category category-classic category-absolute overlay-zoom br-xs">
                                 <a href="shop-banner-sidebar.html" class="category-media">
                                     <img src=@cat.Images[0].ImagePath alt="Category"
-                                         width="130" height="130">
+                                     width="130" height="130">
                                 </a>
                                 <div class="category-content">
                                     <h4 class="category-name">@cat.Definition</h4>
                                     <a href="shop-banner-sidebar.html"
-                                       class="btn btn-primary btn-link btn-underline">
+                                   class="btn btn-primary btn-link btn-underline">
                                         Göz
                                         At
                                     </a>
@@ -594,19 +594,21 @@
                                             @foreach (var img in product.ProductImages.Take(2))
                                             {
                                                 <img src=@img.ImagePath alt="Product"
-                                                     width="300" height="338" />
+                                             width="300" height="338" />
                                             }
                                         </a>
                                         <div class="product-action-vertical">
                                             <a href="#" class="btn-product-icon btn-cart w-icon-cart"
-                                               title="Sepete Ekle"></a>
+                                           title="Sepete Ekle"></a>
                                             <a href="#" class="btn-product-icon btn-wishlist w-icon-heart"
-                                               title="İstek Listesine Ekle"></a>
+                                           title="İstek Listesine Ekle"></a>
                                             <a href="#" class="btn-product-icon btn-quickview w-icon-search"
-                                               title="Hızlı Bakış"></a>
-                                            @{ Model.QuickViewProduct = product;}
+                                           title="Hızlı Bakış"></a>
+                                            @{
+                                                Model.QuickViewProduct = product;
+                                            }
                                             <a href="#" class="btn-product-icon btn-compare w-icon-compare"
-                                               title="Kıyasla"></a>
+                                           title="Kıyasla"></a>
                                         </div>
                                         @Html.Partial("ProductLabelGroup", product)
                                     </figure>
@@ -649,22 +651,24 @@
                                             @foreach (var img in product.ProductImages.Take(2))
                                             {
                                                 <img src=@img.ImagePath alt="Product"
-                                                     width="300" height="338" />
+                                             width="300" height="338" />
                                             }
 
 
                                         </a>
                                         <div class="product-action-vertical">
                                             <a href="#" class="btn-product-icon btn-cart w-icon-cart"
-                                               title="Sepete Ekle"></a>
+                                           title="Sepete Ekle"></a>
                                             <a href="#" class="btn-product-icon btn-wishlist w-icon-heart"
-                                               title="İstek Listesine Ekle"></a>
+                                           title="İstek Listesine Ekle"></a>
                                             <a href="#" class="btn-product-icon btn-quickview w-icon-search"
-                                               title="Hızlı Bakış"></a>
+                                           title="Hızlı Bakış"></a>
 
-                                            @{ Model.QuickViewProduct = product;}
+                                            @{
+                                                Model.QuickViewProduct = product;
+                                            }
                                             <a href="#" class="btn-product-icon btn-compare w-icon-compare"
-                                               title="Kıyasla"></a>
+                                           title="Kıyasla"></a>
                                         </div>
                                         @if (product.IsDiscount == true)
                                         {
@@ -713,21 +717,23 @@
                                             @foreach (var img in product.ProductImages.Take(2))
                                             {
                                                 <img src=@img.ImagePath alt="Product"
-                                                     width="300" height="338" />
+                                             width="300" height="338" />
                                             }
 
 
                                         </a>
                                         <div class="product-action-vertical">
                                             <a href="#" class="btn-product-icon btn-cart w-icon-cart"
-                                               title="Sepete Ekle"></a>
+                                           title="Sepete Ekle"></a>
                                             <a href="#" class="btn-product-icon btn-wishlist w-icon-heart"
-                                               title="İstek Listesine Ekle"></a>
+                                           title="İstek Listesine Ekle"></a>
                                             <a href="#" class="btn-product-icon btn-quickview w-icon-search"
-                                               title="Hızlı Bakış"></a>
-                                            @{ Model.QuickViewProduct = product;}
+                                           title="Hızlı Bakış"></a>
+                                            @{
+                                                Model.QuickViewProduct = product;
+                                            }
                                             <a href="#" class="btn-product-icon btn-compare w-icon-compare"
-                                               title="Kıyasla"></a>
+                                           title="Kıyasla"></a>
                                         </div>
                                         @if (product.IsDiscount == true)
                                         {
@@ -776,21 +782,23 @@
                                             @foreach (var img in product.ProductImages.Take(2))
                                             {
                                                 <img src=@img.ImagePath alt="Product"
-                                                     width="300" height="338" />
+                                             width="300" height="338" />
                                             }
 
 
                                         </a>
                                         <div class="product-action-vertical">
                                             <a href="#" class="btn-product-icon btn-cart w-icon-cart"
-                                               title="Sepete Ekle"></a>
+                                           title="Sepete Ekle"></a>
                                             <a href="#" class="btn-product-icon btn-wishlist w-icon-heart"
-                                               title="İstek Listesine Ekle"></a>
+                                           title="İstek Listesine Ekle"></a>
                                             <a href="#" class="btn-product-icon btn-quickview w-icon-search"
-                                               title="Hızlı Bakış"></a>
-                                            @{ Model.QuickViewProduct = product;}
+                                           title="Hızlı Bakış"></a>
+                                            @{
+                                                Model.QuickViewProduct = product;
+                                            }
                                             <a href="#" class="btn-product-icon btn-compare w-icon-compare"
-                                               title="Kıyasla"></a>
+                                           title="Kıyasla"></a>
                                         </div>
                                         @if (product.IsDiscount == true)
                                         {
@@ -942,7 +950,7 @@
                                     New Arrivals<br> <span class="font-weight-normal text-capitalize">Collection</span>
                                 </h3>
                                 <a href="shop-banner-sidebar.html"
-                                   class="btn btn-dark btn-outline btn-rounded btn-sm">shop Now</a>
+                               class="btn btn-dark btn-outline btn-rounded btn-sm">shop Now</a>
                             </div>
                         </div>
                     </div>
@@ -974,19 +982,21 @@
                                                         @foreach (var img in product.ProductImages.Take(2))
                                                         {
                                                             <img src=@img.ImagePath alt="Product"
-                                                                 width="216" height="243" />
+                                                 width="216" height="243" />
                                                         }
                                                     </a>
                                                     <div class="product-action-vertical">
                                                         <a href="#" class="btn-product-icon btn-cart w-icon-cart"
-                                                           title="Sepete Ekle"></a>
+                                               title="Sepete Ekle"></a>
                                                         <a href="#" class="btn-product-icon btn-wishlist w-icon-heart"
-                                                           title="Beğeni Listesine Ekle"></a>
+                                               title="Beğeni Listesine Ekle"></a>
                                                         <a href="#" class="btn-product-icon btn-quickview w-icon-search"
-                                                           title="Hızlı Bakış"></a>
-                                                        @{ Model.QuickViewProduct = product;}
+                                               title="Hızlı Bakış"></a>
+                                                        @{
+                                                            Model.QuickViewProduct = product;
+                                                        }
                                                         <a href="#" class="btn-product-icon btn-compare w-icon-compare"
-                                                           title="Kıyasla"></a>
+                                               title="Kıyasla"></a>
                                                     </div>
                                                     @if (product.IsDiscount == true)
                                                     {
@@ -1094,7 +1104,9 @@
                                             <a href="#" class="btn-product btn-quickview" title="Quick View">
                                                 Hızlı Bakış
                                             </a>
-                                            @{ Model.QuickViewProduct = product;}
+                                            @{
+                                                Model.QuickViewProduct = product;
+                                            }
 
                                         </div>
                                     </figure>
@@ -1384,34 +1396,34 @@
                 <h4 class="title title-underline mb-2 pt-1">En Güzel Elektronik Malzemeler</h4>
                 <div class="widget widget-products">
                     @*@foreach (var product in Model.Products.Where(i => i.CategoryId == (int)CategoryEnums.Elektronik).Take(4))//ÖNEMLİ !!! SKİP YAZ BURAYA
-                        {
-                            <div class="product product-widget">
-                                <figure class="product-media">
-                                    <a asp-action="Product" asp-route-id="@product.Id">
-                                        <img src=@product.ProductImages[0].ImagePath alt="Product" width="124" height="140">
-                                    </a>
-                                </figure>
-                                <div class="product-details">
-                                    <h4 class="product-name">
-                                        <a asp-action="Product" asp-route-id="@product.Id">@product.Name</a>
-                                    </h4>
-                                    <div class="ratings-container">
-                                        <div class="ratings-full">
-                                            <span class="ratings" style="width: @product.DiscountRate%;"></span>
-                                            <span class="tooltiptext tooltip-top"></span>
-                                        </div>
-                                    </div>
-                                    <div class="product-price">
-                                        <ins class="new-price">@product.Price₺</ins>
-                                        @if (product.DiscountRate!=0)
-                                        {
+                    {
+                    <div class="product product-widget">
+                    <figure class="product-media">
+                    <a asp-action="Product" asp-route-id="@product.Id">
+                    <img src=@product.ProductImages[0].ImagePath alt="Product" width="124" height="140">
+                    </a>
+                    </figure>
+                    <div class="product-details">
+                    <h4 class="product-name">
+                    <a asp-action="Product" asp-route-id="@product.Id">@product.Name</a>
+                    </h4>
+                    <div class="ratings-container">
+                    <div class="ratings-full">
+                    <span class="ratings" style="width: @product.DiscountRate%;"></span>
+                    <span class="tooltiptext tooltip-top"></span>
+                    </div>
+                    </div>
+                    <div class="product-price">
+                    <ins class="new-price">@product.Price₺</ins>
+                    @if (product.DiscountRate!=0)
+                    {
 
-                                            <del class="old-price">@product.WithOutDiscount₺</del>
-                                        }
-                                    </div>
-                                </div>
-                            </div>
-                        }*@
+                    <del class="old-price">@product.WithOutDiscount₺</del>
+                    }
+                    </div>
+                    </div>
+                    </div>
+                    }*@
 
                     <!-- End of Product Widget -->
 

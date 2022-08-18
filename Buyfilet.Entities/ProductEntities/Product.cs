@@ -46,8 +46,8 @@ namespace Buyfilet.Entities
         public List<Variant> Variants { get; set; }
         public List<QuestionAndAnswer>? QuestionAndAnswers { get; set; }
 
-
-
+        public int CargoDay { get; set; }
+        public double BFMoney { get; set; }
 
     }
 }

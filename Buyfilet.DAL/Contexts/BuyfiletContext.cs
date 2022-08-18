@@ -46,6 +46,7 @@ namespace Buyfilet.DAL.Contexts
 
             modelBuilder.Entity<BFUserRole>().HasKey(x => new {x.BFRoleId, x.BFUserId});
             
+           
 
             base.OnModelCreating(modelBuilder);
 

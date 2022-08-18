@@ -12,7 +12,10 @@ namespace Buyfilet.Entities
     {
         public string ImagePath { get; set; }
  
-        public int CategoryId { get; set; }
-        public Category Category { get; set; }
+        public int? CategoryId { get; set; }
+        public Category? Category { get; set; }
+        public int? CommentId { get; set; }
+        public Comment? Comment{ get; set; }
+
     }
 }

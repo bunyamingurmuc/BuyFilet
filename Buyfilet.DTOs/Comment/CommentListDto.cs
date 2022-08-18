@@ -18,5 +18,10 @@ namespace Buyfilet.DTOs
         public ProductListDto Product { get; set; }
         public int BFUserId { get; set; }
         public BFUserListDto BFUser { get; set; }
+        public DateTime CreatedDate { get; set; } = DateTime.Now;
+        public bool IsDeleted { get; set; } = false;
+        public List<ImageListDto> Images { get; set; }
+
+
     }
 }

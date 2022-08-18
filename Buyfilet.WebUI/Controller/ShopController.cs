@@ -65,40 +65,29 @@ namespace Buyfilet.WebUI.Controller
             }
             var mainProduct = responseProduct.Data;
             var revelantProducts = await _productService.GetProductsInCategory(mainProduct.CategoryId);
+            
+        
             var mainrevelantProducts = revelantProducts.Data;
             var similarProducts1 = await _productService.GetSimilarProducts(id);
             var variousProducts= await _productService.GetVariousProducts(id);
-          
-            if (similarProducts1.ResponseType == ResponseType.Success)
-            {
-                var SimilarProducts2 = similarProducts1.Data.AsQueryable().OrderByDescending(x => x.NumberOfClick).Take(3);  
-               var similarProducts= SimilarProducts2.ToList();
+            var index = mainrevelantProducts.FindIndex(x => x.Id == mainProduct.Id);
+            var SimilarProducts2 = similarProducts1.Data.AsQueryable().OrderByDescending(x => x.NumberOfClick).Take(3);
+            var similarProducts = SimilarProducts2.ToList();
 
+            var sellersOtherProducts = await _productService.GetProductsInCategory(mainProduct.CategoryId);
                 var dto = new ProductHomeDto()
                 {
+                    allproduct=_productService.GetAllAsync().Result.Data.ToList(),
                     MainProduct = mainProduct,
                     RevelantProducts = mainrevelantProducts.ToList(),
                     SimilarProducts = similarProducts,
+                    MainProductIndex=index,
                     VariousProducts = variousProducts.Data,
                     SimilarProductsCount = similarProducts.Count(),
-                    SimilarProductsPrice= similarProducts.Select(i=>i.Price).Sum(),
+                    SimilarProductsPrice= similarProducts.Select(i=>i.Price).Sum(), 
+                    SellersOtherProducts=sellersOtherProducts.Data.Where(i=>i.SellerId==mainProduct.SellerId).ToList()
                 };
                 return View(dto);
-            }
-            else
-            {
-                var dto = new ProductHomeDto()
-                {
-                    MainProduct = mainProduct,
-                    RevelantProducts = mainrevelantProducts.ToList(),
-                    VariousProducts = variousProducts.Data
-                };
-                return View(dto);
-            }
-            
-
-
-            
         }
         public IActionResult Compare()
         {

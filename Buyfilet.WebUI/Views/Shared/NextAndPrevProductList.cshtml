@@ -1,0 +1,46 @@
+﻿@model ProductHomeDto
+<ul class="product-nav list-style-none">
+    @if (Model.RevelantProducts.Count >= 3)
+    {
+        <li class="product-nav-prev">
+            <a href="">
+                <i class="w-icon-angle-left"></i>
+            </a>
+
+            <span class="product-nav-popup">
+                <img src=@Model.RevelantProducts[Model.MainProductIndex+1].ProductImages[0].ImagePath alt="Product" width="110"
+                 height="110" />
+                <span class="product-name">@Model.RevelantProducts[Model.MainProductIndex+1].Name</span>
+            </span>
+        </li>
+        <li class="product-nav-next">
+            <a href="#">
+                <i class="w-icon-angle-right"></i>
+            </a>
+
+            <span class="product-nav-popup">
+                <img src=@Model.RevelantProducts[Model.MainProductIndex+2].ProductImages[0].ImagePath alt="Product" width="110"
+                 height="110" />
+                <span class="product-name">@Model.RevelantProducts[Model.MainProductIndex+2].Name</span>
+            </span>
+        </li>
+    }
+    else if (@Model.RevelantProducts.Count()==2)
+    {
+        <li class="product-nav-next">
+            <a href="#">
+                <i class="w-icon-angle-right"></i>
+            </a>
+
+            <span class="product-nav-popup">
+                <img src=@Model.RevelantProducts[@Model.MainProductIndex+1].ProductImages[0].ImagePath alt="Product" width="110"
+                 height="110" />
+                <span class="product-name">@Model.RevelantProducts[Model.MainProductIndex+1].Name</span>
+            </span>
+        </li>
+    }
+    else
+    {
+       
+    }
+</ul>

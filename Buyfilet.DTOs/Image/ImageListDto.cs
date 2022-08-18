@@ -13,5 +13,7 @@ namespace Buyfilet.DTOs
         public string ImagePath { get; set; }
         public CategoryListDto Category { get; set; }
         public int CategoryId { get; set; }
+        public CommentListDto Comment { get; set; }
+
     }
 }
